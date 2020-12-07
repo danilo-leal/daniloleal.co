@@ -4,7 +4,7 @@ import DarkModeButton from './DarkModeButton';
 
 export default function NavBar() {
   return (
-    <nav className="max-w-5xl m-auto p-5 flex justify-between border-solid border-b border-gray-100 bg-white dark:border-black dark:bg-blackish sticky top-0">
+    <nav className="max-w-6xl m-auto py-5 flex justify-between border-solid border-b border-gray-100 bg-white dark:border-black dark:bg-blackish sticky top-0">
       <Link href="/about">
         <p className="cursor-pointer font-medium text-gray-900 hover:text-red-500 dark:text-gray-200 hover:text-draplin dark:hover:text-draplin">
           danilo leal

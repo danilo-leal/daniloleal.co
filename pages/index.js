@@ -7,7 +7,7 @@ import Divider from './components/Divider';
 
 export default function Home() {
   return (
-    <body className="h-full pr-5 pl-5 pb-8 bg-white dark:bg-blackish">
+    <body className="h-full bg-white dark:bg-blackish">
       <NavBar />
       <div className="max-w-xl m-auto pt-12">
         <HomeHero />
