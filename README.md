@@ -1,6 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Introduction
+This is my personal website rebuild with Next.js and Tailwind CSS.
+If you wish to see the live current version, go to [daniloleal.co](daniloleal.co).
 
-## Getting Started
+Get to know me at some of these social stuff: [Twitter](https://twitter.com/danilobontempo), [LinkedIn](https://www.linkedin.com/in/danilobleal/) and [Dribbble](https://dribbble.com/danilobontempo).
+
+# Next Guidelines
+
+## Setting up
 
 First, run the development server:
 
@@ -11,17 +17,6 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
