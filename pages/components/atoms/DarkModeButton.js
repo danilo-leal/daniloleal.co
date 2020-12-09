@@ -4,11 +4,11 @@ import DarkModeToggle from './DarkModeToggle';
 export default function DarkModeButton() {
   const [colorTheme, setTheme] = DarkModeToggle();
   return (
-    <div className="block">
+    <div className="h-7 w-7 bg-gray-100 rounded-2xl flex justify-center items-center hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-900">
       <span onClick={() => setTheme(colorTheme)}>
         {colorTheme === 'light' ? (
           <svg
-            class="w-5 h-5"
+            class="w-4 h-4"
             fill="none"
             stroke="white"
             viewBox="0 0 24 24"
@@ -23,9 +23,9 @@ export default function DarkModeButton() {
           </svg>
         ) : (
           <svg
-            class="w-5 h-5"
+            class="w-4 h-4"
             fill="none"
-            stroke="#6B7280"
+            stroke="#202020"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >

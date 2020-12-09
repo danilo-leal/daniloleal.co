@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import H1 from '../atoms/typography/H1';
 
 export default function HomeHero() {
   return (
@@ -9,7 +10,7 @@ export default function HomeHero() {
         alt=""
         className="h-14 w-14 mb-8"
       />
-      <h1 className="mb-2 dark:text-white">Pleasure to have you!</h1>
+      <H1 content="Pleasure to have you!"></H1>
       <p className="text-gray-500 text-sm mb-4 dark:text-gray-400">
         I'm an explorer and designer, in that particular order. I really put
         myself out there to understand things, how they are inter related and

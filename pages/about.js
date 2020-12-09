@@ -1,16 +1,17 @@
 import React from 'react';
-import AppBar from './components/AppBar';
-import Footer from './components/Footer';
+import AppBar from './components/atoms/AppBar';
+import Footer from './components/templates/Footer';
 import JobTimeline from './components/Timeline/JobTimeline';
 import Link from 'next/link';
+import Divider from './components/atoms/Divider';
 
 export default function About() {
   return (
-    <body className="h-screen dark:bg-blackish">
+    <div className="h-full dark:bg-blackish">
       <AppBar />
       <div className="w-screen bg-gray-100 dark:bg-black">
-        <div className="max-w-5xl m-auto">
-          <div className="max-w-md h-64 flex flex-col align-center justify-center p-5">
+        <div className="max-w-5xl m-auto px-4">
+          <div className="max-w-md h-64 flex flex-col align-center justify-center py-5">
             <h1 className="font-bold text-5xl mb-3 text-blackish dark:text-white">
               About me
             </h1>
@@ -21,9 +22,9 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="max-w-2xl m-auto pt-8 pb-8">
-        <div className="bg-gray-50 rounded-lg p-5 grid grid-cols-3 gap-10 dark:bg-black">
-          <div>
+      <div className="max-w-2xl m-auto py-10 px-4">
+        <div className="bg-gray-50 dark:bg-black rounded-lg p-5 grid sm:grid-cols-3 grid-col-auto gap-4 sm:gap-10">
+          <div class="">
             <p className="text-gray-400 mb-2 dark:text-gray-600">
               In need for a CV?
             </p>
@@ -75,8 +76,9 @@ export default function About() {
           </div>
         </div>
         <JobTimeline />
-        <Footer />
       </div>
-    </body>
+      <Divider />
+      <Footer year="2020" />
+    </div>
   );
 }

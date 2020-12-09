@@ -1,4 +1,5 @@
 # Introduction
+
 This is my personal website rebuild with Next.js and Tailwind CSS.
 If you wish to see the live current version, go to [daniloleal.co](daniloleal.co).
 
