@@ -1,22 +1,22 @@
 import React from 'react';
-import JobStrip from './JobStrip';
+import CompanyStrip from './CompanyStrip';
 
 export default function JobTimeline() {
   return (
     <div className="relative">
       <div className="z-10 relative">
-        <JobStrip company="Loggi" period="Since September 2019." />
-        <JobStrip
+        <CompanyStrip company="Loggi" period="Since September 2019." />
+        <CompanyStrip
           company="Nexa"
           period="May 2019 to September 2019."
           currentCompany="no"
         />
-        <JobStrip
+        <CompanyStrip
           company="iFood"
           period="February 2018 to May 2019."
           currentCompany="no"
         />
-        <JobStrip
+        <CompanyStrip
           company="Rapiddo Entegas"
           period="July 2017 to February 2018."
           currentCompany="no"

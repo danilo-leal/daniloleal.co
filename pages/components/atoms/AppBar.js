@@ -12,7 +12,7 @@ export default function AppBar() {
           </p>
         </Link>
         <div className="flex items-center space-x-6 align-baseline">
-          <Link href="/about">
+          <Link href="/index">
             <p className="cursor-pointer font-medium text-gray-900 dark:text-gray-200 hover:text-draplin dark:hover:text-draplin">
               danilo leal
             </p>

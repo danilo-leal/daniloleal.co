@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         blackish: '#121212',
         draplin: '#e57928',
+        lightdraplin: '#ffeddf',
       },
     },
   },

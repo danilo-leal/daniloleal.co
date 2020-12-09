@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function JobStrip(prop) {
+export default function CompanyStrip(prop) {
   return (
     <div className="pt-2 pb-2 flex items-center">
       <div>

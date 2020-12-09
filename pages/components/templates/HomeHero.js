@@ -12,11 +12,11 @@ export default function HomeHero() {
       />
       <H1 content="Pleasure to have you!"></H1>
       <p className="text-gray-500 text-sm mb-4 dark:text-gray-400">
-        I'm an explorer and designer, in that particular order. I really put
-        myself out there to understand things, how they are inter related and
-        connected - as is everything - to only then figure out how to give it
-        some form, so we can experience it. I design in order to find the right
-        direction.
+        My name is Danilo and I'm an explorer and designer, in that particular
+        order. I really put myself out there to understand things, how they are
+        inter related and connected - as is everything - to only then figure out
+        how to give it some form, so we can experience it. I design in order to
+        find the right direction.
       </p>
       <p className="text-gray-500 text-sm dark:text-gray-400">
         👉 Currently designing products
