@@ -9,9 +9,9 @@ import IconsSocial from './components/atoms/IconsSocial';
 
 export default function Home() {
   return (
-    <div className="h-full bg-white dark:bg-blackish pb-20">
+    <div className="h-full bg-white dark:bg-blackish sm:pb-20 pb-6">
       <NavBar />
-      <div className="max-w-xl m-auto pt-12">
+      <div className="max-w-xl m-auto pt-12 px-5">
         <HomeHero />
         <HomeTags />
         <Divider />

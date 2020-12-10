@@ -51,7 +51,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="pt-5 pb-5 grid gap-5">
+        <div className="pt-5 pb-5 flex flex-col space-y-3">
           <H2 content="On building products" />
           <P1
             content="I like to think about the concept of a product by being more than

@@ -1,11 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 
-export default function SecondaryLink(prop) {
+export default function SecondaryLink(props) {
   return (
-    <Link href={prop.path}>
+    <Link href={props.path}>
       <p className="cursor-pointer text-sm text-gray-400 hover:text-draplin">
-        {prop.string}
+        {props.string}
       </p>
     </Link>
   );

@@ -5,7 +5,7 @@ export default function JobTimeline() {
   return (
     <div className="relative">
       <div className="z-10 relative">
-        <CompanyStrip company="Loggi" period="Since September 2019." />
+        <CompanyStrip company="Loggi" period="September 2019." />
         <CompanyStrip
           company="Nexa"
           period="May 2019 to September 2019."
