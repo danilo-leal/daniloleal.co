@@ -4,7 +4,11 @@ import DarkModeToggle from './DarkModeToggle';
 export default function DarkModeButton() {
   const [colorTheme, setTheme] = DarkModeToggle();
   return (
-    <div className="h-7 w-7 bg-gray-100 rounded-2xl flex justify-center items-center hover:bg-draplin dark:bg-black dark:hover:bg-draplin transition-all">
+    <button
+      aria-label="Toggle Dark Mode"
+      type="button"
+      className="h-7 w-7 bg-gray-100 rounded-2xl flex justify-center items-center hover:bg-draplin dark:bg-black dark:hover:bg-draplin transition-all"
+    >
       <span onClick={() => setTheme(colorTheme)}>
         {colorTheme === 'light' ? (
           <svg
@@ -37,6 +41,6 @@ export default function DarkModeButton() {
           </svg>
         )}
       </span>
-    </div>
+    </button>
   );
 }

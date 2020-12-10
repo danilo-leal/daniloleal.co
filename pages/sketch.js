@@ -1,5 +1,10 @@
 import React from 'react';
+import Appbar from '../components/atoms/AppBar';
 
 export default function Sketch() {
-  return <div></div>;
+  return (
+    <div>
+      <Appbar />
+    </div>
+  );
 }
