@@ -1,13 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
-import NavBar from './components/atoms/NavBar';
-import Footer from './components/templates/Footer';
-import JobTimeline from './components/atoms/timeline/JobTimeline';
-import Divider from './components/atoms/Divider';
-import Billboard from './components/atoms/typography/Billboard';
-import H2 from './components/atoms/typography/H2';
-import P1 from './components/atoms/typography/P1';
-import IconsSocial from './components/atoms/IconsSocial';
+import NavBar from '../components/atoms/NavBar';
+import Footer from '../components/templates/Footer';
+import JobTimeline from '../components/atoms/timeline/JobTimeline';
+import Divider from '../components/atoms/Divider';
+import Billboard from '../components/atoms/typography/Billboard';
+import H2 from '../components/atoms/typography/H2';
+import P1 from '../components/atoms/typography/P1';
+import IconsSocial from '../components/atoms/IconsSocial';
 
 export default function About() {
   return (

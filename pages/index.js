@@ -1,11 +1,11 @@
 import Head from 'next/head';
-import NavBar from './components/atoms/NavBar';
-import HomeHero from './components/templates/HomeHero';
-import HomeTags from './components/templates/HomeTags';
-import CallOut from './components/templates/CallOut';
-import Divider from './components/atoms/Divider';
-import H1 from './components/atoms/typography/H1';
-import IconsSocial from './components/atoms/IconsSocial';
+import NavBar from '../components/atoms/NavBar';
+import HomeHero from '../components/templates/HomeHero';
+import HomeTags from '../components/templates/HomeTags';
+import CallOut from '../components/templates/CallOut';
+import Divider from '../components/atoms/Divider';
+import H1 from '../components/atoms/typography/H1';
+import IconsSocial from '../components/atoms/IconsSocial';
 
 export default function Home() {
   return (

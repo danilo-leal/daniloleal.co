@@ -7,7 +7,7 @@ export default function DarkModeButton() {
     <button
       aria-label="Toggle Dark Mode"
       type="button"
-      className="h-7 w-7 bg-gray-100 rounded-2xl flex justify-center items-center hover:bg-draplin dark:bg-black dark:hover:bg-draplin transition-all"
+      className="h-7 w-7 p-2 bg-gray-100 rounded-lg flex justify-center items-center hover:bg-draplin dark:bg-black dark:hover:bg-draplin transition-all"
     >
       <span onClick={() => setTheme(colorTheme)}>
         {colorTheme === 'light' ? (
@@ -26,9 +26,8 @@ export default function DarkModeButton() {
           </svg>
         ) : (
           <svg
-            class="w-4 h-4"
+            class="w-4 h-4 fill-current stroke-current text-gray-700 hover:text-white"
             fill="none"
-            stroke="#202020"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >

@@ -18,3 +18,24 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .default-container {
+    @apply max-w-2xl m-auto px-4 flex flex-col space-y-4;
+  }
+  .large-container {
+    @apply max-w-4xl m-auto sm:px-1 py-4;
+  }
+  .paragraph-1 {
+    @apply text-gray-500 text-sm dark:text-gray-400 leading-relaxed;
+  }
+  .img {
+    @apply block w-full rounded-md  mb-4;
+  }
+  .subtitle-text {
+    @apply text-sm text-gray-400 dark:text-gray-500;
+  }
+  .spacer-default {
+    @apply py-5;
+  }
+}
