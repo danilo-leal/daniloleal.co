@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
 export default function DarkModeToggle() {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light', 'dark');
   const colorTheme = theme === 'dark' ? 'light' : 'dark';
+
   useEffect(() => {
     const root = window.document.documentElement;
-    //setTheme(localStorage.theme);
+    const colorTheme = localStorage.getItem('theme');
 
     root.classList.remove(colorTheme);
     root.classList.add(theme);

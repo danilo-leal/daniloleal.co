@@ -13,7 +13,7 @@ export default function AppBar(props) {
         >
           <a href={props.goBackTo}>
             <svg
-              class="w-4 h-4 fill-current text-draplin dark:text-white"
+              className="w-4 h-4 fill-current text-draplin dark:text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

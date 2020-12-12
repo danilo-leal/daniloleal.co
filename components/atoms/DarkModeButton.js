@@ -12,7 +12,7 @@ export default function DarkModeButton() {
       <span onClick={() => setTheme(colorTheme)}>
         {colorTheme === 'light' ? (
           <svg
-            class="w-4 h-4 fill-current text-white"
+            className="w-4 h-4 fill-current text-white"
             fill="none"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ export default function DarkModeButton() {
           </svg>
         ) : (
           <svg
-            class="w-4 h-4 fill-current stroke-current text-gray-700 hover:text-white"
+            className="w-4 h-4 fill-current stroke-current text-gray-700 hover:text-white"
             fill="none"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"

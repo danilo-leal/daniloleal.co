@@ -19,7 +19,7 @@ export default function AlbumCard(props) {
         </div>
         <div className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 dark:bg-black dark:hover:bg-draplin">
           <svg
-            class="w-5 h-5 stroke-current text-blackish dark:text-gray-200"
+            className="w-5 h-5 stroke-current text-blackish dark:text-gray-200"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

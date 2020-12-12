@@ -20,7 +20,7 @@ export default function Home() {
           subjectLogo="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2d90dfd2e0670331b10724_logos%3A%20ifood.svg"
           subjectName="iFood"
           subjectSummary="Designed the new driver app from the ground up. Small team, challenging goals and huge impact. A product that is very close to my heart. What a ride!"
-          casePath="/cases/ifood"
+          casePath="/cases/iFood"
           linkString="Read the story"
         />
         <CallOut
