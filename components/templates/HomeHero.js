@@ -12,20 +12,21 @@ export default function HomeHero() {
       />
       <H1 content="Pleasure to have you!"></H1>
       <p className="text-gray-500 text-sm mb-4 dark:text-gray-400">
-        My name is Danilo Leal and I'm an explorer and designer, in that
-        particular order. I really put myself out there to understand things,
-        how they are inter related and connected - as is everything - to only
-        then figure out how to give it some form, so we can experience it. I
-        design in order to find the right direction.
+        My name is{' '}
+        <span className="font-medium text-gray-900">Danilo Leal</span> and I'm
+        an explorer and designer, in that particular order. I really put myself
+        out there to understand things, how they are inter related and connected
+        - as is everything - to only then figure out how to give it some form,
+        so we can experience it. I design in order to find the right direction.
       </p>
       <p className="text-gray-500 text-sm dark:text-gray-400">
         👉 Currently designing products
         <span className="cursor-pointer ml-1">
-          <Link href="https://www.loggi.com">
+          <a href="https://www.loggi.com">
             <p className="inline font-semibold text-draplin hover:text-gray-900 dark:hover:text-white">
               @Loggi
             </p>
-          </Link>
+          </a>
         </span>
         <br />
         🇧🇷 Based in São Paulo, Brazil.

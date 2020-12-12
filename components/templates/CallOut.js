@@ -17,7 +17,7 @@ export default function CallOut(props) {
           <p className="text-gray-500 text-sm mb-4 dark:text-gray-400">
             {props.subjectSummary}
           </p>
-          <MainLink string="Read the story" path="/" />
+          <MainLink string={props.linkString} path={props.casePath} />
         </div>
       </div>
     </div>

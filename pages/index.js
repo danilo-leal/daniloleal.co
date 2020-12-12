@@ -9,7 +9,7 @@ import IconsSocial from '../components/atoms/IconsSocial';
 
 export default function Home() {
   return (
-    <div className="h-full bg-white dark:bg-blackish sm:pb-20 pb-6">
+    <div className="h-full bg-white dark:bg-blackish sm:pb-20">
       <NavBar />
       <div className="max-w-xl m-auto pt-12 px-5">
         <HomeHero />
@@ -20,16 +20,22 @@ export default function Home() {
           subjectLogo="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2d90dfd2e0670331b10724_logos%3A%20ifood.svg"
           subjectName="iFood"
           subjectSummary="Designed the new driver app from the ground up. Small team, challenging goals and huge impact. A product that is very close to my heart. What a ride!"
+          casePath="/cases/iFood"
+          linkString="Read the story"
         />
         <CallOut
           subjectLogo="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c2ee8b26f2a64d7237f60_nexa-logo.svg"
-          subjectName="Nexa"
+          subjectName="Livia Pro"
           subjectSummary="Being healthy is communicating rightfully. With Livia, we were tackling one of the most fundamental health care problem out there: communication."
+          casePath="/cases/LiviaPro"
+          linkString="Read the story"
         />
         <CallOut
           subjectLogo="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2d90dfd2e06767b9b1072a_logos%3A%20rapiddo.svg"
           subjectName="Rapiddo Entregas"
           subjectSummary="One designer for the whole company. You know the drill. I did it all at Rapiddo. Great times. Apps, motion graphics, branding. I told you!"
+          casePath="/cases/Rapiddo"
+          linkString="Read the story"
         />
         <div className="py-20 flex justify-center">
           <IconsSocial />
