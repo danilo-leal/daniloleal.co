@@ -29,6 +29,59 @@ export default function AlbumReviews() {
             albumName="Além daquilo que te cega"
             bandName="Pense"
             albumYear="2014"
+            albumPage="/my-world/album-reviews/pense-alem-daquilo"
+          />
+          <AlbumCard
+            albumCover="https://f4.bcbits.com/img/a0465067803_10.jpg"
+            albumName="Realidade, vida e fé"
+            bandName="Pense"
+            albumYear="2018"
+          />
+          <AlbumCard
+            albumCover="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/f/4/8/9/490891459001457.jpg"
+            albumName="Além daquilo que te cega"
+            bandName="Pense"
+            albumYear="2014"
+            albumPage="/my-world/album-reviews/pense-alem-daquilo"
+          />
+          <AlbumCard
+            albumCover="https://f4.bcbits.com/img/a0465067803_10.jpg"
+            albumName="Realidade, vida e fé"
+            bandName="Pense"
+            albumYear="2018"
+          />
+          <AlbumCard
+            albumCover="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/f/4/8/9/490891459001457.jpg"
+            albumName="Além daquilo que te cega"
+            bandName="Pense"
+            albumYear="2014"
+            albumPage="/my-world/album-reviews/pense-alem-daquilo"
+          />
+          <AlbumCard
+            albumCover="https://f4.bcbits.com/img/a0465067803_10.jpg"
+            albumName="Realidade, vida e fé"
+            bandName="Pense"
+            albumYear="2018"
+          />
+          <AlbumCard
+            albumCover="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/f/4/8/9/490891459001457.jpg"
+            albumName="Além daquilo que te cega"
+            bandName="Pense"
+            albumYear="2014"
+            albumPage="/my-world/album-reviews/pense-alem-daquilo"
+          />
+          <AlbumCard
+            albumCover="https://f4.bcbits.com/img/a0465067803_10.jpg"
+            albumName="Realidade, vida e fé"
+            bandName="Pense"
+            albumYear="2018"
+          />
+          <AlbumCard
+            albumCover="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/f/4/8/9/490891459001457.jpg"
+            albumName="Além daquilo que te cega"
+            bandName="Pense"
+            albumYear="2014"
+            albumPage="/my-world/album-reviews/pense-alem-daquilo"
           />
           <AlbumCard
             albumCover="https://f4.bcbits.com/img/a0465067803_10.jpg"

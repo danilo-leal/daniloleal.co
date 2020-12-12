@@ -1,21 +1,23 @@
 import React from 'react';
+import MainLink from '../atoms/MainLink';
 
 export default function AlbumCard(props) {
   return (
     <div className="border border-gray-200 rounded-lg transition-all hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-black">
       <img
-        className="h-56 w-full object-cover object-top rounded-t-lg opacity-60 hover:opacity-100 transition-opacity"
+        className="h-56 w-full object-cover object-top rounded-t-lg opacity-40 hover:opacity-100 transition-opacity"
         src={props.albumCover}
         alt=""
       />
-      <div className="p-4 flex items-center justify-between">
-        <div>
+      <div className="p-4 flex items-end justify-between">
+        <div className="flex flex-col space-y-3">
           <h1 className="font-bold dark:text-white">{props.albumName}</h1>
           <p className="text-sm text-gray-500">
             {props.bandName} • {props.albumYear}
           </p>
+          <MainLink string="See this review" path={props.albumPage} />
         </div>
-        <div className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-700">
+        <div className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 dark:bg-black dark:hover:bg-draplin">
           <svg
             class="w-5 h-5 stroke-current text-blackish dark:text-gray-200"
             fill="none"

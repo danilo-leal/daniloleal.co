@@ -4,7 +4,7 @@ import DarkModeButton from './DarkModeButton';
 
 export default function AppBar(props) {
   return (
-    <div className="w-screen bg-white dark:bg-blackish sticky top-0 border-solid border-b border-gray-200 dark:border-black px-5 py-4 opacity-90">
+    <div className="w-screen bg-white dark:bg-blackish sticky top-0 border-solid border-b border-gray-200 dark:border-black px-5 py-4 opacity-90 z-10">
       <nav className="max-w-5xl m-auto flex justify-between items-center">
         <button
           aria-label="Back button"
