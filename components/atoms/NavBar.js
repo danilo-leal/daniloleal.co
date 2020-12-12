@@ -10,7 +10,7 @@ export default function NavBar() {
       <Logo />
       <div className="flex items-center space-x-6">
         <SecondaryLink path="/about" string="about me" />
-        <SecondaryLink path="/other-endeavors" string="other endearvors" />
+        <SecondaryLink path="/my-world" string="my world" />
         <DarkModeButton />
       </div>
     </nav>

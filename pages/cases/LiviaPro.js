@@ -14,7 +14,9 @@ export default function LiviaPro() {
       <div className="default-container">
         <BreadCrumb
           pathNameOne="Home /"
+          goToOne="/"
           pathNameTwo="Livia Pro"
+          goToTwo="/cases/LiviaPro"
           pathNameThree=""
           pathNameFour=""
         />

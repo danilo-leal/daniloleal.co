@@ -1,11 +1,9 @@
 import React from 'react';
-import Link from 'next/link';
 import MainLink from '../atoms/MainLink';
-import H1 from '../atoms/typography/H1';
 
 export default function CallOut(props) {
   return (
-    <div className="pt-8 grid gap-8">
+    <div className="py-4 grid gap-8">
       <div className="flex items-start">
         <img
           src={props.subjectLogo}

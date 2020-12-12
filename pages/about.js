@@ -15,7 +15,9 @@ export default function About() {
       <div className="default-container">
         <BreadCrumb
           pathNameOne="Home /"
-          pathNameTwo="About"
+          goToOne="/"
+          pathNameTwo="About /"
+          goToTwo="/about"
           pathNameThree=""
           pathNameFour=""
         />
@@ -26,7 +28,7 @@ export default function About() {
         />
       </div>
       <div className="default-container">
-        <div className="bg-gray-50 dark:bg-black rounded-lg p-5 grid sm:grid-cols-3 grid-col-auto gap-4 sm:gap-10">
+        <div className="bg-gray-50 dark:bg-black rounded-lg p-5 grid sm:grid-cols-3 grid-col-auto gap-4 sm:gap-2">
           <div class="">
             <p className="text-gray-400 mb-2 dark:text-gray-600">
               In need for a CV?
