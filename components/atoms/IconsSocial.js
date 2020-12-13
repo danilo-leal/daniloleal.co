@@ -7,7 +7,7 @@ export default function IconsSocial() {
       <a href="https://www.linkedin.com/in/danilobleal/">
         <svg
           role="img"
-          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white hover:text-draplin dark:hover:text-draplin"
+          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white hover:text-draplin dark:hover:text-draplin transition-all"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -18,7 +18,7 @@ export default function IconsSocial() {
       <a href="https://twitter.com/danilobontempo">
         <svg
           role="img"
-          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white hover:text-draplin dark:hover:text-draplin"
+          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white hover:text-draplin dark:hover:text-draplin transition-all"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >
@@ -29,7 +29,7 @@ export default function IconsSocial() {
       <a href="https://dribbble.com/danilobontempo">
         <svg
           role="img"
-          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white hover:text-draplin dark:hover:text-draplin"
+          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white hover:text-draplin dark:hover:text-draplin transition-all"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -40,7 +40,7 @@ export default function IconsSocial() {
       <a href="https://github.com/danilo-leal">
         <svg
           role="img"
-          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white hover:text-draplin dark:hover:text-draplin"
+          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white hover:text-draplin dark:hover:text-draplin transition-all"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -51,7 +51,7 @@ export default function IconsSocial() {
       <a href="https://soundcloud.com/chutandonuvens">
         <svg
           role="img"
-          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white hover:text-draplin dark:hover:text-draplin"
+          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white hover:text-draplin dark:hover:text-draplin transition-all"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >

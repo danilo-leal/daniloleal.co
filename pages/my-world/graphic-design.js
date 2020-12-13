@@ -20,7 +20,7 @@ export default function GraphicDesign() {
         />
         <CaseHeader
           title="Graphic design"
-          summary="Those include giving form to other types of expressions. I really like to explore my visual and musical senses by designing and creating pieces that resembles my current state of mind."
+          summary="Design outside of screens. Even though you're seeing in a screen now."
         />
         <H1 content="Okay, for starters!" />
         <p className="paragraph-1">

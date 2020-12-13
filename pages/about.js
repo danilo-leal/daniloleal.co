@@ -16,7 +16,7 @@ export default function About() {
         <BreadCrumb
           pathNameOne="Home /"
           goToOne="/"
-          pathNameTwo="About /"
+          pathNameTwo="About"
           goToTwo="/about"
           pathNameThree=""
           pathNameFour=""
@@ -33,8 +33,8 @@ export default function About() {
             <p className="text-gray-400 mb-2 dark:text-gray-600">
               In need for a CV?
             </p>
-            <Link href="/">
-              <p className="cursor-pointer font-medium text-draplin hover:text-gray-900 dark:hover:text-white">
+            <Link href="https://docs.google.com/document/d/1xxVqQ4S5SjoD3bXTdXZm0msg8MOpZRG3xPS_y6NNEAk/edit">
+              <p className="cursor-pointer font-medium text-draplin hover:text-gray-900 dark:hover:text-white transition-all">
                 There you go!
               </p>
             </Link>

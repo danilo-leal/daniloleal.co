@@ -32,13 +32,13 @@ a {
     @apply max-w-2xl m-auto px-4 flex flex-col space-y-4;
   }
   .large-container {
-    @apply max-w-4xl m-auto sm:px-1 py-4;
+    @apply max-w-3xl m-auto sm:px-1 pt-8;
   }
   .paragraph-1 {
     @apply text-gray-500 text-sm dark:text-gray-400 leading-relaxed;
   }
   .img {
-    @apply block w-full sm:rounded-md mb-4;
+    @apply block w-full sm:rounded-md rounded-sm mb-4;
   }
   .subtitle-text {
     @apply text-sm text-gray-400 dark:text-gray-500;

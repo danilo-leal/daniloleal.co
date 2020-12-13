@@ -37,6 +37,12 @@ export default function AlbumReviews() {
             cardSubtitle="Pense"
             cardYear="2018"
           />
+          <ContentCard
+            cardCover="https://f4.bcbits.com/img/a0465067803_10.jpg"
+            cardTitle="Realidade, vida e fé"
+            cardSubtitle="Pense"
+            cardYear="2018"
+          />
         </div>
       </div>
     </div>

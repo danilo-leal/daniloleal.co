@@ -29,6 +29,27 @@ export default function iFood() {
           period="From early 2018 to mid 2019"
           stack="Android mostly, some web"
         />
+        <H1 content="Quick callout" />
+        <p className="paragraph-1">
+          This article goes through my story with iFood. I also have two
+          detailed articles going through two specific features I've worked on
+          that I'm very proud of. Don't forget to peek at those!'
+        </p>
+
+        <div className="flex flex-col space-y-4">
+          <DeepCards
+            title="Driver Performance"
+            description="Structuring view for drivers to measure their performances."
+            path="/iFood-Performance"
+            deepLinkString="Go deep"
+          />
+          <DeepCards
+            title="Driver Onboarding"
+            description="Work to have the drivers onboarding pipes flowing."
+            path="/iFood-Onboarding"
+            deepLinkString="Go deep"
+          />
+        </div>
 
         <H1 content="Starting out" />
         <p className="paragraph-1">
@@ -221,20 +242,6 @@ export default function iFood() {
           className="img"
           src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c095b2839e0db5df582f1_ifd2-p-1600.png"
           alt=""
-        />
-      </div>
-      <div className="max-w-2xl m-auto grid sm:grid-cols-2 gap-8 md:px-0 px-4">
-        <DeepCards
-          title="Driver Performance"
-          description="Structuring view for drivers to measure their performances."
-          path="/"
-          deepLinkString="Go deep"
-        />
-        <DeepCards
-          title="Onboarding"
-          description="Work to have the drivers onboarding pipes flowing."
-          path="/"
-          deepLinkString="Go deep"
         />
       </div>
       <Footer />
