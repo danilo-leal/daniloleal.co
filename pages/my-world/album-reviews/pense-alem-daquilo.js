@@ -1,9 +1,6 @@
 import React from 'react';
 import AppBar from '../../../components/atoms/AppBar';
 import BreadCrumb from '../../../components/atoms/BreadCrumb';
-import CaseHeader from '../../../components/templates/CaseHeader';
-import AlbumCard from '../../../components/templates/AlbumCard';
-import H1 from '../../../components/atoms/typography/H1';
 import AlbumHero from '../../../components/templates/AlbumHero';
 
 export default function PenseAlemDaquilo() {

@@ -3,7 +3,6 @@ import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/templates/CaseHeader';
 import H1 from '../../components/atoms/typography/H1';
-import Divider from '../../components/atoms/Divider';
 import Footer from '../../components/templates/Footer';
 
 export default function GraphicDesign() {
