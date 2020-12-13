@@ -2,6 +2,9 @@ module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      sans: ['Rubik'],
+    },
     extend: {
       fontSize: {
         tiny: '10px',

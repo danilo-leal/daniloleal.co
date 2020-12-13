@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -13,6 +16,11 @@ a {
 
 * {
   box-sizing: border-bosx;
+}
+
+::selection {
+  background-color: #e57928;
+  color: #fefefe;
 }
 
 @tailwind base;

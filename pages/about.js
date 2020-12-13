@@ -34,7 +34,7 @@ export default function About() {
               In need for a CV?
             </p>
             <Link href="/">
-              <p className="cursor-pointer font-semibold text-draplin hover:text-gray-900 dark:hover:text-white">
+              <p className="cursor-pointer font-medium text-draplin hover:text-gray-900 dark:hover:text-white">
                 There you go!
               </p>
             </Link>

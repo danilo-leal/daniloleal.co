@@ -2,6 +2,7 @@ import React from 'react';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/templates/CaseHeader';
+import BlogCallOut from '../../components/templates/BlogCallOut';
 
 export default function Thinking() {
   return (
@@ -16,9 +17,36 @@ export default function Thinking() {
           pathNameThree="Thinking"
           pathNameFour=""
         />
-        <CaseHeader
-          title="Thinking"
-          summary="Those include giving form to other types of expressions. I really like to explore my visual and musical senses by designing and creating pieces that resembles my current state of mind."
+        <CaseHeader title="Thinking" summary="" />
+        <BlogCallOut
+          date="Feb 9, 2018"
+          title="Deep Work and Your Relationships"
+          path=""
+        />
+        <BlogCallOut
+          date="Feb 9, 2018"
+          title="Deep Work and Your Relationships"
+          path=""
+        />
+        <BlogCallOut
+          date="Feb 9, 2018"
+          title="Deep Work and Your Relationships"
+          path=""
+        />
+        <BlogCallOut
+          date="Feb 9, 2018"
+          title="Deep Work and Your Relationships"
+          path=""
+        />
+        <BlogCallOut
+          date="Feb 9, 2018"
+          title="Deep Work and Your Relationships"
+          path=""
+        />
+        <BlogCallOut
+          date="Feb 9, 2018"
+          title="Deep Work and Your Relationships"
+          path=""
         />
       </div>
     </div>

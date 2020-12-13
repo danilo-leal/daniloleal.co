@@ -37,7 +37,7 @@ export default function Home() {
           casePath="/cases/Rapiddo"
           linkString="Read the story"
         />
-        <div className="py-20 flex justify-center">
+        <div className="pt-16 flex justify-center">
           <IconsSocial />
         </div>
       </div>

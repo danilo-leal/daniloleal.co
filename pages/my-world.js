@@ -31,25 +31,20 @@ export default function MyWorld() {
           casePath="/my-world/graphic-design"
           linkString="See stuff"
         />
-
-        <H1 content="Music production"></H1>
-        <CallOut
-          subjectLogo="https://svgshare.com/i/SFB.svg"
-          subjectName="Flora Park"
-          subjectSummary="Dream band. This one is with some of my most special friends, where we dream together of being a hardcore/pop-punk band. We self produced and recorded our first album in 2017, called Chutando Nuvens. Or in english: Cloud Kicking."
-          casePath="http://bandaflorapark.bandcamp.com/album/chutando-nuvens"
-          linkString="Hear the album"
-        />
-        <CallOut
-          subjectLogo="https://svgshare.com/i/SFB.svg"
-          subjectName="Sede"
-          subjectSummary="This is my main music project. One man band type of stuff. I write, record and produce most songs in a minimal gear set up. In 2017, I released and compiled my first full length record called: Antes que a natureza morra. Or in english: Before nature dies."
-          casePath="http://sede.bandcamp.com/album/antes-que-a-natureza-morra"
-          linkString="Hear the album"
-        />
-
         <H1 content="That's me inside your head"></H1>
-        <p className="subtitle-text">That's a NOFX reference. So what?!'</p>
+        <a
+          href="https://www.youtube.com/watch?v=0IxYbx4nRCw&ab_channel=ResurrectionFest"
+          className="text-tiny text-gray-500 hover:font-medium hover:text-draplin hover:ml-2"
+        >
+          That's a NOFX reference!
+        </a>
+        <CallOut
+          subjectLogo="https://svgshare.com/i/SEx.svg"
+          subjectName="Thinking out loud"
+          subjectSummary="That's just me ranting and rambling about stuff. My first personal blog in years using the internet. I feel like I'm using it right for the first time."
+          casePath="/my-world/thinking"
+          linkString="Explore my brain"
+        />
         <CallOut
           subjectLogo="https://svgshare.com/i/SEE.svg"
           subjectName="Album reviews"
@@ -64,12 +59,20 @@ export default function MyWorld() {
           casePath="/my-world/book-reviews"
           linkString="Check em out"
         />
+        <H1 content="Music production"></H1>
         <CallOut
-          subjectLogo="https://svgshare.com/i/SEx.svg"
-          subjectName="Thinking out loud"
-          subjectSummary="That's just me ranting and rambling about stuff. My first personal blog in years using the internet. I feel like I'm using it right for the first time."
-          casePath="/my-world/thinking"
-          linkString="Explore my brain"
+          subjectLogo="https://svgshare.com/i/SFB.svg"
+          subjectName="Flora Park"
+          subjectSummary="Dream band. This one is with some of my most special friends, where we dream together of being a hardcore/pop-punk band. We self produced and recorded our first album in 2017, called Chutando Nuvens. Or in english: Cloud Kicking."
+          casePath="http://bandaflorapark.bandcamp.com/album/chutando-nuvens"
+          linkString="Hear the album"
+        />
+        <CallOut
+          subjectLogo="https://svgshare.com/i/SFB.svg"
+          subjectName="Sede"
+          subjectSummary="This is my main music project. One man band type of stuff. I write, record and produce most songs in a minimal gear set up. In 2017, I released and compiled my first full length record called: Antes que a natureza morra. Or in english: Before nature dies."
+          casePath="http://sede.bandcamp.com/album/antes-que-a-natureza-morra"
+          linkString="Hear the album"
         />
       </div>
       <Footer />

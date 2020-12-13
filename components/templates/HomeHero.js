@@ -26,7 +26,7 @@ export default function HomeHero() {
         👉 Currently designing products
         <span className="cursor-pointer ml-1">
           <a href="https://www.loggi.com">
-            <p className="inline font-semibold text-draplin hover:text-gray-900 dark:hover:text-white">
+            <p className="inline font-medium text-draplin hover:text-gray-900 dark:hover:text-white">
               @Loggi
             </p>
           </a>
