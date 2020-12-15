@@ -8,13 +8,13 @@ import Footer from '../../components/templates/Footer';
 export default function iFoodDriverPerformance() {
   return (
     <div className="h-full dark:bg-blackish">
-      <AppBar goBackTo="/" />
+      <AppBar goBackTo="/cases/ifood" />
       <div className="default-container">
         <BreadCrumb
           pathNameOne="Home /"
-          goTo="/"
+          goToOne="/"
           pathNameTwo="iFood /"
-          goTo="/cases/iFood"
+          goToTwo="/cases/ifood"
           pathNameThree="Driver Performance"
           pathNameFour=""
         />

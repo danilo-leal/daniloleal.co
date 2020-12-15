@@ -33,7 +33,7 @@ export default function iFood() {
         <p className="paragraph-1">
           This article goes through my story with iFood. I also have two
           detailed articles going through two specific features I've worked on
-          that I'm very proud of. Don't forget to peek at those!'
+          that I'm very proud of. Don't forget to peek at those!
         </p>
 
         <div className="flex flex-col space-y-4">
