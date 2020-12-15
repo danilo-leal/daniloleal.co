@@ -4,6 +4,8 @@ import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/templates/CaseHeader';
 import H1 from '../../components/atoms/typography/H1';
 import Footer from '../../components/templates/Footer';
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 
 export default function iFoodDriverOnboarding() {
   return (
@@ -34,11 +36,13 @@ export default function iFoodDriverOnboarding() {
         </p>
       </div>
       <div className="large-container">
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29d08d9e61157b8587f_ifo4-p-1600.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29d08d9e61157b8587f_ifo4-p-1600.png"
+            alt=""
+          />
+        </Zoom>
         <p className="subtitle-text">Onboarding flow bird's eye view.</p>
       </div>
       <div className="default-container">
@@ -94,11 +98,13 @@ export default function iFoodDriverOnboarding() {
         </p>
       </div>
       <div className="large-container">
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29cc83a721e64dfe521_ifo3-p-1600.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29cc83a721e64dfe521_ifo3-p-1600.png"
+            alt=""
+          />
+        </Zoom>
         <p className="subtitle-text">Lots of sub-titles.</p>
       </div>
       <div className="default-container">
@@ -137,16 +143,20 @@ export default function iFoodDriverOnboarding() {
         </p>
       </div>
       <div className="large-container">
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29c9a94a93bfaa6d679_ifo1-p-1600.png"
-          alt=""
-        />
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29ca10d23846b7f1f94_ifo2-p-1600.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29c9a94a93bfaa6d679_ifo1-p-1600.png"
+            alt=""
+          />
+        </Zoom>
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29ca10d23846b7f1f94_ifo2-p-1600.png"
+            alt=""
+          />
+        </Zoom>
       </div>
       <Footer />
     </div>

@@ -4,6 +4,8 @@ import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/templates/CaseHeader';
 import H1 from '../../components/atoms/typography/H1';
 import Footer from '../../components/templates/Footer';
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 
 export default function iFoodDriverPerformance() {
   return (
@@ -63,11 +65,13 @@ export default function iFoodDriverPerformance() {
         </p>
       </div>
       <div className="large-container">
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3beea10d2362857ded12_ifdp4-p-1600.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3beea10d2362857ded12_ifdp4-p-1600.png"
+            alt=""
+          />
+        </Zoom>
       </div>
       <div className="default-container">
         <H1 content="Getting context" />
@@ -92,11 +96,13 @@ export default function iFoodDriverPerformance() {
           Sheets or Excel? All this set us stage to how to place stuff in the UI
           and the level of depth we should add to the navigation.
         </p>
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3bef1d116027c3e21f1e_ifdp5-p-1080.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3bef1d116027c3e21f1e_ifdp5-p-1080.png"
+            alt=""
+          />
+        </Zoom>
         <p className="subtitle-text">
           Piece of our deck showing survey results. Here I rank how drivers
           spend their money.
@@ -116,21 +122,27 @@ export default function iFoodDriverPerformance() {
         </p>
       </div>
       <div className="large-container">
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3befce577162b0ffe865_ifdp1-p-1600.png"
-          alt=""
-        />
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3befc002d47402c019db_ifdp2-p-1600.png"
-          alt=""
-        />
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3befc002d4af17c019dc_ifdp3-p-1600.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3befce577162b0ffe865_ifdp1-p-1600.png"
+            alt=""
+          />
+        </Zoom>
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3befc002d47402c019db_ifdp2-p-1600.png"
+            alt=""
+          />
+        </Zoom>
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3befc002d4af17c019dc_ifdp3-p-1600.png"
+            alt=""
+          />
+        </Zoom>
       </div>
       <Footer />
     </div>

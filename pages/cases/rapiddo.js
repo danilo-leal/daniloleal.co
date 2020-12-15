@@ -5,6 +5,8 @@ import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/templates/CaseHeader';
 import H1 from '../../components/atoms/typography/H1';
 import Footer from '../../components/templates/Footer';
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 
 export default function Rapiddo() {
   return (
@@ -67,14 +69,18 @@ export default function Rapiddo() {
         </p>
       </div>
       <div className="w-screen sm:grid grid-cols-2 pt-10 pb-1">
-        <img
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cfdcc10a785d6dad9144a_rddd2-p-1080.png"
-          alt=""
-        />
-        <img
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cfd69cf8c397bed6ff9bf_rdd3-p-1080.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cfdcc10a785d6dad9144a_rddd2-p-1080.png"
+            alt=""
+          />
+        </Zoom>
+        <Zoom>
+          <img
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cfd69cf8c397bed6ff9bf_rdd3-p-1080.png"
+            alt=""
+          />
+        </Zoom>
       </div>
       <div className="default-container">
         <H1 content="Joining the fleet" />
@@ -153,11 +159,13 @@ export default function Rapiddo() {
         </p>
       </div>
       <div className="large-container">
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c16b8dfa8cb29f7298101_rdd-p-1600.png"
-          alt=""
-        />
+        <Zoom>
+          <im
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c16b8dfa8cb29f7298101_rdd-p-1600.png"
+            alt=""
+          />
+        </Zoom>
       </div>
       <Footer />
     </div>

@@ -6,6 +6,8 @@ import CaseHeader from '../../components/templates/CaseHeader';
 import H1 from '../../components/atoms/typography/H1';
 import DeepCards from '../../components/atoms/DeepCards';
 import Footer from '../../components/templates/Footer';
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 
 export default function iFood() {
   return (
@@ -68,11 +70,13 @@ export default function iFood() {
           creating a logistics operation, the Driver App is one of the most
           important applications.
         </p>
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5ac50df80de5a1a5d478f2_IMG_2922-min-p-1080.jpeg"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5ac50df80de5a1a5d478f2_IMG_2922-min-p-1080.jpeg"
+            alt=""
+          />
+        </Zoom>
         <p className="subtitle-text">
           This is what I'd call a messy startup office. There's a beauty to it.
         </p>
@@ -102,11 +106,13 @@ export default function iFood() {
         </p>
       </div>
       <div className="large-container">
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5ac782d647e72b39065d93_old-driver-app.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5ac782d647e72b39065d93_old-driver-app.png"
+            alt=""
+          />
+        </Zoom>
       </div>
       <div className="default-container">
         <p className="paragraph-1">
@@ -121,11 +127,13 @@ export default function iFood() {
           The only spice I gave to this by that time was the hat motorcycle
           logo. And that's the logo for the app to this day. :)
         </p>
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c32fb04dea2c09a5e173f_gp-p-1080.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c32fb04dea2c09a5e173f_gp-p-1080.png"
+            alt=""
+          />
+        </Zoom>
         <H1 content="Redesigning all the things" />
         <p className="paragraph-1">
           You must be tired of reading designers redesigning stuff. But
@@ -156,11 +164,13 @@ export default function iFood() {
           iterations by then needed to be transformed into actual product
           strategy.
         </p>
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd8165b8bedbbeab3bd49_ifood-4-p-1080.jpeg"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd8165b8bedbbeab3bd49_ifood-4-p-1080.jpeg"
+            alt=""
+          />
+        </Zoom>
         <p className="subtitle-text">
           Lots of sketches. It got up to a point that a 16gb ram Macbook Pro
           couldn't handle the Sketch file.
@@ -182,19 +192,23 @@ export default function iFood() {
           development, rewriting stuff so we could start right, knowing every
           bit of the system ourselves.
         </p>
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd81686f417702524af8e_ifood-3-p-1080.jpeg"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd81686f417702524af8e_ifood-3-p-1080.jpeg"
+            alt=""
+          />
+        </Zoom>
         <p className="subtitle-text">
           This is legit proof I'm a real designer. I call post-its my strategy.
         </p>
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2da0815b8bedd0ceb1108d_ifood-img-4.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2da0815b8bedd0ceb1108d_ifood-img-4.png"
+            alt=""
+          />
+        </Zoom>
         <p className="subtitle-text">
           Spoiler: I ended up working at Loggi too. The world spins!
         </p>
@@ -228,21 +242,27 @@ export default function iFood() {
         </p>
       </div>
       <div className="large-container">
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c0775d44cb093dd267535_ifd1-p-1600.png"
-          alt=""
-        />
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c07756298aa2f0dc2e5ef_ifd0-p-1600.png"
-          alt=""
-        />
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c095b2839e0db5df582f1_ifd2-p-1600.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c0775d44cb093dd267535_ifd1-p-1600.png"
+            alt=""
+          />
+        </Zoom>
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c07756298aa2f0dc2e5ef_ifd0-p-1600.png"
+            alt=""
+          />
+        </Zoom>
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c095b2839e0db5df582f1_ifd2-p-1600.png"
+            alt=""
+          />
+        </Zoom>
       </div>
       <Footer />
     </div>

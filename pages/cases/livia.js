@@ -5,6 +5,8 @@ import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/templates/CaseHeader';
 import H1 from '../../components/atoms/typography/H1';
 import Footer from '../../components/templates/Footer';
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 
 export default function LiviaPro() {
   return (
@@ -99,20 +101,24 @@ export default function LiviaPro() {
           and what could be great placed in a detailed view for a more
           holistically analysis of their health later on.
         </p>
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd8735b8bed970fb3c09b_livia-2-p-1080.jpeg"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd8735b8bed970fb3c09b_livia-2-p-1080.jpeg"
+            alt=""
+          />
+        </Zoom>
         <p className="subtitle-text">
           There you go. Your classical designer-post-it-portfolio-image. Had to
           do it. Post-its are actually great!
         </p>
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd87486f417a41224b34e_livia-1-p-1080.jpeg"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd87486f417a41224b34e_livia-1-p-1080.jpeg"
+            alt=""
+          />
+        </Zoom>
         <p className="subtitle-text">
           Categorising research findings. See: post-its works!
         </p>
@@ -148,21 +154,27 @@ export default function LiviaPro() {
         </p>
       </div>
       <div className="large-container">
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c119c16111ab26daba91e_N1-p-1600.png"
-          alt=""
-        />
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c119c00a08815c21669b1_N3-p-1600.png"
-          alt=""
-        />
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c119c9d335b11279b6dae_N2-p-1600.png"
-          alt=""
-        />
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c119c16111ab26daba91e_N1-p-1600.png"
+            alt=""
+          />
+        </Zoom>
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c119c00a08815c21669b1_N3-p-1600.png"
+            alt=""
+          />
+        </Zoom>
+        <Zoom>
+          <img
+            className="img"
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c119c9d335b11279b6dae_N2-p-1600.png"
+            alt=""
+          />
+        </Zoom>
       </div>
 
       <Footer />

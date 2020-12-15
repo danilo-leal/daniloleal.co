@@ -4,6 +4,8 @@ import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/templates/CaseHeader';
 import H1 from '../../components/atoms/typography/H1';
 import Footer from '../../components/templates/Footer';
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 
 export default function GraphicDesign() {
   return (
@@ -33,11 +35,13 @@ export default function GraphicDesign() {
           pieces of work that I did over the years.
         </p>
         <div className="py-4">
-          <img
-            className="img"
-            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c012d9354b38f52991_a-rancore-p-1080.jpeg"
-            alt=""
-          />
+          <Zoom>
+            <img
+              className="img"
+              src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c012d9354b38f52991_a-rancore-p-1080.jpeg"
+              alt=""
+            />
+          </Zoom>
           <H1 content="Rancore • Ao Vivo • 2017" />
           <p className="paragraph-1">
             This band is one very dear to me. One of my most loved bands in the
@@ -58,14 +62,18 @@ export default function GraphicDesign() {
         </div>
       </div>
       <div className="w-screen grid grid-cols-2 pt-10 pb-1">
-        <img
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c086f417131a27598f_a-solar-p-1080.jpeg"
-          alt=""
-        />
-        <img
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c086f41766c227598e_a-logos-p-1080.jpeg"
-          alt=""
-        />
+        <Zoom>
+          <img
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c086f417131a27598f_a-solar-p-1080.jpeg"
+            alt=""
+          />
+        </Zoom>
+        <Zoom>
+          <img
+            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c086f41766c227598e_a-logos-p-1080.jpeg"
+            alt=""
+          />
+        </Zoom>
       </div>
       <div className="default-container">
         <H1 content="Teco Martins • Solar & Logos Solar • 2018 + 2019" />
@@ -86,11 +94,13 @@ export default function GraphicDesign() {
           allow="encrypted-media"
         ></iframe>
         <div className="pt-10">
-          <img
-            className="img"
-            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c012d935cee1f52992_a-flora-p-1080.jpeg"
-            alt=""
-          />
+          <Zoom>
+            <img
+              className="img"
+              src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c012d935cee1f52992_a-flora-p-1080.jpeg"
+              alt=""
+            />
+          </Zoom>
           <H1 content="Flora Park • Chutando nuvens • 2017" />
           <p className="paragraph-1">
             This is a bit of a dream come true. Me and my buddies self recorded
@@ -112,11 +122,13 @@ export default function GraphicDesign() {
           </iframe>
         </div>
         <div className="sn:pt-10 pt-4">
-          <img
-            className="img"
-            src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c08c2b17352ec97a37_a-sede-p-1080.jpeg"
-            alt=""
-          />
+          <Zoom>
+            <img
+              className="img"
+              src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c08c2b17352ec97a37_a-sede-p-1080.jpeg"
+              alt=""
+            />
+          </Zoom>
           <H1 content="Sede • Antes que a natureza morra • 2016" />
           <p className="paragraph-1">
             This one is a very special project of mine. Since 2014, I've been
