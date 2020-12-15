@@ -9,8 +9,8 @@ export default function NavBar() {
     <nav className="max-w-6xl m-auto p-5 flex justify-between border-solid border-b border-gray-100 bg-white dark:border-black dark:bg-blackish sticky top-0 opacity-90">
       <Logo />
       <div className="flex items-center space-x-6">
-        <SecondaryLink path="/about" string="about me" />
-        <SecondaryLink path="/my-world" string="my world" />
+        <SecondaryLink path="/about" string="About me" />
+        <SecondaryLink path="/my-world" string="My world" />
         <DarkModeButton />
       </div>
     </nav>
