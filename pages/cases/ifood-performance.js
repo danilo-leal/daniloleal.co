@@ -5,7 +5,7 @@ import CaseHeader from '../../components/templates/CaseHeader';
 import H1 from '../../components/atoms/typography/H1';
 import Footer from '../../components/templates/Footer';
 
-export default function iFoodDriverDesempenho() {
+export default function iFoodDriverPerformance() {
   return (
     <div className="h-full dark:bg-blackish">
       <AppBar goBackTo="/" />

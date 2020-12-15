@@ -40,13 +40,13 @@ export default function iFood() {
           <DeepCards
             title="Driver Performance"
             description="Structuring view for drivers to measure their performances."
-            path="/iFood-Performance"
+            path="/ifood-desempenho"
             deepLinkString="Go deep"
           />
           <DeepCards
             title="Driver Onboarding"
             description="Work to have the drivers onboarding pipes flowing."
-            path="/iFood-Onboarding"
+            path="/ifood-onboarding"
             deepLinkString="Go deep"
           />
         </div>
