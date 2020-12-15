@@ -13,9 +13,9 @@ export default function Rapiddo() {
       <div className="default-container">
         <BreadCrumb
           pathNameOne="Home /"
-          goTo="/"
+          goToOne="/"
           pathNameTwo="Rapiddo Entregas"
-          goTo="/cases/Rapiddo"
+          goToTwo="/cases/rapiddo"
           pathNameThree=""
           pathNameFour=""
         />

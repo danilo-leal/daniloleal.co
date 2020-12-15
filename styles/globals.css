@@ -43,7 +43,7 @@ a {
     @apply block w-full sm:rounded-md rounded-sm mb-4;
   }
   .subtitle-text {
-    @apply text-sm text-gray-400 dark:text-gray-500;
+    @apply text-sm text-gray-400 dark:text-gray-500 sm:pl-0 pl-4;
   }
   .spacer-default {
     @apply py-5;

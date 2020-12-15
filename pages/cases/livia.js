@@ -15,7 +15,7 @@ export default function LiviaPro() {
           pathNameOne="Home /"
           goToOne="/"
           pathNameTwo="Livia Pro"
-          goToTwo="/cases/LiviaPro"
+          goToTwo="/cases/livia"
           pathNameThree=""
           pathNameFour=""
         />

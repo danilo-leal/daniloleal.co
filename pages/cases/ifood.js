@@ -14,9 +14,9 @@ export default function iFood() {
       <div className="default-container">
         <BreadCrumb
           pathNameOne="Home /"
-          goTo="/"
+          goToOne="/"
           pathNameTwo="iFood"
-          goTo="/cases/iFood"
+          goToTwo="/cases/ifood"
           pathNameThree=""
           pathNameFour=""
         />

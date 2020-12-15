@@ -27,7 +27,7 @@ export default function Home() {
           subjectLogo="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c2ee8b26f2a64d7237f60_nexa-logo.svg"
           subjectName="Livia Pro"
           subjectSummary="Being healthy is communicating rightfully. With Livia, we were tackling one of the most fundamental health care problem out there: communication."
-          casePath="/cases/liviapro"
+          casePath="/cases/livia"
           linkString="Read the story"
         />
         <CallOut
