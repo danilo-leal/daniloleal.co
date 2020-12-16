@@ -42,21 +42,21 @@ export default function MyWorld() {
           subjectLogo="https://svgshare.com/i/SEx.svg"
           subjectName="Thinking out loud"
           subjectSummary="That's just me ranting and rambling about stuff. My first personal blog in years using the internet. I feel like I'm using it right for the first time."
-          casePath="/my-world/thinking"
+          casePath="/coming-soon"
           linkString="Explore my brain"
         />
         <CallOut
-          subjectLogo="https://svgshare.com/i/SEE.svg"
+          subjectLogo="https://svgshare.com/i/SMn.svg"
           subjectName="Album reviews"
           subjectSummary="The albums that end up stucking with me are those with which I've developed a relationship. We've a history together. Here I cover some of these pieces trying to express what they mean to me."
-          casePath="/my-world/album-reviews"
+          casePath="/coming-soon"
           linkString="Check em out"
         />
         <CallOut
-          subjectLogo="https://svgshare.com/i/SFZ.svg"
+          subjectLogo="https://svgshare.com/i/SP9.svg"
           subjectName="Book reviews"
           subjectSummary="I'm a slow reader. Books are hard to read for me. But I also tend to develop some sort of relationship with the ones that got to me. These really shaped my thinking and my understanding of my place in this world."
-          casePath="/my-world/book-reviews"
+          casePath="/coming-soon"
           linkString="Check em out"
         />
         <H1 content="Music production"></H1>

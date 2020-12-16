@@ -31,19 +31,19 @@ a {
 
 @layer components {
   .default-container {
-    @apply max-w-2xl m-auto px-4 flex flex-col space-y-4;
+    @apply max-w-2xl m-auto px-4 flex flex-col space-y-4 mb-4;
   }
   .large-container {
-    @apply max-w-3xl m-auto sm:px-1 pt-8;
+    @apply max-w-3xl m-auto px-2 space-y-4;
   }
   .paragraph-1 {
     @apply text-gray-500 text-sm dark:text-gray-400 leading-relaxed;
   }
   .img {
-    @apply block w-full sm:rounded-md rounded-sm mb-4;
+    @apply block w-full sm:rounded-md rounded-sm sm:mb-4 mb-2;
   }
   .subtitle-text {
-    @apply text-sm text-gray-400 dark:text-gray-500 sm:pl-0 pl-4;
+    @apply text-sm text-gray-400 dark:text-gray-500;
   }
   .spacer-default {
     @apply py-5;

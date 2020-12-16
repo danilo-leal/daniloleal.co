@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function IconsSocial() {
   return (
-    <div className="w-28 grid grid-cols-5 gap-8 align-middle justify-center">
+    <div className="w-full flex align-middle space-x-4">
       <a href="https://www.linkedin.com/in/danilobleal/">
         <svg
           role="img"
