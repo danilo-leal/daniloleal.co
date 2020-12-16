@@ -10,7 +10,7 @@ module.exports = {
         tiny: '10px',
       },
       colors: {
-        blackish: '#121212',
+        blackish: '#18181b',
         draplin: '#e57928',
         lightdraplin: '#ffeddf',
       },
