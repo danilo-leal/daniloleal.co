@@ -5,7 +5,7 @@ import Footer from '../components/templates/Footer';
 
 export default function ComingSoon() {
   return (
-    <div className="h-full dark:bg-blackish pb-10">
+    <div className="h-full dark:bg-blackish sm:pb-0 pb-10">
       <AppBar goBackTo="/my-world" />
       <div className="default-container">
         <div className="h-screen flex flex-col items-center justify-center pb-24">
