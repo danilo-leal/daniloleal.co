@@ -19,7 +19,9 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta property="og:title" content="danilo leal" key="title" />
       </Head>
-      <Component {...pageProps} />
+      <body className="bg-white dark:bg-blackish">
+        <Component {...pageProps} />
+      </body>
     </ThemeProvider>
   );
 }

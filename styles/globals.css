@@ -23,6 +23,10 @@ a {
   color: #fefefe;
 }
 
+#__next {
+  @apply bg-white dark:bg-blackish min-h-screen flex flex-col;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import NavBar from '../components/atoms/NavBar';
 import HomeHero from '../components/templates/HomeHero';
 import HomeTags from '../components/templates/HomeTags';
@@ -9,7 +8,7 @@ import IconsSocial from '../components/atoms/IconsSocial';
 
 export default function Home() {
   return (
-    <div className="bg-white dark:bg-blackish sm:pb-20 pb-16">
+    <div className="sm:pb-20 pb-16">
       <NavBar />
       <div className="max-w-xl m-auto pt-12 px-5">
         <HomeHero />
