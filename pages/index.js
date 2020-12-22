@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="sm:pb-20 pb-16">
       <NavBar />
-      <div className="max-w-xl m-auto pt-12 px-5">
+      <div className="max-w-2xl m-auto pt-12 px-5">
         <HomeHero />
         <HomeTags />
         <Divider />

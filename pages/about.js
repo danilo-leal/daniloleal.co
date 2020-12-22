@@ -10,7 +10,7 @@ import H1 from '../components/atoms/typography/H1';
 
 export default function About() {
   return (
-    <div className="h-full dark:bg-blackish">
+    <div className="h-full dark:bg-blackish relative">
       <AppBar goBackTo="/" />
       <div className="default-container">
         <BreadCrumb
@@ -54,7 +54,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <H1 content="First chapters" />
+        <H1 content="First chapters" id="#First chapters" />
         <p className="paragraph-1">
           I guess it all started with mom and dad naming me after some popular
           brazilian MPB dude. Somehow, from day one, music, art and expression
@@ -70,7 +70,7 @@ export default function About() {
           Technology naturally boosted the capacity of creating and I followed
           that boat very early on.
         </p>
-        <H1 content="Choosing design" />
+        <H1 content="Choosing design" id="Choosing design" />
         <p className="paragraph-1">
           Looking back, it's hard to even say I chose design. I'm more inclined
           to think that design chose me. There's so many things I can relate to

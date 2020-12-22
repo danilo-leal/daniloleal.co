@@ -32,7 +32,7 @@ export default function ComingSoon() {
           <H1 content="Content coming soon!"></H1>
           <p className="paragraph-1 text-center max-w-md">
             Hey! Glad you've reached here. I'll understand as interest in the
-            mess that is my mind. I hope to see you return wehenever I start
+            mess that is my mind. I hope to see you return whenever I start
             writing my thoughts out.
           </p>
         </div>
