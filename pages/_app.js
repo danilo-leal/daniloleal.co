@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider attribute="class">
       <Head>
         <title>danilo leal</title>
+        <link rel="shortcut icon" href="/favicon.svg" />
         <meta property="og:title" content="danilo leal" key="title" />
         <script
           async

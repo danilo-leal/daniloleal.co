@@ -6,11 +6,10 @@ import Footer from '../components/templates/Footer';
 import CaseHeader from '../components/templates/CaseHeader';
 import JobTimeline from '../components/atoms/timeline/JobTimeline';
 import IconsSocial from '../components/atoms/IconsSocial';
-import H1 from '../components/atoms/typography/H1';
 
 export default function About() {
   return (
-    <div className="h-full dark:bg-blackish relative">
+    <div className="global-wrapper">
       <AppBar goBackTo="/" />
       <div className="default-container">
         <BreadCrumb
@@ -18,8 +17,6 @@ export default function About() {
           goToOne="/"
           pathNameTwo="About"
           goToTwo="/about"
-          pathNameThree=""
-          pathNameFour=""
         />
         <CaseHeader
           title="About me"
@@ -54,10 +51,10 @@ export default function About() {
             </p>
           </div>
         </div>
-        <H1 content="First chapters" id="#First chapters" />
+        <h1 className="h1">First chapters</h1>
         <p className="paragraph-1">
           I guess it all started with mom and dad naming me after some popular
-          brazilian MPB dude. Somehow, from day one, music, art and expression
+          Brazilian MPB dude. Somehow, from day one, music, art and expression
           was there. My folks always cherished and worked with arts, media and
           technology. Because of that, new tech gadgets were commonly around
           when I was only a kiddo. Giving form to things became a living need.
@@ -70,14 +67,14 @@ export default function About() {
           Technology naturally boosted the capacity of creating and I followed
           that boat very early on.
         </p>
-        <H1 content="Choosing design" id="Choosing design" />
+        <h1 className="h1">Choosign Design</h1>
         <p className="paragraph-1">
           Looking back, it's hard to even say I chose design. I'm more inclined
-          to think that design chose me. There's so many things I can relate to
-          the act of designing that it's even harder to define what that really
-          means. Back in school, I was too interested in history and social
-          sciences in general. It's a non-stoppable curiosity to understand why
-          we as humans behave certain ways. <br />
+          to think that design chose me. There are so many things I can relate
+          to the act of designing that it's even harder to define what that
+          really means. Back in school, I was too interested in history and
+          social sciences in general. It's a non-stoppable curiosity to
+          understand why we as humans behave in certain ways. <br />
           <br />
           What I eventually learned from a bunch of failed school exams was that
           whenever I found the right proper amount of interest to dig really
@@ -86,16 +83,16 @@ export default function About() {
           other humans and stuff around us. <br />
           <br />
           By the time I had to figure out what to do with life and what college
-          to enroll in, I already was creating stuff from quite a while. At that
+          to enroll in, I already was creating stuff for quite a while. At that
           time, it was mostly connected to an artistic expression setting, as
           most designers may start out with. At first, design seems very
           art-ish. The designer, at a small company, may be known as the visual
           person. The one who would know how to draw something absurd, randomly,
           in the fly. <br />
           <br />
-          I eventually enrolled at a bachelors of Social Sciences at UFSCar, a
+          I eventually enrolled in a bachelor of Social Sciences at UFSCar, a
           public university in Brazil. There, stuff started to gain some really
-          complex layers of academic gimmicks. There was so many cool topics
+          complex layers of academic gimmicks. There were so many cool topics
           being discussed there that didn't seem to reach the general public and
           thus not affecting every day life. That really bugged me out. My
           thinking was somehow inclined to believe we have to work ourselves out
@@ -105,11 +102,11 @@ export default function About() {
           discussed there being of my very interest to this day. Structural
           anthropology and sociology are the fundamentals of design and human
           behavior. And that started to clear the pathway to how I eventually
-          merged somewhat of artistic expression with etnography-ish thinking.
-          That, led up to... design. <br />
+          merged somewhat of artistic expression with ethnography-ish thinking.
+          That led up to... design. <br />
           <br />
           Those days, I try to bond all of this reasoning to designing
-          experiences. This may sound a bit over used but when you think hard
+          experiences. This may sound a bit overused but when you think hard
           about what actually is an experience, you see that everything is how
           it is because of how it was designed. The design always tells you
           stories about who designed, their motives, their beliefs and
@@ -129,7 +126,7 @@ export default function About() {
         </p>
       </div>
       <div className="default-container">
-        <H1 content="On building products" />
+        <h1 className="h1">On building products</h1>
         <p className="paragraph-1">
           I like to think about the concept of a product by being more than a
           tradable good in a too capitalistic environment. A product is the
@@ -141,7 +138,7 @@ export default function About() {
           someone who dives real deep in every step, from research to shaping it
           out. And I nerd it out in all of them.
         </p>
-        <H1 content="Change-log" />
+        <h1 className="h1">Change-log</h1>
         <p className="paragraph-1">
           Most of my career up to this point consists in working with complex
           systems in logistics business type of setting. I've been really

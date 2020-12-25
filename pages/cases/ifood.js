@@ -19,8 +19,6 @@ export default function iFood() {
           goToOne="/"
           pathNameTwo="iFood"
           goToTwo="/cases/ifood"
-          pathNameThree=""
-          pathNameFour=""
         />
         <CaseHeader
           title="iFood"

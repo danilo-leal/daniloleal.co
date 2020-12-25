@@ -30,25 +30,40 @@ a {
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @layer components {
+  .global-wrapper {
+    @apply h-full dark:bg-blackish pb-10;
+  }
   .default-container {
     @apply max-w-2xl m-auto px-4 flex flex-col space-y-4 mb-4;
   }
   .large-container {
     @apply max-w-3xl m-auto px-2 space-y-4;
   }
+  .billboard {
+    @apply font-medium text-5xl mb-4 text-blackish dark:text-white;
+  }
+  .h1 {
+    @apply mb-2 mt-8 dark:text-white;
+  }
+  .h2 {
+    @apply text-gray-900 dark:text-white;
+  }
   .paragraph-1 {
     @apply text-gray-500 text-sm dark:text-gray-400 leading-relaxed;
-  }
-  .img {
-    @apply block w-full sm:rounded-md rounded-sm sm:mb-4 mb-2;
   }
   .subtitle-text {
     @apply text-sm text-gray-400 dark:text-gray-500;
   }
+  .quote-text {
+    @apply italic text-gray-500 dark:text-gray-300;
+  }
+  .inline-link {
+    @apply text-draplin px-1 hover:text-gray-900 dark:hover:text-white transition-all;
+  }
+  .img {
+    @apply block w-full sm:rounded-md rounded-sm sm:mb-4 mb-2;
+  }
   .spacer-default {
     @apply py-5;
-  }
-  .billboard {
-    @apply font-medium text-5xl mb-4 text-blackish dark:text-white;
   }
 }

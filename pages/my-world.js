@@ -3,12 +3,11 @@ import AppBar from '../components/atoms/AppBar';
 import BreadCrumb from '../components/atoms/BreadCrumb';
 import CaseHeader from '../components/templates/CaseHeader';
 import CallOut from '../components/templates/CallOut';
-import H1 from '../components/atoms/typography/H1';
 import Footer from '../components/templates/Footer';
 
 export default function MyWorld() {
   return (
-    <div className="h-full dark:bg-blackish pb-10">
+    <div className="global-wrapper">
       <AppBar goBackTo="/" />
       <div className="default-container">
         <BreadCrumb
@@ -16,14 +15,12 @@ export default function MyWorld() {
           goToOne="/"
           pathNameTwo="My world"
           goToTwo="/my-world"
-          pathNameThree=""
-          pathNameFour=""
         />
         <CaseHeader
           title="My world"
-          summary="Those include giving form to other types of expressions. I really like to explore my visual and musical senses by designing and creating pieces that resembles my current state of mind."
+          summary="This is what cool tech kids call digital garden. It's a place for my creations to live, a safe outlet for expressing myself. Here's home in the internet."
         />
-        <H1 content="Design related"></H1>
+        <h1 className="h1">Design related</h1>
         <CallOut
           subjectLogo="https://svgshare.com/i/SG4.svg"
           subjectName="Graphic Design"
@@ -31,7 +28,7 @@ export default function MyWorld() {
           casePath="/my-world/graphic-design"
           linkString="See stuff"
         />
-        <H1 content="That's me inside your head"></H1>
+        <h1 className="h1">That's me inside your head</h1>
         <a
           href="https://www.youtube.com/watch?v=0IxYbx4nRCw&ab_channel=ResurrectionFest"
           className="text-tiny text-gray-500 hover:font-medium hover:text-draplin hover:ml-2"
@@ -59,7 +56,7 @@ export default function MyWorld() {
           casePath="/coming-soon"
           linkString="Check em out"
         />
-        <H1 content="Music production"></H1>
+        <h1 className="h1">Music making</h1>
         <CallOut
           subjectLogo="https://svgshare.com/i/SFB.svg"
           subjectName="Flora Park"

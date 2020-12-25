@@ -30,7 +30,7 @@ export default function JobTimeline() {
         />
       </div>
       <div className="z-0">
-        <div className="absolute top-8 bg-gray-100 h-52 w-1 ml-0.5 dark:bg-black"></div>
+        <div className="absolute top-8 bg-gray-100 h-48 w-1 ml-0.5 dark:bg-black"></div>
       </div>
     </div>
   );

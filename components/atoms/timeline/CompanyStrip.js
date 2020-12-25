@@ -13,7 +13,7 @@ export default function CompanyStrip(props) {
       </div>
       <div className="block ml-6">
         <div className="flex space-x-2">
-          <p className="text-gray-800 font-medium mb-2 dark:text-white">
+          <p className="text-gray-800 mb-1 font-medium dark:text-white">
             {props.company}
           </p>
           <a href={props.companySite}>

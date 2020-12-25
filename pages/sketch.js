@@ -124,3 +124,5 @@ export default function Sketch() {
     </div>
   );
 }
+
+// className="grid sm:grid-cols-2 gap-6 sm:px-2 p-4"
