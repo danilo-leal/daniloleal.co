@@ -1,15 +1,14 @@
 import React from 'react';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/templates/CaseHeader';
-import H1 from '../../components/atoms/typography/H1';
-import Footer from '../../components/templates/Footer';
+import CaseHeader from '../../components/molecules/CaseHeader';
+import Footer from '../../components/molecules/Footer';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 export default function iFoodDriverOnboarding() {
   return (
-    <div className="h-full dark:bg-blackish">
+    <div className="global-wrapper">
       <AppBar goBackTo="/cases/ifood" />
       <div className="default-container">
         <BreadCrumb
@@ -18,13 +17,12 @@ export default function iFoodDriverOnboarding() {
           pathNameTwo="iFood /"
           goToTwo="/cases/ifood"
           pathNameThree="Driver Onboarding"
-          pathNameFour=""
         />
         <CaseHeader
           title="Driver Onboarding"
           summary="In-depth view of how drivers become a part of iFood's fleet."
         />
-        <H1 content="Open doors" />
+        <h1 className="h1">Open doors</h1>
         <p className="paragraph-1">
           There's no much secret to what's an onboarding flow. But there's a
           bunch of intricacies that you have to be aware in order to make your
@@ -46,7 +44,7 @@ export default function iFoodDriverOnboarding() {
         <p className="subtitle-text">Onboarding flow bird's eye view.</p>
       </div>
       <div className="default-container">
-        <H1 content="What's at stake" />
+        <h1 className="h1">What's at stake</h1>
         <p className="paragraph-1">
           When you're dealing with market places in general, the balance between
           supply and demand is your ultimate challenge. At iFood, we had an
@@ -58,7 +56,7 @@ export default function iFoodDriverOnboarding() {
           supply, you need to have confidence that. your entering machine is
           working properly. And our wasn't all that much.
         </p>
-        <H1 content="Make your sub-titles matter!" />
+        <h1 className="h1">Make your sub-titles matter!</h1>
         <p className="paragraph-1">
           Well, that's at least something I told myself a lot. That's because I
           wanted to ship an onboarding flow that brought the least amount of
@@ -108,7 +106,7 @@ export default function iFoodDriverOnboarding() {
         <p className="subtitle-text">Lots of sub-titles.</p>
       </div>
       <div className="default-container">
-        <H1 content="Launching and learning" />
+        <h1 className="h1">Launching and learning</h1>
         <p className="paragraph-1">
           There's never an end to a product work, there's simply the time you
           ship something and look further in the horizon. One of the main

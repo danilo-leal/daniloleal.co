@@ -1,17 +1,16 @@
 import React from 'react';
-import CaseInfo from '../../components/templates/CaseInfo';
+import CaseInfo from '../../components/molecules/CaseInfo';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/templates/CaseHeader';
-import H1 from '../../components/atoms/typography/H1';
-import DeepCards from '../../components/atoms/DeepCards';
-import Footer from '../../components/templates/Footer';
+import CaseHeader from '../../components/molecules/CaseHeader';
+import DeepCards from '../../components/molecules/DeepCards';
+import Footer from '../../components/molecules/Footer';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 export default function iFood() {
   return (
-    <div className="h-full dark:bg-blackish">
+    <div className="global-wrapper">
       <AppBar goBackTo="/" />
       <div className="default-container">
         <BreadCrumb
@@ -29,13 +28,12 @@ export default function iFood() {
           period="From early 2018 to mid 2019"
           stack="Android mostly, some web"
         />
-        <H1 content="Quick callout" />
+        <h1 className="h1">Quick callout</h1>
         <p className="paragraph-1">
           This article goes through my story with iFood. I also have two
           detailed articles going through two specific features I've worked on
           that I'm very proud of. Don't forget to peek at those!
         </p>
-
         <div className="flex flex-col space-y-4">
           <DeepCards
             title="Driver Performance"
@@ -50,8 +48,7 @@ export default function iFood() {
             deepLinkString="Go deep"
           />
         </div>
-
-        <H1 content="Starting out" />
+        <h1 className="h1">Starting out</h1>
         <p className="paragraph-1">
           The experience I had working at iFood is one of those I can call
           special. The company was in a very weird place back then, very
@@ -62,9 +59,9 @@ export default function iFood() {
           not somebody else's - like it used to be. <br />
           <br />I got there as what I might call 'one of the founding members'
           of the Logistic Tribe. And I guess it is rightful to call it that way
-          because it was almost a like a startup inside a startup. It was a very
+          because it was almost like a startup inside a startup. It was a very
           small team, with huge goals set upon us so we could prove that it was
-          worth it setting up all this stuff. Among all the tech involved at
+          worth it setting up all this stuff. Among all the tech involved in
           creating a logistics operation, the Driver App is one of the most
           important applications.
         </p>
@@ -78,7 +75,7 @@ export default function iFood() {
         <p className="subtitle-text">
           This is what I'd call a messy startup office. There's a beauty to it.
         </p>
-        <H1 content="Early days" />
+        <h1 className="h1">Early days</h1>
         <p className="paragraph-1">
           When I joined, there was already a version of the Driver App. But a
           very raw one. The developers who were first in the team deployed a
@@ -90,17 +87,17 @@ export default function iFood() {
           relevant.
           <br />
           <br />
-          But, in the first months, the team and I were not focusing too much in
-          upgrading the app. There was so many other foundational decisions we
-          had to make in order to have a proper business and experience
-          functioning. It even took a while to gather a proper team to take care
-          of the app. Meanwhile, I had never stopped doodling around with
-          dreamlike concepts of the product. This no strings attached process
-          was essential to set space for lots of studying. I learned so much
-          about the logistics, food delivery and gig economy industry by that
-          time. With extensive benchmark and focus, I started to get ready to
-          set up a real proposition for how we could set the Driver App as a
-          more robust, thoughtful and experience-driven product.
+          But, in the first months, the team and I were not focusing too much on
+          upgrading the app. There were so many other foundational decisions we
+          had to make to have a proper business and experience functioning. It
+          even took a while to gather a proper team to take care of the app.
+          Meanwhile, I had never stopped doodling around with dreamlike concepts
+          of the product. This no strings attached process was essential to set
+          space for lots of studying. I learned so much about the logistics,
+          food delivery and gig economy industry by that time. With extensive
+          benchmark and focus, I started to get ready to set up a real
+          proposition for how we could set the Driver App as a more robust,
+          thoughtful and experience-driven product.
         </p>
       </div>
       <div className="large-container">
@@ -115,7 +112,7 @@ export default function iFood() {
       <div className="default-container">
         <p className="paragraph-1">
           Up there you see the UI design that the team created in the early days
-          of operation. The cool things is, this was pretty much the whole
+          of operation. The cool thing is, this was pretty much the whole
           product, in a nutshell. There is, if you look closer, gold in there.
           Like the Settings page, in the far right, with only a "log out"
           button. If you do not find this very minimalistic, there's something
@@ -132,34 +129,34 @@ export default function iFood() {
             alt=""
           />
         </Zoom>
-        <H1 content="Redesigning all the things" />
+        <h1 className="h1">Redesigning all the things</h1>
         <p className="paragraph-1">
           You must be tired of reading designers redesigning stuff. But
           sometimes, it is worth it and actually needed. I'm proud to tell you
           it was one of those times. Our Logistics Tribe had grown a lot in a
           few months of operation. And the app that was supporting all this was
           lacking a lot in terms of experience. The fleet also grew a whole
-          bunch, so drivers became more present in our day to day. Myself, in
+          bunch, so drivers became more present in our day to day. I, in
           particular, spent a good amount of months talking to them here and
           there to learn more about their work and needs. That, alongside the
-          studies of early days, gave me proper confidence to reach for a
-          redesign as a main Tribe business goal at the last cycle of 2018.{' '}
+          studies of the early days, gave me proper confidence to reach for a
+          redesign as a main Tribe business goal at the last cycle of 2018.
           <br />
           <br />
-          And we got it. iFood had just got the biggest series of investment yet
-          and a good amount went for the Logistics Tribe. By then, we were now a
-          small lovely official team around the app, composed of myself as a
-          sole designer, a Product Manager, 2 Android developers and 2 Backend
+          And we got it. iFood had just got the biggest series of investments
+          yet and a good amount went for the Logistics Tribe. By then, we were
+          now a small lovely official team around the app, composed of myself as
+          a sole designer, a Product Manager, 2 Android developers and 2 Backend
           developers. The goal we set up for ourselves was to launch a brand new
           driver experience in 2 months. Parallel to that, we had to support the
-          ongoing and growing operation. So, like you'd imagine, it was a rough
+          ongoing and growing operation. So, as you'd imagine, it was a rough
           challenge. <br />
           <br />
           One of the biggest takeaways here was that we had buy-in from all
           iFood's leadership to set the "driver experience" as our main KPI for
           the quarter. We sold a vision of how the product could be better
-          entirely focused in the drivers actual needs and it went all great. My
-          iterations by then needed to be transformed into actual product
+          entirely focused on the drivers' actual needs and it went all great.
+          My iterations by then needed to be transformed into actual product
           strategy.
         </p>
         <Zoom>
@@ -173,7 +170,7 @@ export default function iFood() {
           Lots of sketches. It got up to a point that a 16gb ram Macbook Pro
           couldn't handle the Sketch file.
         </p>
-        <H1 content="Creating a strategy" />
+        <h1 className="h1">Creating a strategy</h1>
         <p className="paragraph-1">
           Iterations gave us a huge horizon of things we'd like to work on. But
           with limited time and having to support a growing operation, we
@@ -210,33 +207,33 @@ export default function iFood() {
         <p className="subtitle-text">
           Spoiler: I ended up working at Loggi too. The world spins!
         </p>
-        <H1 content="Launching and learning" />
+        <h1 className="h1">Launching and learning</h1>
         <p className="paragraph-1">
           Even before launching the first version of the new experience, we
           already had a great roadmap structured ahead of us. The studies and
           knowledge acquired in the early days up to the point of actually
-          having something to beta test out, were key to understating strategy
-          in a broader sense in regards to our product context. The relationship
-          we had created within our team, of true companionship, was essential
-          to collaborating and having a batter shaped work. I learned a lot
-          about how design and PM should relate. And by that, I mean: always and
+          having something to beta test out were key to understating strategy in
+          a broader sense in regards to our product context. The relationship we
+          had created within our team, of true companionship, was essential to
+          collaborating and having a batter shaped work. I learned a lot about
+          how design and PM should relate. And by that, I mean: always and
           forever. Designers and Product Managers are two sides of the same coin
           and they must stay together. And that was so beneficial to our product
-          and process. And not only, development should be talking strategy,
-          roadmap and experience too. There is so much to gain from having all
-          disciplines talking about everything.
+          and process. And not only, but development should also be talking
+          strategy, roadmap and experience too. There is so much to gain from
+          having all disciplines talking about everything.
           <br />
           <br />
           And of course, setting the "driver experience" or "user" experience as
-          the main objective of a team is indeed challenging. Specially because
+          the main objective of a team is indeed challenging. Especially because
           measuring such things is very difficult. So we had to set up a lot of
           ways to understand if drivers were happier. And by that I mean, lots
-          of research. There was times were we'd go full on methods and times
+          of research. There were times where we'd go full-on methods and times
           where we simply talked to them, no brainer. The important lesson was
           to never stop talking. Always being close by, reachable. And because
           of all that, I believe that we were very successful, launching a
-          product that got metrics a lot up, drivers more happier and the
-          management of our system more in place.
+          product that got metrics a lot up, drivers happier and the management
+          of our system more in place.
         </p>
       </div>
       <div className="large-container">

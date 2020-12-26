@@ -1,7 +1,6 @@
 import React from 'react';
 import AppBar from '../components/atoms/AppBar';
-import H1 from '../components/atoms/typography/H1';
-import Footer from '../components/templates/Footer';
+import Footer from '../components/molecules/Footer';
 
 export default function ComingSoon() {
   return (
@@ -29,7 +28,7 @@ export default function ComingSoon() {
               d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
             ></path>
           </svg>
-          <H1 content="Content coming soon!"></H1>
+          <h1 className="h1">Content coming soon!</h1>
           <p className="paragraph-1 text-center max-w-md">
             Hey! Glad you've reached here. I'll understand as interest in the
             mess that is my mind. I hope to see you return whenever I start

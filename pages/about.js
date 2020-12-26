@@ -2,9 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 import AppBar from '../components/atoms/AppBar';
 import BreadCrumb from '../components/atoms/BreadCrumb';
-import Footer from '../components/templates/Footer';
-import CaseHeader from '../components/templates/CaseHeader';
-import JobTimeline from '../components/atoms/timeline/JobTimeline';
+import Footer from '../components/molecules/Footer';
+import CaseHeader from '../components/molecules/CaseHeader';
+import JobTimeline from '../components/molecules/JobTimeline';
 import IconsSocial from '../components/atoms/IconsSocial';
 
 export default function About() {

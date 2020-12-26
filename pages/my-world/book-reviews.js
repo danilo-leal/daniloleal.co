@@ -1,8 +1,8 @@
 import React from 'react';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/templates/CaseHeader';
-import ContentCard from '../../components/templates/ContentCard';
+import CaseHeader from '../../components/molecules/CaseHeader';
+import ContentCard from '../../components/molecules/ContentCard';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 

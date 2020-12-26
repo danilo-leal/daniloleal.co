@@ -1,15 +1,14 @@
 import React from 'react';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/templates/CaseHeader';
-import H1 from '../../components/atoms/typography/H1';
-import Footer from '../../components/templates/Footer';
+import CaseHeader from '../../components/molecules/CaseHeader';
+import Footer from '../../components/molecules/Footer';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 export default function GraphicDesign() {
   return (
-    <div className="h-full dark:bg-blackish pb-10">
+    <div className="global-wrapper">
       <AppBar goBackTo="/my-world" />
       <div className="default-container">
         <BreadCrumb
@@ -18,13 +17,12 @@ export default function GraphicDesign() {
           pathNameTwo="My world /"
           goToTwo="/my-world"
           pathNameThree="Graphic design"
-          pathNameFour=""
         />
         <CaseHeader
           title="Graphic design"
           summary="Design outside of screens. Even though you're seeing in a screen now."
         />
-        <H1 content="Okay, for starters!" />
+        <h1 className="h1">Okay, for starters!</h1>
         <p className="paragraph-1">
           I love designing for graphic. From album covers to logo identities.
           This goes all way back to when and how I started designing. Much
@@ -42,7 +40,7 @@ export default function GraphicDesign() {
               alt=""
             />
           </Zoom>
-          <H1 content="Rancore • Ao Vivo • 2017" />
+          <h1 className="h1">Rancore • Ao Vivo • 2017</h1>
           <p className="paragraph-1">
             This band is one very dear to me. One of my most loved bands in the
             brazilian underground hardcore scene. All things they spread out
@@ -76,7 +74,7 @@ export default function GraphicDesign() {
         </Zoom>
       </div>
       <div className="default-container">
-        <H1 content="Teco Martins • Solar & Logos Solar • 2018 + 2019" />
+        <h1 className="h1">Teco Martins • Solar & Logos Solar • 2018 + 2019</h1>
         <p className="paragraph-1">
           I was incredibly privileged to work again with Teco in both of his
           solo albums. Besides making an awesome friend, it was specifically
@@ -101,7 +99,7 @@ export default function GraphicDesign() {
               alt=""
             />
           </Zoom>
-          <H1 content="Flora Park • Chutando nuvens • 2017" />
+          <h1 className="h1">Flora Park • Chutando nuvens • 2017</h1>
           <p className="paragraph-1">
             This is a bit of a dream come true. Me and my buddies self recorded
             and produced this album. We did it all very DIY style but with all
@@ -129,7 +127,7 @@ export default function GraphicDesign() {
               alt=""
             />
           </Zoom>
-          <H1 content="Sede • Antes que a natureza morra • 2016" />
+          <h1 className="h1">Sede • Antes que a natureza morra • 2016</h1>
           <p className="paragraph-1">
             This one is a very special project of mine. Since 2014, I've been
             recording and producing a bunch of songs here and there. Song

@@ -1,9 +1,9 @@
 import React from 'react';
 import AppBar from '../components/atoms/AppBar';
 import BreadCrumb from '../components/atoms/BreadCrumb';
-import CaseHeader from '../components/templates/CaseHeader';
-import CallOut from '../components/templates/CallOut';
-import Footer from '../components/templates/Footer';
+import CaseHeader from '../components/molecules/CaseHeader';
+import CallOut from '../components/molecules/CallOut';
+import Footer from '../components/molecules/Footer';
 
 export default function MyWorld() {
   return (

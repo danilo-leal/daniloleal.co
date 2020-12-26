@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import DarkModeButton from './DarkModeButton';
 
 export default function AppBar(props) {

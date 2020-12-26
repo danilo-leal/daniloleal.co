@@ -2,9 +2,9 @@ import React from 'react';
 import AppBar from '../../../components/atoms/AppBar';
 import BreadCrumb from '../../../components/atoms/BreadCrumb';
 import Quote from '../../../components/atoms/Quote';
-import CaseHeader from '../../../components/templates/CaseHeader';
-import Footer from '../../../components/templates/Footer';
-import FavoriteTrackStrip from '../../../components/templates/FavoriteTrackStrip';
+import CaseHeader from '../../../components/molecules/CaseHeader';
+import Footer from '../../../components/molecules/Footer';
+import FavoriteTrackStrip from '../../../components/molecules/FavoriteTrackStrip';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 

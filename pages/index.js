@@ -1,9 +1,9 @@
 import Divider from '../components/atoms/Divider';
 import IconsSocial from '../components/atoms/IconsSocial';
 import NavBar from '../components/atoms/NavBar';
-import HomeHero from '../components/templates/HomeHero';
-import HomeTags from '../components/templates/HomeTags';
-import CallOut from '../components/templates/CallOut';
+import HomeHero from '../components/molecules/HomeHero';
+import HomeTags from '../components/molecules/HomeTags';
+import CallOut from '../components/molecules/CallOut';
 
 export default function Home() {
   return (

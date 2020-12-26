@@ -1,5 +1,5 @@
 import React from 'react';
-import CompanyStrip from './CompanyStrip';
+import CompanyStrip from '../atoms/CompanyStrip';
 
 export default function JobTimeline() {
   return (

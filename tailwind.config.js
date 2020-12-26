@@ -13,7 +13,6 @@ module.exports = {
         black: '#131319',
         blackish: '#18181b',
         draplin: '#e57928',
-        lightdraplin: '#ffeddf',
       },
     },
   },

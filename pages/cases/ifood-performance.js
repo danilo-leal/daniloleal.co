@@ -1,15 +1,14 @@
 import React from 'react';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/templates/CaseHeader';
-import H1 from '../../components/atoms/typography/H1';
-import Footer from '../../components/templates/Footer';
+import CaseHeader from '../../components/molecules/CaseHeader';
+import Footer from '../../components/molecules/Footer';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 export default function iFoodDriverPerformance() {
   return (
-    <div className="h-full dark:bg-blackish">
+    <div className="global-wrapper">
       <AppBar goBackTo="/cases/ifood" />
       <div className="default-container">
         <BreadCrumb
@@ -18,13 +17,12 @@ export default function iFoodDriverPerformance() {
           pathNameTwo="iFood /"
           goToTwo="/cases/ifood"
           pathNameThree="Driver Performance"
-          pathNameFour=""
         />
         <CaseHeader
           title="Driver Performance"
           summary="In-depth view for a more detailed way of looking at delivery driver performance."
         />
-        <H1 content="What's about" />
+        <h1 className="h1">What's about</h1>
         <p className="paragraph-1">
           Most people when performing anything would like to know how they're
           doing it. This is special for operational processes that includes so
@@ -46,7 +44,7 @@ export default function iFoodDriverPerformance() {
           and confusion. We wanted to go away from all these by providing clear
           information, presented in an organised way.
         </p>
-        <H1 content="Impact in the ecosystem" />
+        <h1 className="h1">Impact in the ecosystem</h1>
         <p className="paragraph-1">
           Of course we entered most Facebook groups of drivers. Frequently, we'd
           see posts arguing and complaining about iFood stealing money from
@@ -74,7 +72,7 @@ export default function iFoodDriverPerformance() {
         </Zoom>
       </div>
       <div className="default-container">
-        <H1 content="Getting context" />
+        <h1 className="h1">Getting context</h1>
         <p className="paragraph-1">
           In order to have more buy-in of the initiative, I surveyed about 3,5k
           drivers in our data base. The main goal here was to understand more
@@ -107,7 +105,7 @@ export default function iFoodDriverPerformance() {
           Piece of our deck showing survey results. Here I rank how drivers
           spend their money.
         </p>
-        <H1 content="Challenges and launching" />
+        <h1 className="h1">Challenges and launching</h1>
         <p className="paragraph-1">
           Gathering information seems kinda tricky in most systems with complex
           architecture. This was no different. We had challenging tasks for
