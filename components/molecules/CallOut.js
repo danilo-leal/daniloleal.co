@@ -1,5 +1,6 @@
 import React from 'react';
 import MainLink from '../atoms/MainLink';
+import Image from 'next/image';
 
 export default function CallOut(props) {
   return (

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Divider from '../components/atoms/Divider';
 import IconsSocial from '../components/atoms/IconsSocial';
 import NavBar from '../components/atoms/NavBar';
@@ -15,7 +16,7 @@ export default function Home() {
         <Divider />
         <h1 className="h1">Selected works</h1>
         <CallOut
-          subjectLogo="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2d90dfd2e0670331b10724_logos%3A%20ifood.svg"
+          subjectLogo="/svgs/logo-ifood.svg"
           imgAlt="iFood Logo"
           subjectName="iFood"
           subjectSummary="Designed the new driver app from the ground up. Small team, challenging goals and huge impact. A product that is very close to my heart. What a ride!"
@@ -23,7 +24,7 @@ export default function Home() {
           linkString="Read the story"
         />
         <CallOut
-          subjectLogo="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c2ee8b26f2a64d7237f60_nexa-logo.svg"
+          subjectLogo="/svgs/logo-livia.svg"
           imgAlt="Nexa Digital Logo"
           subjectName="Livia Pro"
           subjectSummary="Being healthy is communicating rightfully. With Livia, we were tackling one of the most fundamental health care problem out there: communication."
@@ -31,7 +32,7 @@ export default function Home() {
           linkString="Read the story"
         />
         <CallOut
-          subjectLogo="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2d90dfd2e06767b9b1072a_logos%3A%20rapiddo.svg"
+          subjectLogo="/svgs/logo-rapiddo.svg"
           imgAlt="Rappido Entregas Logo"
           subjectName="Rapiddo Entregas"
           subjectSummary="One designer for the whole company. You know the drill. I did it all at Rapiddo. Great times. Apps, motion graphics, branding. I told you!"
