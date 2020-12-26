@@ -1,8 +1,8 @@
 import React from 'react';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/templates/CaseHeader';
-import BlogCallOut from '../../components/templates/BlogCallOut';
+import CaseHeader from '../../components/molecules/CaseHeader';
+import BlogCallOut from '../../components/molecules/BlogCallOut';
 
 export default function Thinking() {
   return (
