@@ -37,6 +37,7 @@ export default function About() {
             className="img sm:h-96 h-2/4 object-cover"
             width={800}
             height={600}
+            priority
           />
         </Zoom>
         <p className="subtitle-text">

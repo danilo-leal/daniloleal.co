@@ -36,6 +36,7 @@ export default function SufjanCarrieLowell() {
             className="img"
             width={800}
             height={600}
+            priority
           />
         </Zoom>
         <p className="paragraph-1">
