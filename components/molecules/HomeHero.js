@@ -1,12 +1,16 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function HomeHero() {
   return (
     <div className="pb-8">
-      <img
-        src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2d912f2ca1f72dbc0f0c19_%3Aeu.png"
-        alt=""
-        className="h-14 w-14 mb-8"
+      <Image
+        src="/images/me.jpg"
+        alt="Picture of me in a red background."
+        className="h-14 w-14 rounded-full"
+        width={60}
+        height={60}
+        priority
       />
       <h1 className="h1">Pleasure to have you!</h1>
       <p className="paragraph-1 mb-3">
