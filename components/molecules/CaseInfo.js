@@ -24,11 +24,9 @@ export default function CaseInfo(props) {
         <p className="text-gray-400 mb-2 dark:text-gray-600 text-sm">
           Cool links
         </p>
-        <Link href="/">
-          <p className="cursor-pointer font-semibold text-draplin hover:text-gray-900 dark:hover:text-white text-sm">
-            {props.linkName}
-          </p>
-        </Link>
+        <p className="text-gray-900 dark:text-gray-200 text-sm">
+          {props.links}
+        </p>
       </div>
     </div>
   );

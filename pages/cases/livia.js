@@ -26,6 +26,22 @@ export default function LiviaPro() {
           role="Product Design & Research"
           period="Mid 2019"
           stack="PWA"
+          links={[
+            'Some shots: ',
+            <a
+              href="https://dribbble.com/shots/7001777-LiviaPro-Health-Events"
+              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
+            >
+              one
+            </a>,
+            ' and ',
+            <a
+              href="https://dribbble.com/shots/6866395-LiviaPro-Your-Complete-Health-Recordznzzzzz"
+              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
+            >
+              two.
+            </a>,
+          ]}
         />
         <h1 className="h1">What's about</h1>
         <p className="paragraph-1">

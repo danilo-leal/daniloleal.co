@@ -26,6 +26,14 @@ export default function Rapiddo() {
           role="Product Design, Research & Branding"
           period="From mid 2017 to early 2018"
           stack="Android, web & After Effects"
+          links={[
+            <a
+              href="https://vimeo.com/321077344"
+              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
+            >
+              Motion onboarding
+            </a>,
+          ]}
         />
         <h1 className="h1">Starting out</h1>
         <p className="paragraph-1">

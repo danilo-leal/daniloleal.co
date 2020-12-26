@@ -7,6 +7,7 @@ import DeepCards from '../../components/molecules/DeepCards';
 import Footer from '../../components/molecules/Footer';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import MainLink from '../../components/atoms/MainLink';
 
 export default function iFood() {
   return (
@@ -27,6 +28,28 @@ export default function iFood() {
           role="Product Design & Research"
           period="From early 2018 to mid 2019"
           stack="Android mostly, some web"
+          links={[
+            <a
+              href="https://play.google.com/store/apps/details?id=br.com.ifood.driver.app&hl=pt_BR"
+              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
+            >
+              Google Play
+            </a>,
+            ', ',
+            <a
+              href="https://www.youtube.com/watch?v=J8TWkdUS1Fc"
+              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
+            >
+              promo video
+            </a>,
+            ' and ',
+            <a
+              href="https://dribbble.com/shots/6566232-iFood-Driver-Performance"
+              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
+            >
+              shots.
+            </a>,
+          ]}
         />
         <h1 className="h1">Quick callout</h1>
         <p className="paragraph-1">
