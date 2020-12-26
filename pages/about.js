@@ -1,11 +1,12 @@
 import React from 'react';
-import Link from 'next/link';
 import AppBar from '../components/atoms/AppBar';
 import BreadCrumb from '../components/atoms/BreadCrumb';
 import Footer from '../components/molecules/Footer';
 import CaseHeader from '../components/molecules/CaseHeader';
 import JobTimeline from '../components/molecules/JobTimeline';
-import IconsSocial from '../components/atoms/IconsSocial';
+import AboutCardInfo from '../components/molecules/AboutCardInfo';
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 
 export default function About() {
   return (
@@ -15,42 +16,26 @@ export default function About() {
         <BreadCrumb
           pathNameOne="Home /"
           goToOne="/"
-          pathNameTwo="About"
+          pathNameTwo="About me"
           goToTwo="/about"
         />
         <CaseHeader
           title="About me"
-          summary="I am the master of my fate; I am the captain of my soul
-          ― Invictus by William Ernest Henley"
+          summary={[
+            <i>"I am the master of my fate, I am the captain of my soul"</i>,
+            '― Invictus by William Ernest Henley',
+          ]}
         />
       </div>
       <div className="default-container">
-        <div className="bg-gray-50 dark:bg-black rounded-lg p-5 grid sm:grid-cols-3 grid-col-auto gap-4 sm:gap-2">
-          <div class="">
-            <p className="text-gray-400 mb-2 dark:text-gray-600">
-              In need for a CV?
-            </p>
-            <Link href="https://docs.google.com/document/d/1xxVqQ4S5SjoD3bXTdXZm0msg8MOpZRG3xPS_y6NNEAk/edit">
-              <p className="cursor-pointer font-medium text-draplin hover:text-gray-900 dark:hover:text-white transition-all">
-                There you go!
-              </p>
-            </Link>
-          </div>
-          <div>
-            <p className="text-gray-400 mb-2 dark:text-gray-600">
-              You can find me at:
-            </p>
-            <IconsSocial />
-          </div>
-          <div>
-            <p className="text-gray-400 mb-2 dark:text-gray-600">
-              Want to reach out?
-            </p>
-            <p className="text-gray-900 dark:text-gray-200">
-              daniloleal09@gmail.com
-            </p>
-          </div>
-        </div>
+        <AboutCardInfo />
+        <Zoom>
+          <img
+            src="https://i.ibb.co/ww7Jt2Q/Screen-Shot-2020-10-04-at-21-47-12.png"
+            alt="Me using an iMac G3 back in the day."
+            className="img sm:h-96 h-2/4 object-cover"
+          />
+        </Zoom>
         <h1 className="h1">First chapters</h1>
         <p className="paragraph-1">
           I guess it all started with mom and dad naming me after some popular
@@ -119,7 +104,7 @@ export default function About() {
         <img
           className="img"
           src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5ecb6059650fb5d020eb5d07_7FB731A2-97F1-4028-A2C0-6B2AE3909B3B-p-1600.jpeg"
-          alt=""
+          alt="Me and my beloved Carina and the monumental Cajon del Maipo mountains."
         />
         <p className="subtitle-text sm:p-0 px-4">
           Me and my beloved Carina and the monumental Cajon del Maipo mountains.

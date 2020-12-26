@@ -13,19 +13,19 @@ export default function JobTimeline() {
         <CompanyStrip
           company="Nexa"
           period="May 2019 to September 2019."
-          currentCompany="no"
+          currentCompany="false"
           companySite="https://www.linkedin.com/company/nexadigital/about/"
         />
         <CompanyStrip
           company="iFood"
           period="February 2018 to May 2019."
-          currentCompany="no"
+          currentCompany="false"
           companySite="https://www.ifood.com.br/"
         />
         <CompanyStrip
           company="Rapiddo Entegas"
           period="July 2017 to February 2018."
-          currentCompany="no"
+          currentCompany="false"
           companySite="https://www.linkedin.com/company/rapiddo/about/"
         />
       </div>
