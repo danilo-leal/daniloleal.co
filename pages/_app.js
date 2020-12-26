@@ -8,17 +8,19 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider attribute="class">
       <Head>
         <title>danilo leal</title>
+        <meta
+          property="og:title"
+          name="danilo leal"
+          content="Explorer and designer."
+          key="title"
+        />
         <link rel="shortcut icon" href="/favicon.svg" />
-        <meta property="og:title" content="danilo leal" key="title" />
         <script
           async
           defer
           data-domain="daniloleal.co"
           src="https://plausible.io/js/plausible.js"
         ></script>
-      </Head>
-      <Head>
-        <meta property="og:title" content="danilo leal" key="title" />
       </Head>
       <body className="bg-white dark:bg-blackish">
         <Component {...pageProps} />
