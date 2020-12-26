@@ -38,7 +38,7 @@ export default function iFoodDriverOnboarding() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29d08d9e61157b8587f_ifo4-p-1600.png"
-            alt=""
+            alt="Birds-eye view of the whole feature flow"
           />
         </Zoom>
         <p className="subtitle-text">Onboarding flow bird's eye view.</p>
@@ -100,7 +100,7 @@ export default function iFoodDriverOnboarding() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29cc83a721e64dfe521_ifo3-p-1600.png"
-            alt=""
+            alt="Screenshots of some of the UI"
           />
         </Zoom>
         <p className="subtitle-text">Lots of sub-titles.</p>
@@ -145,14 +145,14 @@ export default function iFoodDriverOnboarding() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29c9a94a93bfaa6d679_ifo1-p-1600.png"
-            alt=""
+            alt="Screenshots of some of the UI"
           />
         </Zoom>
         <Zoom>
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cf29ca10d23846b7f1f94_ifo2-p-1600.png"
-            alt=""
+            alt="Screenshots of some of the UI"
           />
         </Zoom>
       </div>

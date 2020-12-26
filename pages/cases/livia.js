@@ -118,7 +118,7 @@ export default function LiviaPro() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd8735b8bed970fb3c09b_livia-2-p-1080.jpeg"
-            alt=""
+            alt="Me looking at too many post its."
           />
         </Zoom>
         <p className="subtitle-text">
@@ -129,7 +129,7 @@ export default function LiviaPro() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd87486f417a41224b34e_livia-1-p-1080.jpeg"
-            alt=""
+            alt="Me pointing to a specific post-it."
           />
         </Zoom>
         <p className="subtitle-text">
@@ -178,14 +178,14 @@ export default function LiviaPro() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c119c00a08815c21669b1_N3-p-1600.png"
-            alt=""
+            alt="Screenshots of some of the UI"
           />
         </Zoom>
         <Zoom>
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c119c9d335b11279b6dae_N2-p-1600.png"
-            alt=""
+            alt="Screenshots of some of the UI"
           />
         </Zoom>
       </div>

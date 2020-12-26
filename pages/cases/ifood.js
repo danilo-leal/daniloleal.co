@@ -92,7 +92,7 @@ export default function iFood() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5ac50df80de5a1a5d478f2_IMG_2922-min-p-1080.jpeg"
-            alt=""
+            alt="iFood's early office."
           />
         </Zoom>
         <p className="subtitle-text">
@@ -128,7 +128,7 @@ export default function iFood() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5ac782d647e72b39065d93_old-driver-app.png"
-            alt=""
+            alt="Screenshots from the first app version."
           />
         </Zoom>
       </div>
@@ -149,7 +149,7 @@ export default function iFood() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c32fb04dea2c09a5e173f_gp-p-1080.png"
-            alt=""
+            alt="Screenshot of what Google Play looked like."
           />
         </Zoom>
         <h1 className="h1">Redesigning all the things</h1>
@@ -186,7 +186,7 @@ export default function iFood() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd8165b8bedbbeab3bd49_ifood-4-p-1080.jpeg"
-            alt=""
+            alt="Bunch of Sketch artboards screenshot."
           />
         </Zoom>
         <p className="subtitle-text">
@@ -214,7 +214,7 @@ export default function iFood() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd81686f417702524af8e_ifood-3-p-1080.jpeg"
-            alt=""
+            alt="Post its on a table."
           />
         </Zoom>
         <p className="subtitle-text">
@@ -224,7 +224,7 @@ export default function iFood() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2da0815b8bedd0ceb1108d_ifood-img-4.png"
-            alt=""
+            alt="Me talking to some drivers."
           />
         </Zoom>
         <p className="subtitle-text">
@@ -264,21 +264,21 @@ export default function iFood() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c0775d44cb093dd267535_ifd1-p-1600.png"
-            alt=""
+            alt="Screenshots of some UIs of the app"
           />
         </Zoom>
         <Zoom>
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c07756298aa2f0dc2e5ef_ifd0-p-1600.png"
-            alt=""
+            alt="Screenshots of some UIs of the app"
           />
         </Zoom>
         <Zoom>
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c095b2839e0db5df582f1_ifd2-p-1600.png"
-            alt=""
+            alt="Screenshots of some UIs of the app"
           />
         </Zoom>
       </div>

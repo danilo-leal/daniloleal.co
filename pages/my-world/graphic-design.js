@@ -37,7 +37,7 @@ export default function GraphicDesign() {
             <img
               className="img"
               src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c012d9354b38f52991_a-rancore-p-1080.jpeg"
-              alt=""
+              alt="Rancore's vynil."
             />
           </Zoom>
           <h1 className="h1">Rancore • Ao Vivo • 2017</h1>
@@ -63,13 +63,13 @@ export default function GraphicDesign() {
         <Zoom>
           <img
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c086f417131a27598f_a-solar-p-1080.jpeg"
-            alt=""
+            alt="Teco Martins's Solar."
           />
         </Zoom>
         <Zoom>
           <img
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c086f41766c227598e_a-logos-p-1080.jpeg"
-            alt=""
+            alt="Teco Martins's Logos Solar."
           />
         </Zoom>
       </div>
@@ -96,7 +96,7 @@ export default function GraphicDesign() {
             <img
               className="img"
               src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c012d935cee1f52992_a-flora-p-1080.jpeg"
-              alt=""
+              alt="Flora Park's Vinyl."
             />
           </Zoom>
           <h1 className="h1">Flora Park • Chutando nuvens • 2017</h1>
@@ -124,7 +124,7 @@ export default function GraphicDesign() {
             <img
               className="img"
               src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2e07c08c2b17352ec97a37_a-sede-p-1080.jpeg"
-              alt=""
+              alt="Sede's vynil."
             />
           </Zoom>
           <h1 className="h1">Sede • Antes que a natureza morra • 2016</h1>

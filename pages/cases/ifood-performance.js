@@ -67,7 +67,7 @@ export default function iFoodDriverPerformance() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3beea10d2362857ded12_ifdp4-p-1600.png"
-            alt=""
+            alt="Screenshots of the old version of the app."
           />
         </Zoom>
       </div>
@@ -98,7 +98,7 @@ export default function iFoodDriverPerformance() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3bef1d116027c3e21f1e_ifdp5-p-1080.png"
-            alt=""
+            alt="One slide from my research deck."
           />
         </Zoom>
         <p className="subtitle-text">
@@ -124,21 +124,21 @@ export default function iFoodDriverPerformance() {
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3befce577162b0ffe865_ifdp1-p-1600.png"
-            alt=""
+            alt="Screenshots of some of the UI"
           />
         </Zoom>
         <Zoom>
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3befc002d47402c019db_ifdp2-p-1600.png"
-            alt=""
+            alt="Screenshots of some of the UI"
           />
         </Zoom>
         <Zoom>
           <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c3befc002d4af17c019dc_ifdp3-p-1600.png"
-            alt=""
+            alt="Screenshots of some of the UI"
           />
         </Zoom>
       </div>

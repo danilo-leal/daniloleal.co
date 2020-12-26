@@ -84,7 +84,7 @@ export default function Rapiddo() {
         <Zoom>
           <img
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5cfd69cf8c397bed6ff9bf_rdd3-p-1080.png"
-            alt=""
+            alt="Slides from the branding deck"
           />
         </Zoom>
       </div>
@@ -166,10 +166,10 @@ export default function Rapiddo() {
       </div>
       <div className="large-container">
         <Zoom>
-          <im
+          <img
             className="img"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5c16b8dfa8cb29f7298101_rdd-p-1600.png"
-            alt=""
+            alt="Screenshots of some of the UI"
           />
         </Zoom>
       </div>
