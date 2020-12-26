@@ -3,12 +3,10 @@ import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/molecules/CaseHeader';
 import ContentCard from '../../components/molecules/ContentCard';
-import Zoom from 'react-medium-image-zoom';
-import 'react-medium-image-zoom/dist/styles.css';
 
 export default function BookReviews() {
   return (
-    <div className="h-full dark:bg-blackish pb-10">
+    <div className="global-wrapper">
       <AppBar goBackTo="/my-world" />
       <div className="default-container">
         <BreadCrumb
@@ -17,7 +15,6 @@ export default function BookReviews() {
           pathNameTwo="My world /"
           goToTwo="/my-world"
           pathNameThree="Book reviews"
-          pathNameFour=""
         />
         <CaseHeader
           title="Book reviews"
