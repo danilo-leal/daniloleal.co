@@ -7,6 +7,7 @@ import JobTimeline from '../components/molecules/JobTimeline';
 import AboutCardInfo from '../components/molecules/AboutCardInfo';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -30,12 +31,17 @@ export default function About() {
       <div className="default-container">
         <AboutCardInfo />
         <Zoom>
-          <img
-            src="https://i.ibb.co/ww7Jt2Q/Screen-Shot-2020-10-04-at-21-47-12.png"
+          <Image
+            src="/images/kid-me.png"
             alt="Me using an iMac G3 back in the day."
             className="img sm:h-96 h-2/4 object-cover"
+            width={800}
+            height={600}
           />
         </Zoom>
+        <p className="subtitle-text">
+          Hope you notice the classic iMac G3 overthere. Lucky little kid.
+        </p>
         <h1 className="h1">First chapters</h1>
         <p className="paragraph-1">
           I guess it all started with mom and dad naming me after some popular
@@ -101,10 +107,12 @@ export default function About() {
         </p>
       </div>
       <div className="large-container">
-        <img
-          className="img"
-          src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5ecb6059650fb5d020eb5d07_7FB731A2-97F1-4028-A2C0-6B2AE3909B3B-p-1600.jpeg"
+        <Image
+          src="/images/cajon.jpeg"
           alt="Me and my beloved Carina and the monumental Cajon del Maipo mountains."
+          className="img"
+          width={800}
+          height={600}
         />
         <p className="subtitle-text sm:p-0 px-4">
           Me and my beloved Carina and the monumental Cajon del Maipo mountains.

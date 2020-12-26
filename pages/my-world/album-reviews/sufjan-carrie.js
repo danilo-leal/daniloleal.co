@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import AppBar from '../../../components/atoms/AppBar';
 import BreadCrumb from '../../../components/atoms/BreadCrumb';
 import Quote from '../../../components/atoms/Quote';
@@ -29,10 +30,12 @@ export default function SufjanCarrieLowell() {
       </div>
       <div className="default-container">
         <Zoom>
-          <img
-            src="https://i.ibb.co/zmw5XgF/Screen-Shot-2020-12-24-at-23-29-11.png"
+          <Image
+            src="/images/ilha-comprida.png"
             alt="Ilha Comprida, 2015 © Danilo Leal"
             className="img"
+            width={800}
+            height={600}
           />
         </Zoom>
         <p className="paragraph-1">
