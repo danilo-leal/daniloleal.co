@@ -18,29 +18,18 @@ export default function BookReviews() {
         />
         <CaseHeader
           title="Book reviews"
-          summary="Those include giving form to other types of expressions. I really like to explore my visual and musical senses by designing and creating pieces that resembles my current state of mind."
+          summary="An exercise for self-remembering a bunch of words I've red."
         />
       </div>
       <div className="large-container">
-        <div className="grid sm:grid-cols-3 gap-6 sm:px-2 p-4">
+        <div>
           <ContentCard
-            cardCover="https://m.media-amazon.com/images/I/41v99rTCYiL.jpg"
-            cardTitle="Ruined by design"
-            cardSubtitle="Mike Monteiro"
-            cardInfo="2014"
-            cardPage="/my-world/album-reviews/pense-alem-daquilo"
-          />
-          <ContentCard
-            cardCover="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzaPLX9hCOo2QGPfMg5QA1679vUpzHgVVCsQ&usqp=CAU"
-            cardTitle="Shape Up"
-            cardSubtitle="Ryan Singer"
-            cardInfo="202020"
-          />
-          <ContentCard
-            cardCover="https://f4.bcbits.com/img/a0465067803_10.jpg"
-            cardTitle="Realidade, vida e fé"
-            cardSubtitle="Pense"
-            cardInfo="2018"
+            cardCover="https://images-na.ssl-images-amazon.com/images/I/51RM71lAzKL.jpg"
+            altImg="Picture of the Good Services book cover"
+            cardTitle="Good Services"
+            cardSubtitle="Lou Downe"
+            cardInfo="2020"
+            cardPage="/my-world/book-reviews/good-services"
           />
         </div>
       </div>

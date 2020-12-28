@@ -5,7 +5,7 @@ import BreadCrumb from '../../../components/atoms/BreadCrumb';
 import Quote from '../../../components/atoms/Quote';
 import CaseHeader from '../../../components/molecules/CaseHeader';
 import Footer from '../../../components/molecules/Footer';
-import FavoriteTrackStrip from '../../../components/molecules/FavoriteTrackStrip';
+import NumberedList from '../../../components/molecules/NumberedList';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
@@ -195,35 +195,35 @@ export default function SufjanCarrieLowell() {
           around these melodies. Hope you liked it and sorry the overall mess!
         </p>
         <h1 className="h1">Favorite tracks</h1>
-        <FavoriteTrackStrip
+        <NumberedList
           order="1"
-          songTtitle="Fourth of July"
-          songLink="https://www.youtube.com/watch?v=JTeKpWp8Psw&list=PL67VKSNJdY_XBvoFECHFKyesxnDhTVM8N&index=6&ab_channel=AsthmaticKittyRecords"
-          songLength="(4.38)"
+          title="Fourth of July"
+          info="(4.38)"
+          link="https://www.youtube.com/watch?v=JTeKpWp8Psw&list=PL67VKSNJdY_XBvoFECHFKyesxnDhTVM8N&index=6&ab_channel=AsthmaticKittyRecords"
         />
-        <FavoriteTrackStrip
+        <NumberedList
           order="2"
-          songTtitle="The Only Thing"
-          songLink="https://www.youtube.com/watch?v=adKEqin5SoI&list=PL67VKSNJdY_XBvoFECHFKyesxnDhTVM8N&index=7&ab_channel=AsthmaticKittyRecords"
-          songLength="(4.41)"
+          title="The Only Thing"
+          info="(4.41)"
+          link="https://www.youtube.com/watch?v=adKEqin5SoI&list=PL67VKSNJdY_XBvoFECHFKyesxnDhTVM8N&index=7&ab_channel=AsthmaticKittyRecords"
         />
-        <FavoriteTrackStrip
+        <NumberedList
           order="3"
-          songTtitle="Eugene"
-          songLink="https://www.youtube.com/watch?v=mMKP2Vcc6wA&list=PL67VKSNJdY_XBvoFECHFKyesxnDhTVM8N&index=5&ab_channel=AsthmaticKittyRecords"
-          songLength="(2.25)"
+          title="Eugene"
+          info="(2.25)"
+          link="https://www.youtube.com/watch?v=mMKP2Vcc6wA&list=PL67VKSNJdY_XBvoFECHFKyesxnDhTVM8N&index=5&ab_channel=AsthmaticKittyRecords"
         />
-        <FavoriteTrackStrip
+        <NumberedList
           order="4"
-          songTtitle="Death With Dignity"
-          songLink="https://www.youtube.com/watch?v=dsGODTySH0E&list=PL67VKSNJdY_XBvoFECHFKyesxnDhTVM8N&index=1&ab_channel=AsthmaticKittyRecords"
-          songLength="(4.00)"
+          title="Death With Dignity"
+          info="(4.00)"
+          link="https://www.youtube.com/watch?v=dsGODTySH0E&list=PL67VKSNJdY_XBvoFECHFKyesxnDhTVM8N&index=1&ab_channel=AsthmaticKittyRecords"
         />
-        <FavoriteTrackStrip
+        <NumberedList
           order="5"
-          songTtitle="John My Beloved"
-          songLink="https://www.youtube.com/watch?v=wVZUBMUekck&list=PL67VKSNJdY_XBvoFECHFKyesxnDhTVM8N&index=9&ab_channel=AsthmaticKittyRecords"
-          songLength="(5.07)"
+          title="John My Beloved"
+          info="(5.07)"
+          link="https://www.youtube.com/watch?v=wVZUBMUekck&list=PL67VKSNJdY_XBvoFECHFKyesxnDhTVM8N&index=9&ab_channel=AsthmaticKittyRecords"
         />
       </div>
       <Footer />

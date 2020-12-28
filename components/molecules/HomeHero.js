@@ -13,7 +13,7 @@ export default function HomeHero() {
         priority
       />
       <h1 className="h1">Pleasure to have you!</h1>
-      <p className="paragraph-1 mb-3">
+      <h2 className="paragraph-1 mb-3">
         My name is
         <span className="font-medium text-gray-900 dark:text-gray-100 mx-1">
           Danilo Leal
@@ -23,7 +23,7 @@ export default function HomeHero() {
         connected - as is everything - to only then figure out how to give it
         some form, so we can experience it. I design to find the right
         direction.
-      </p>
+      </h2>
       <p className="paragraph-1">
         👉 Currently designing products
         <a

@@ -1,7 +1,9 @@
 import '../styles/globals.css';
 import 'tailwindcss/tailwind.css';
-import { ThemeProvider } from 'next-themes';
 import Head from 'next/head';
+import { ThemeProvider } from 'next-themes';
+import { DefaultSeo } from 'next-seo';
+import SEO from '../next-seo.config';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         <meta
           property="og:title"
           name="danilo leal"
-          content="Explorer and designer."
+          content="explorer and designer"
           key="title"
         />
         <link rel="shortcut icon" href="/favicon.svg" />
@@ -22,6 +24,7 @@ function MyApp({ Component, pageProps }) {
           src="https://plausible.io/js/plausible.js"
         ></script>
       </Head>
+      <DefaultSeo {...SEO} />
       <body className="bg-white dark:bg-blackish">
         <Component {...pageProps} />
       </body>
