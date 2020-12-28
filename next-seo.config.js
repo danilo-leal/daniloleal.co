@@ -13,7 +13,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'https://daniloleal.co/public/banner.png',
+        url: 'https://i.ibb.co/gZXxYP2/banner.png',
         alt: title,
         width: 1280,
         height: 720,
