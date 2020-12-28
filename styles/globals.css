@@ -18,6 +18,10 @@ a {
   box-sizing: border-bosx;
 }
 
+input[type='radio'] {
+  display: none;
+}
+
 ::selection {
   background-color: #e57928;
   color: #fefefe;
@@ -65,5 +69,8 @@ a {
   }
   .spacer-default {
     @apply py-5;
+  }
+  .star-rating {
+    @apply stroke-current fill-current text-gray-200 dark:text-gray-700 hover:text-draplin dark:hover:text-draplin transition-all cursor-pointer;
   }
 }

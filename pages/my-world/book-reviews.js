@@ -4,7 +4,7 @@ import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/molecules/CaseHeader';
 import ContentCard from '../../components/molecules/ContentCard';
 
-export default function BookReviews() {
+export default function Sketch() {
   return (
     <div className="global-wrapper">
       <AppBar goBackTo="/my-world" />
