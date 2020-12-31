@@ -121,8 +121,8 @@ export default function Amelia() {
           pessoas que não fazia idéia de quem eram. E ela sempre falava que
           gostaria de ver a pessoa x, que estava na cidade y. Sempre quis
           leva-la, em alguma oportunidade, para que ela encontrasse essas
-          pessoas mas as questões logististicas de ter o carro e tempo, somadas
-          da preocupação de viajar com ela e algo acontecer de saúde, nunca
+          pessoas mas as questões logisticas de ter o carro e tempo, somadas da
+          preocupação de viajar com ela e algo acontecer de saúde, nunca
           permitiram. <br />
           <br />
           Contudo, acredito que minha avó era uma das pessoas que mais sabia
@@ -132,7 +132,7 @@ export default function Amelia() {
           da família ela conhecia e dedicava tempo dos seus pensamentos e
           orações. <br />
           <br />
-          Haviam muitas "pequenas" coisas que ela fazia que eu nunca vou me
+          Havia muitas "pequenas" coisas que ela fazia que eu nunca vou me
           esquecer. Ela mantinha em uma agenda antiga a data de aniversário de
           todos os filhos, netos e bisnetos. Ao longo dos anos ela ia renovando
           a agenda mas a última parou em 2016. Então, desde 2016, ela usa a
