@@ -19,34 +19,9 @@ export default function Thinking() {
         />
         <CaseHeader title="Thinking" summary="" />
         <BlogCallOut
-          date="Feb 9, 2018"
-          title="Deep Work and Your Relationships"
-          path=""
-        />
-        <BlogCallOut
-          date="Feb 9, 2018"
-          title="Deep Work and Your Relationships"
-          path=""
-        />
-        <BlogCallOut
-          date="Feb 9, 2018"
-          title="Deep Work and Your Relationships"
-          path=""
-        />
-        <BlogCallOut
-          date="Feb 9, 2018"
-          title="Deep Work and Your Relationships"
-          path=""
-        />
-        <BlogCallOut
-          date="Feb 9, 2018"
-          title="Deep Work and Your Relationships"
-          path=""
-        />
-        <BlogCallOut
-          date="Feb 9, 2018"
-          title="Deep Work and Your Relationships"
-          path=""
+          date="Dec 29, 2020"
+          title="Amélia"
+          path="/my-world/thinking/amelia"
         />
       </div>
     </div>

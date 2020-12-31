@@ -4,6 +4,7 @@ import BreadCrumb from '../../../components/atoms/BreadCrumb';
 import CaseHeader from '../../../components/molecules/CaseHeader';
 import Footer from '../../../components/molecules/Footer';
 import NumberedList from '../../../components/molecules/NumberedList';
+import Star from '../../../components/atoms/Star';
 
 export default function SufjanCarrieLowell() {
   return (
@@ -21,7 +22,7 @@ export default function SufjanCarrieLowell() {
         />
         <CaseHeader
           title="Good Services"
-          summary="By Lou Downe, released in 2020 • Posted at 24/12/2020"
+          summary="By Lou Downe, released in 2020 • Posted at 27/12/2020"
         />
       </div>
       <div className="default-container">
@@ -67,7 +68,7 @@ export default function SufjanCarrieLowell() {
           user/consumer/client. So, treat them with care and follow these
           principles.
         </p>
-        <h1 className="h1">Oh, the type!</h1>
+        <h2 className="h1">Oh, the type!</h2>
         <p className="paragraph-1">
           Can't talk about this book without mentioning the reading experience
           of holding a book with atypical typography. I guess it's using
@@ -76,7 +77,7 @@ export default function SufjanCarrieLowell() {
           book, there's some kind of posters highlighting some important
           passages.
         </p>
-        <h1 className="h1">The 15 principles</h1>
+        <h2 className="h1">The 15 principles</h2>
         <p className="paragraph-1">
           You can
           <a
@@ -111,12 +112,12 @@ export default function SufjanCarrieLowell() {
         />
         <NumberedList
           order="6"
-          title="Require false prior kfalsewledge to use"
+          title="Require no prior kfalsewledge to use"
           haveLink="false"
         />
         <NumberedList
           order="7"
-          title="Be agfalsestic of organisational structures"
+          title="Be agnostic of organisational structures"
           haveLink="false"
         />
         <NumberedList
@@ -129,11 +130,7 @@ export default function SufjanCarrieLowell() {
           title="Be consistent throughout"
           haveLink="false"
         />
-        <NumberedList
-          order="10"
-          title="Have false dead ends"
-          haveLink="false"
-        />
+        <NumberedList order="10" title="Have no dead ends" haveLink="false" />
         <NumberedList
           order="11"
           title="Be usable by everyone, equally"
@@ -159,6 +156,7 @@ export default function SufjanCarrieLowell() {
           title="Make it easy to get human assistance"
           haveLink="false"
         />
+        <Star />
       </div>
       <Footer />
     </div>

@@ -39,7 +39,7 @@ export default function MyWorld() {
           subjectLogo="/svgs/icon-globe.svg"
           subjectName="Thinking out loud"
           subjectSummary="That's just me ranting and rambling about stuff. My first personal blog in years using the internet. I feel like I'm using it right for the first time."
-          casePath="/coming-soon"
+          casePath="/my-world/thinking"
           linkString="Explore my brain"
         />
         <CallOut
