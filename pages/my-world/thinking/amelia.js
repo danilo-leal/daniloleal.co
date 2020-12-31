@@ -194,7 +194,8 @@ export default function Amelia() {
           um rapaz com quem ela tinha tido um relacionamento breve mas que após
           o término não parou segui-la. Mesmo após ela ter conhecido meu avô,
           esse tal do "sombra" continuava na sombra dela. Até que ela pediu para
-          meu avô dar um apavoro nele. <br />
+          meu avô dar um apavoro nele. Uma história esquisita mas marcante.{' '}
+          <br />
           <br />
           Minha avô era uma mulher extremamente fiel. Poderia atribuir isso a
           sua forte religiosidade mas acredito que é para além disso. Pra mim,
