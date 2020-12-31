@@ -164,7 +164,7 @@ export default function Amelia() {
           esqueci como jogar, que nunca vou esquecer.
           <br />
           <br />
-          Sempre que a havia sentada, fazia massagem no ombro dela e reação era
+          Sempre que a via sentada, fazia massagem no ombro dela e reação era
           sempre a mesma "aí que gostoso". Ela flexibilizava todo o ombro e dava
           uma baita relaxada. Sentava ao lado dela depois e ela sempre agradecia
           falando que eu era um neto muito carinhoso. Acho que ela sempre gostou
