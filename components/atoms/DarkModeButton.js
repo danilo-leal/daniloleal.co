@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useTheme } from 'next-themes';
-import DarkModeToggle from './DarkModeToggle';
 
 export default function DarkModeButton() {
   //old constant defined for the old dark mode toggle function

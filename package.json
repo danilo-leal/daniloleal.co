@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.0.4",
+    "firebase": "^8.2.1",
     "next": "10.0.3",
     "next-seo": "^4.17.0",
     "next-themes": "0.0.10",

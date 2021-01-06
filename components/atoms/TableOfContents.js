@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function TableOfContents(props) {
   return (
-    <div className="xl:visible invisible absolute right-40 h-full pt-20">
-      <div className="sticky top-24 flex flex-col space-y-4">
+    <div className="pt-24 sticky top-12">
+      <div className="flex flex-col space-y-4">
         <p className="text-tiny uppercase tracking-widest font-medium text-gray-700 dark:text-white">
           Table of Contents
         </p>
