@@ -7,7 +7,7 @@ export default function JobTimeline() {
       <div className="z-10 relative">
         <CompanyStrip
           company="Loggi"
-          period="September 2019."
+          period="Since September 2019."
           companySite="https://www.loggi.com/"
         />
         <CompanyStrip

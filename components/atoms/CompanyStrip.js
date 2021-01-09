@@ -34,7 +34,6 @@ export default function CompanyStrip(props) {
           </a>
         </div>
         <p className="text-sm text-gray-400">
-          Since
           <span className="ml-1">{props.period}</span>
         </p>
       </div>
