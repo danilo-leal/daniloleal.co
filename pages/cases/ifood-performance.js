@@ -1,4 +1,5 @@
 import React from 'react';
+import { NextSeo } from 'next-seo';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/molecules/CaseHeader';
@@ -9,6 +10,22 @@ import 'react-medium-image-zoom/dist/styles.css';
 export default function iFoodDriverPerformance() {
   return (
     <div className="global-wrapper">
+      <NextSeo
+        title="driver performance - danilo leal"
+        canonical="https://daniloleal.co/cases/ifood-performance"
+        openGraph={{
+          url: 'https://daniloleal.co/cases/ifood-performance',
+          title: 'driver performance - danilo leal',
+          images: [
+            {
+              url: 'https://i.ibb.co/VS8jpt0/Group-28.png',
+              alt: title,
+              width: 1280,
+              height: 720,
+            },
+          ],
+        }}
+      />
       <AppBar goBackTo="/cases/ifood" />
       <div className="default-container">
         <BreadCrumb

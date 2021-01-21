@@ -1,4 +1,5 @@
 import React from 'react';
+import { NextSeo } from 'next-seo';
 import AppBar from '../components/atoms/AppBar';
 import BreadCrumb from '../components/atoms/BreadCrumb';
 import Footer from '../components/molecules/Footer';
@@ -12,6 +13,22 @@ import Image from 'next/image';
 export default function About() {
   return (
     <div className="global-wrapper">
+      <NextSeo
+        title="about me - danilo leal"
+        canonical="https://daniloleal.co/about"
+        openGraph={{
+          url: 'https://daniloleal.co/about',
+          title: 'about me - danilo leal',
+          images: [
+            {
+              url: 'https://i.ibb.co/zVyDd5Q/about-me.png',
+              alt: title,
+              width: 1280,
+              height: 720,
+            },
+          ],
+        }}
+      />
       <AppBar goBackTo="/" />
       <div className="default-container">
         <BreadCrumb

@@ -1,4 +1,5 @@
 import React from 'react';
+import { NextSeo } from 'next-seo';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/molecules/CaseHeader';
@@ -7,6 +8,22 @@ import ContentCard from '../../components/molecules/ContentCard';
 export default function AlbumReviews() {
   return (
     <div className="h-full dark:bg-blackish pb-10">
+      <NextSeo
+        title="album reviews - danilo leal"
+        canonical="https://daniloleal.co/my-world/album-reviews"
+        openGraph={{
+          url: 'https://daniloleal.co/my-world/album-reviews',
+          title: 'album reviews - danilo leal',
+          images: [
+            {
+              url: 'https://i.ibb.co/dBRKpfv/my-world.png',
+              alt: title,
+              width: 1280,
+              height: 720,
+            },
+          ],
+        }}
+      />
       <AppBar goBackTo="/my-world" />
       <div className="default-container">
         <BreadCrumb

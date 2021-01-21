@@ -1,12 +1,29 @@
 import React from 'react';
+import { NextSeo } from 'next-seo';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/molecules/CaseHeader';
 import ContentCard from '../../components/molecules/ContentCard';
 
-export default function Sketch() {
+export default function BookReviews() {
   return (
     <div className="global-wrapper">
+      <NextSeo
+        title="book reviews - danilo leal"
+        canonical="https://daniloleal.co/my-world/book-reviews"
+        openGraph={{
+          url: 'https://daniloleal.co/my-world/book-reviews',
+          title: 'book reviews - danilo leal',
+          images: [
+            {
+              url: 'https://i.ibb.co/cDK44vj/book-reviews.png',
+              alt: title,
+              width: 1280,
+              height: 720,
+            },
+          ],
+        }}
+      />
       <AppBar goBackTo="/my-world" />
       <div className="default-container">
         <BreadCrumb

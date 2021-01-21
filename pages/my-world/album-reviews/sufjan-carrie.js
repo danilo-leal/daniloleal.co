@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { NextSeo } from 'next-seo';
 import AppBar from '../../../components/atoms/AppBar';
 import BreadCrumb from '../../../components/atoms/BreadCrumb';
 import Quote from '../../../components/atoms/Quote';

@@ -13,7 +13,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'https://i.ibb.co/gZXxYP2/banner.png',
+        url: 'https://i.ibb.co/ygg4vWm/banner.png',
         alt: title,
         width: 1280,
         height: 720,

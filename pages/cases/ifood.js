@@ -1,4 +1,5 @@
 import React from 'react';
+import { NextSeo } from 'next-seo';
 import CaseInfo from '../../components/molecules/CaseInfo';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
@@ -12,6 +13,22 @@ import MainLink from '../../components/atoms/MainLink';
 export default function iFood() {
   return (
     <div className="global-wrapper">
+      <NextSeo
+        title="iFood - danilo leal"
+        canonical="https://daniloleal.co/cases/ifood"
+        openGraph={{
+          url: 'https://daniloleal.co/cases/ifood',
+          title: 'iFood - danilo leal',
+          images: [
+            {
+              url: 'https://i.ibb.co/wCfKY9z/ifood.png',
+              alt: title,
+              width: 1280,
+              height: 720,
+            },
+          ],
+        }}
+      />
       <AppBar goBackTo="/" />
       <div className="default-container">
         <BreadCrumb

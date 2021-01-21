@@ -1,4 +1,5 @@
 import React from 'react';
+import { NextSeo } from 'next-seo';
 import AppBar from '../components/atoms/AppBar';
 import BreadCrumb from '../components/atoms/BreadCrumb';
 import CaseHeader from '../components/molecules/CaseHeader';
@@ -8,6 +9,22 @@ import Footer from '../components/molecules/Footer';
 export default function MyWorld() {
   return (
     <div className="global-wrapper">
+      <NextSeo
+        title="my world - danilo leal"
+        canonical="https://daniloleal.co/my-world"
+        openGraph={{
+          url: 'https://daniloleal.co/my-world',
+          title: 'my world - danilo leal',
+          images: [
+            {
+              url: 'https://i.ibb.co/dBRKpfv/my-world.png',
+              alt: title,
+              width: 1280,
+              height: 720,
+            },
+          ],
+        }}
+      />
       <AppBar goBackTo="/" />
       <div className="default-container">
         <BreadCrumb

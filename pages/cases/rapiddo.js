@@ -1,4 +1,5 @@
 import React from 'react';
+import { NextSeo } from 'next-seo';
 import CaseInfo from '../../components/molecules/CaseInfo';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
@@ -10,6 +11,22 @@ import 'react-medium-image-zoom/dist/styles.css';
 export default function Rapiddo() {
   return (
     <div className="global-wrapper">
+      <NextSeo
+        title="rapiddo entregas - danilo leal"
+        canonical="https://daniloleal.co/cases/rapiddo"
+        openGraph={{
+          url: 'https://daniloleal.co/cases/rapiddo',
+          title: 'rapiddo entregas - danilo leal',
+          images: [
+            {
+              url: 'https://i.ibb.co/frhFQDg/rapiddo.png',
+              alt: title,
+              width: 1280,
+              height: 720,
+            },
+          ],
+        }}
+      />
       <AppBar goBackTo="/" />
       <div className="default-container">
         <BreadCrumb

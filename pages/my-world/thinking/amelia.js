@@ -1,4 +1,5 @@
 import React from 'react';
+import { NextSeo } from 'next-seo';
 import AppBar from '../../../components/atoms/AppBar';
 import BreadCrumb from '../../../components/atoms/BreadCrumb';
 import CaseHeader from '../../../components/molecules/CaseHeader';
@@ -10,6 +11,22 @@ import Quote from '../../../components/atoms/Quote';
 export default function Amelia() {
   return (
     <div className="global-wrapper">
+      <NextSeo
+        title="amélia - danilo leal"
+        canonical="https://daniloleal.co/my-world/thinking/amelia"
+        openGraph={{
+          url: 'https://daniloleal.co/my-world/thinking/amelia',
+          title: 'amélia - danilo leal',
+          images: [
+            {
+              url: 'https://i.ibb.co/wLvSjsx/amelia.png',
+              alt: title,
+              width: 1280,
+              height: 720,
+            },
+          ],
+        }}
+      />
       <AppBar goBackTo="/my-world/thinking" />
       <div className="default-container">
         <BreadCrumb

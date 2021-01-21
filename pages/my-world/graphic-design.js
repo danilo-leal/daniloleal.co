@@ -1,4 +1,5 @@
 import React from 'react';
+import { NextSeo } from 'next-seo';
 import AppBar from '../../components/atoms/AppBar';
 import BreadCrumb from '../../components/atoms/BreadCrumb';
 import CaseHeader from '../../components/molecules/CaseHeader';
@@ -9,6 +10,22 @@ import 'react-medium-image-zoom/dist/styles.css';
 export default function GraphicDesign() {
   return (
     <div className="global-wrapper">
+      <NextSeo
+        title="graphic design - danilo leal"
+        canonical="https://daniloleal.co/my-world/graphic-design"
+        openGraph={{
+          url: 'https://daniloleal.co/my-world/graphic-design',
+          title: 'graphic design - danilo leal',
+          images: [
+            {
+              url: 'https://i.ibb.co/mCbddYk/graphic-design.png',
+              alt: title,
+              width: 1280,
+              height: 720,
+            },
+          ],
+        }}
+      />
       <AppBar goBackTo="/my-world" />
       <div className="default-container">
         <BreadCrumb

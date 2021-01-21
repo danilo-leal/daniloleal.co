@@ -1,10 +1,27 @@
 import React from 'react';
 import AppBar from '../components/atoms/AppBar';
 import Footer from '../components/molecules/Footer';
+import { NextSeo } from 'next-seo';
 
 export default function ComingSoon() {
   return (
     <div className="h-full dark:bg-blackish sm:pb-0 pb-10">
+      <NextSeo
+        title="coming soon - danilo leal"
+        canonical="https://daniloleal.co/coming-soon"
+        openGraph={{
+          url: 'https://daniloleal.co/coming-soon',
+          title: 'coming soon - danilo leal',
+          images: [
+            {
+              url: 'https://i.ibb.co/BVY8pLr/coming-soon.png',
+              alt: title,
+              width: 1280,
+              height: 720,
+            },
+          ],
+        }}
+      />
       <AppBar goBackTo="/my-world" />
       <div className="default-container">
         <div className="h-screen flex flex-col items-center justify-center pb-24">

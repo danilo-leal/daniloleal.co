@@ -6,10 +6,27 @@ import CaseHeader from '../../components/molecules/CaseHeader';
 import Footer from '../../components/molecules/Footer';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import { NextSeo } from 'next-seo';
 
 export default function LiviaPro() {
   return (
     <div className="global-wrapper">
+      <NextSeo
+        title="livia pro - danilo leal"
+        canonical="https://daniloleal.co/cases/livia"
+        openGraph={{
+          url: 'https://daniloleal.co/cases/livia',
+          title: 'livia pro - danilo leal',
+          images: [
+            {
+              url: 'https://i.ibb.co/pWz5jvt/livia-pro.png',
+              alt: title,
+              width: 1280,
+              height: 720,
+            },
+          ],
+        }}
+      />
       <AppBar goBackTo="/" />
       <div className="default-container">
         <BreadCrumb
