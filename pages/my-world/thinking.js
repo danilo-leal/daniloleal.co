@@ -17,7 +17,7 @@ export default function Thinking() {
           images: [
             {
               url: 'https://i.ibb.co/zR5zQ3X/thinking.png',
-              alt: title,
+              alt: 'thinking - danilo leal',
               width: 1280,
               height: 720,
             },

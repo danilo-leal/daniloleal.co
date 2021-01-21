@@ -22,7 +22,7 @@ export default function About() {
           images: [
             {
               url: 'https://i.ibb.co/zVyDd5Q/about-me.png',
-              alt: title,
+              alt: 'about me - danilo leal',
               width: 1280,
               height: 720,
             },

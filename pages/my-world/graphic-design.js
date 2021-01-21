@@ -19,7 +19,7 @@ export default function GraphicDesign() {
           images: [
             {
               url: 'https://i.ibb.co/mCbddYk/graphic-design.png',
-              alt: title,
+              alt: 'graphic design - danilo leal',
               width: 1280,
               height: 720,
             },

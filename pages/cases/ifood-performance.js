@@ -19,7 +19,7 @@ export default function iFoodDriverPerformance() {
           images: [
             {
               url: 'https://i.ibb.co/VS8jpt0/Group-28.png',
-              alt: title,
+              alt: 'driver performance - danilo leal',
               width: 1280,
               height: 720,
             },

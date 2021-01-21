@@ -17,7 +17,7 @@ export default function AlbumReviews() {
           images: [
             {
               url: 'https://i.ibb.co/dBRKpfv/my-world.png',
-              alt: title,
+              alt: 'album reviews - danilo leal',
               width: 1280,
               height: 720,
             },

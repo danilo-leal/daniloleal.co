@@ -17,7 +17,7 @@ export default function BookReviews() {
           images: [
             {
               url: 'https://i.ibb.co/cDK44vj/book-reviews.png',
-              alt: title,
+              alt: 'book reviews - danilo leal',
               width: 1280,
               height: 720,
             },

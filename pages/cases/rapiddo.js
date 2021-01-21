@@ -20,7 +20,7 @@ export default function Rapiddo() {
           images: [
             {
               url: 'https://i.ibb.co/frhFQDg/rapiddo.png',
-              alt: title,
+              alt: 'rapiddo entregas - danilo leal',
               width: 1280,
               height: 720,
             },

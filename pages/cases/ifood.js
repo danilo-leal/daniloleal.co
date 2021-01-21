@@ -22,7 +22,7 @@ export default function iFood() {
           images: [
             {
               url: 'https://i.ibb.co/wCfKY9z/ifood.png',
-              alt: title,
+              alt: 'iFood - danilo leal',
               width: 1280,
               height: 720,
             },

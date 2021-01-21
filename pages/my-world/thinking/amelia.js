@@ -20,7 +20,7 @@ export default function Amelia() {
           images: [
             {
               url: 'https://i.ibb.co/wLvSjsx/amelia.png',
-              alt: title,
+              alt: 'amélia - danilo leal',
               width: 1280,
               height: 720,
             },

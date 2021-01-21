@@ -19,7 +19,7 @@ export default function iFoodDriverOnboarding() {
           images: [
             {
               url: 'https://i.ibb.co/bvvKQwM/driver-onboarding.png',
-              alt: title,
+              alt: 'driver onboarding - danilo leal',
               width: 1280,
               height: 720,
             },
