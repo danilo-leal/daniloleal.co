@@ -22,7 +22,7 @@ export default function SufjanCarrieLowell() {
         />
         <CaseHeader
           title="Good Services"
-          summary="By Lou Downe, released in 2020 • Posted at 27/12/2020"
+          summary="By Lou Downe, released in 2020 • Posted at 21/01/2021"
         />
       </div>
       <div className="default-container">
@@ -156,7 +156,6 @@ export default function SufjanCarrieLowell() {
           title="Make it easy to get human assistance"
           haveLink="false"
         />
-        <Star />
       </div>
       <Footer />
     </div>

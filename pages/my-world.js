@@ -53,7 +53,7 @@ export default function MyWorld() {
           subjectLogo="/svgs/icon-book.svg"
           subjectName="Book reviews"
           subjectSummary="I'm a slow reader. Books are hard to read for me. But I also tend to develop some sort of relationship with the ones that got to me. These really shaped my thinking and my understanding of my place in this world."
-          casePath="/coming-soon"
+          casePath="/my-world/book-reviews"
           linkString="Check em out"
         />
         <h1 className="h1">Music making</h1>
