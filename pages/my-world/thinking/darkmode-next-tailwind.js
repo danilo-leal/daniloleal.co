@@ -8,7 +8,7 @@ import CaseHeader from '../../../components/molecules/CaseHeader';
 
 export default function DarkModeTailwindNext() {
   return (
-    <div className="globalDarkModeTailwindNexter">
+    <div className="global-wrapper">
       <NextSeo
         title="Dark Mode with TailwindCSS and Next.js - danilo leal"
         canonical="https://daniloleal.co/my-world/thinking/darkmode-next-tailwind"
