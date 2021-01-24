@@ -50,7 +50,7 @@ export default function DarkModeTailwindNext() {
           rendering stuff. Because of that, I was having trouble using your
           usual
           <code className="code-inline">local.storage</code>
-          for saving the preferred theme on the browser's cache..
+          for saving the preferred theme on the browser's cache.
           <br />
           <br />I got a little overwhelmed because it seemed like a way much
           harder task, implementing dark mode, than I could've ever hoped for.
@@ -247,9 +247,10 @@ export default function DarkModeButton() {
           When in the dark theme, the sun icon is displayed indicating that,
           when clicking at it, the theme will change to the light one. <br />
           <br />
-          The `mounted` hook is set at false by default, so your website will,
-          at first load, be at the light mode. If you want to change that, just
-          swap it to true instead. You can also change the
+          The <code className="code-inline">mounted</code> hook is set at false
+          by default, so your website will, at first load, be at the light mode.
+          If you want to change that, just swap it to true instead. You can also
+          change the
           <code className="code-inline">{`<path>`}</code> element to display
           different icons if you want it. The first
           <code className="code-inline">{`<path>`}</code> rendered is the icon
@@ -271,8 +272,8 @@ export default function DarkModeButton() {
           <br />
           <br />
           Hope you dig it! I wish I had found some articles like this one when I
-          was freaking out on how to this. There you have it! For the night owls
-          eye health sake, dark mode.
+          was freaking out on how to do this. There you have it! For the night
+          owls eye health sake, dark mode.
         </p>
       </div>
       <Footer />
