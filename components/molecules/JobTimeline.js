@@ -23,7 +23,7 @@ export default function JobTimeline() {
           companySite="https://www.ifood.com.br/"
         />
         <CompanyStrip
-          company="Rapiddo Entegas"
+          company="Rapiddo Entregas"
           period="July 2017 to February 2018."
           currentCompany="false"
           companySite="https://www.linkedin.com/company/rapiddo/about/"

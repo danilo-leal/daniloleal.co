@@ -33,9 +33,7 @@ export default function CompanyStrip(props) {
             </svg>
           </a>
         </div>
-        <p className="text-sm text-gray-400">
-          <span className="ml-1">{props.period}</span>
-        </p>
+        <p className="text-sm text-gray-400">{props.period}</p>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ import BlogCallOut from '../../components/molecules/BlogCallOut';
 
 export default function Thinking() {
   return (
-    <div className="h-full dark:bg-blackish pb-10">
+    <div className="global-wrapper">
       <NextSeo
         title="thinking - danilo leal"
         canonical="https://daniloleal.co/my-world/thinking"
@@ -34,7 +34,10 @@ export default function Thinking() {
           pathNameThree="Thinking"
           pathNameFour=""
         />
-        <CaseHeader title="Thinking" summary="" />
+        <CaseHeader
+          title="Thinking"
+          summary="Food for thought at most. Rambiling for sure!"
+        />
         <BlogCallOut
           date="Jan 24, 2021"
           title="Dark Mode with TailwindCSS and Next.js"

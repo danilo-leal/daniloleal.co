@@ -8,7 +8,7 @@ import CallOut from '../components/molecules/CallOut';
 
 export default function Home() {
   return (
-    <div className="sm:pb-20 pb-16">
+    <div className="global-wrapper">
       <NavBar />
       <div className="max-w-2xl m-auto pt-12 px-5">
         <HomeHero />
