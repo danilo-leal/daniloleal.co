@@ -1,24 +1,24 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
-import AppBar from '../components/atoms/AppBar';
-import Footer from '../components/molecules/Footer';
-import BreadCrumb from '../components/atoms/BreadCrumb';
-import Code from '../components/atoms/Code';
-import CaseHeader from '../components/molecules/CaseHeader';
+import AppBar from '../../../components/atoms/AppBar';
+import Footer from '../../../components/molecules/Footer';
+import BreadCrumb from '../../../components/atoms/BreadCrumb';
+import Code from '../../../components/atoms/Code';
+import CaseHeader from '../../../components/molecules/CaseHeader';
 
-export default function Sketch() {
+export default function DarkModeTailwindNext() {
   return (
-    <div className="global-wrapper">
+    <div className="globalDarkModeTailwindNexter">
       <NextSeo
-        title="good services - danilo leal"
-        canonical="https://daniloleal.co/my-world/book-reviews/good-services"
+        title="Dark Mode with TailwindCSS and Next.js - danilo leal"
+        canonical="https://daniloleal.co/my-world/thinking/darkmode-next-tailwind"
         openGraph={{
-          url: 'https://daniloleal.co/my-world/book-reviews/good-services',
-          title: 'good services - danilo leal',
+          url: 'https://daniloleal.co/my-world/thinking/darkmode-next-tailwind',
+          title: 'Dark Mode with TailwindCSS and Next.js - danilo leal',
           images: [
             {
-              url: 'https://i.ibb.co/brK5F1k/good-services.png',
-              alt: 'good services - danilo leal',
+              url: 'https://i.ibb.co/1zFkP1R/darkmode.png"',
+              alt: 'Dark Mode with TailwindCSS and Next.js - danilo leal',
               width: 1280,
               height: 720,
             },
@@ -134,8 +134,8 @@ export default function DarkModeButton() {
 }`}
           language="javascript"
         />
-        Now we're going to add two React Hooks. One for changing the theme
         <p className="paragraph-1">
+          Now we're going to add two React Hooks. One for changing the theme
           itself, in charge for toggling between classes, and another for
           changing the icon displayed at the button whenever the light or dark
           theme is on. We're also going to use a Hook provided by the next-theme
@@ -279,5 +279,3 @@ export default function DarkModeButton() {
     </div>
   );
 }
-
-// className="grid sm:grid-cols-2 gap-6 sm:px-2 p-4"

@@ -36,6 +36,11 @@ export default function Thinking() {
         />
         <CaseHeader title="Thinking" summary="" />
         <BlogCallOut
+          date="Jan 24, 2021"
+          title="Dark Mode with TailwindCSS and Next.js"
+          path="/my-world/thinking/darkmode-next-tailwind"
+        />
+        <BlogCallOut
           date="Dec 29, 2020"
           title="Amélia"
           path="/my-world/thinking/amelia"
