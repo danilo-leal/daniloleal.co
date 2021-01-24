@@ -26,7 +26,7 @@ export default function GoodServices() {
           ],
         }}
       />
-      <AppBar goBackTo="/my-world/album-reviews" />
+      <AppBar goBackTo="/my-world/book-reviews" />
       <div className="default-container">
         <BreadCrumb
           pathNameOne="Home /"

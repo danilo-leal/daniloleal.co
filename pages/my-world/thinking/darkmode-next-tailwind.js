@@ -25,7 +25,7 @@ export default function DarkModeTailwindNext() {
           ],
         }}
       />
-      <AppBar goBackTo="/my-world/album-reviews" />
+      <AppBar goBackTo="/my-world/thinking" />
       <div className="default-container">
         <BreadCrumb
           pathNameOne="Home /"
