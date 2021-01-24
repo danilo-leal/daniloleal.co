@@ -44,17 +44,17 @@ export default function DarkModeTailwindNext() {
       <div className="default-container">
         <p className="paragraph-1">
           This quick little piece is to teach you how to implement in a very
-          stream-lined fashion dark mode in your website using TailwindCSS and
+          streamlined fashion dark mode on your website using TailwindCSS and
           Next.js. Before getting it down, I was battling my brain out at trying
-          to setup this. Specially with Next.js and all this server side
+          to set up this. Especially with Next.js and all this server-side
           rendering stuff. Because of that, I was having trouble using your
           usual
           <code className="code-inline">local.storage</code>
-          for saving the preffered theme on the browsers cache.
+          for saving the preferred theme on the browser's cache..
           <br />
           <br />I got a little overwhelmed because it seemed like a way much
           harder task, implementing dark mode, than I could've ever hoped for.
-          But after researching all artciles around and asking for help late at
+          But after researching all articles around and asking for help late at
           night to my dev friends, I got to a very, very, simple setup using
           these two frameworks.
         </p>
@@ -136,7 +136,7 @@ export default function DarkModeButton() {
         />
         <p className="paragraph-1">
           Now we're going to add two React Hooks. One for changing the theme
-          itself, in charge for toggling between classes, and another for
+          itself, in charge of toggling between classes, and another for
           changing the icon displayed at the button whenever the light or dark
           theme is on. We're also going to use a Hook provided by the next-theme
           library. Don't forget to import these!
@@ -256,21 +256,21 @@ export default function DarkModeButton() {
           displayed when in the dark mode. <br />
           <br />
           This implementation also avoids a common issue with dark mode that is
-          the falshy-ness. This is a simple but yet elegant way of doing it.
-          Tailwind also makes a lot easier for us to control how we want each
+          the flashy-ness. This is a simple but yet elegant way of doing it.
+          Tailwind also makes it a lot easier for us to control how we want each
           element to look like in a given theme. Instead of deciding to which
           color, say your light gray color, goes to everytime when the theme is
-          dark, you can pin point in the exact component how it will render.
+          dark, you can pinpoint in the exact component how it will render.
           <br />
           <br />
-          This is speacially important since it dark mode isn't only getting
+          This is espeacially important since its dark mode isn't only getting
           colors to the opposite side of the light spectrum. Great dark mode
           implementations preserve the interface depth, still displaying how
           components, elements and sections relate to each other in the desired
           hierarchy.
           <br />
           <br />
-          Hope you dig it! I wish I had found some article like this one when I
+          Hope you dig it! I wish I had found some articles like this one when I
           was freaking out on how to this. There you have it! For the night owls
           eye health sake, dark mode.
         </p>
