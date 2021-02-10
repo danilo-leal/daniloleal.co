@@ -5,6 +5,10 @@ import BreadCrumb from '../components/atoms/BreadCrumb';
 import CaseHeader from '../components/molecules/CaseHeader';
 import CallOut from '../components/molecules/CallOut';
 import Footer from '../components/molecules/Footer';
+import Image from 'next/image';
+import MainLink from '../components/atoms/MainLink';
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 
 export default function MyWorld() {
   return (
@@ -37,6 +41,48 @@ export default function MyWorld() {
           title="My world"
           summary="This is what cool tech kids call digital garden. It's a place for my creations to live, a safe outlet for expressing myself. Here's home in the internet."
         />
+        <div className="pb-8">
+          <div className="p-8 bg-gray-100 dark:bg-black rounded-md sm:grid sm:grid-cols-3 sm:gap-8 sm:items-center sm:justify-items-center">
+            <div className="sm:mb-0 mb-4">
+              <Zoom>
+                <Image
+                  src="/images/sede1000.png"
+                  alt="Me using an iMac G3 back in the day."
+                  className="rounded-md object-fit"
+                  width={300}
+                  height={300}
+                  priority
+                />
+              </Zoom>
+            </div>
+            <div className="col-span-2 flex flex-col space-y-2">
+              <p className="text-tiny uppercase tracking-wide font-semibold text-green-500">
+                New album release
+              </p>
+              <div className="flex flex-col space-y-3">
+                <div className="flex flex-col space-y-1">
+                  <h1 className="text-gray-700 dark:text-gray-500">
+                    <span className="font-medium mr-1 text-gray-900 dark:text-white">
+                      Quietest Friend
+                    </span>
+                    by sede
+                  </h1>
+                  <p className="paragraph-1">
+                    It's been 4 years since I started sede, my instrumental
+                    one-man-band project. Just finished recording the second and
+                    latest album, called Quietest Friend. My best work so far
+                    for sure. Take it for a spin!
+                  </p>
+                </div>
+                <MainLink
+                  string="Hear it on Bandcamp"
+                  path="https://sede.bandcamp.com/album/quietest-friend"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
         <h1 className="h1">Design related</h1>
         <CallOut
           subjectLogo="/svgs/icon-image.svg"
@@ -76,16 +122,16 @@ export default function MyWorld() {
         <h1 className="h1">Music making</h1>
         <CallOut
           subjectLogo="/svgs/icon-volume.svg"
-          subjectName="Flora Park"
-          subjectSummary="Dream band. This one is with some of my most special friends, where we dream together of being a hardcore/pop-punk band. We self produced and recorded our first album in 2017, called Chutando Nuvens. Or in english: Cloud Kicking."
-          casePath="http://bandaflorapark.bandcamp.com/album/chutando-nuvens"
+          subjectName="Sede"
+          subjectSummary="This is my main music project. One man band type of stuff. I write, record and produce most songs in a minimal/simple gear set up. I've released by now two albums. Take a listen!"
+          casePath="https://sede.bandcamp.com/album/quietest-friend"
           linkString="Hear the album"
         />
         <CallOut
           subjectLogo="/svgs/icon-volume.svg"
-          subjectName="Sede"
-          subjectSummary="This is my main music project. One man band type of stuff. I write, record and produce most songs in a minimal gear set up. In 2017, I released and compiled my first full length record called: Antes que a natureza morra. Or in english: Before nature dies."
-          casePath="http://sede.bandcamp.com/album/antes-que-a-natureza-morra"
+          subjectName="Flora Park"
+          subjectSummary="Dream band. This one is with some of my most special friends, where we dream together of being a hardcore/pop-punk band. We self produced and recorded our first album in 2017, called Chutando Nuvens. Or in english: Cloud Kicking."
+          casePath="http://bandaflorapark.bandcamp.com/album/chutando-nuvens"
           linkString="Hear the album"
         />
       </div>

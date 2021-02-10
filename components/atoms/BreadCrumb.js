@@ -1,6 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
-
 export default function BreadCrumb(props) {
   return (
     <div className="pt-20 pb-1 inline-flex overflow-x-auto space-x-2">
