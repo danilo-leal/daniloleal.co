@@ -19,6 +19,7 @@
     "react-dom": "17.0.1",
     "react-icons": "^4.1.0",
     "react-medium-image-zoom": "^4.3.1",
+    "react-progressbar-on-scroll": "^1.1.0",
     "tailwindcss": "^2.0.1"
   }
 }

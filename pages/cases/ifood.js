@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { NextSeo } from 'next-seo';
 import CaseInfo from '../../components/molecules/CaseInfo';
 import AppBar from '../../components/atoms/AppBar';
@@ -8,7 +8,6 @@ import DeepCards from '../../components/molecules/DeepCards';
 import Footer from '../../components/molecules/Footer';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
-import MainLink from '../../components/atoms/MainLink';
 
 export default function iFood() {
   return (
@@ -74,7 +73,7 @@ export default function iFood() {
           detailed articles going through two specific features I've worked on
           that I'm very proud of. Don't forget to peek at those!
         </p>
-        <div className="flex flex-col space-y-4">
+        <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">
           <DeepCards
             title="Driver Performance"
             description="Structuring view for drivers to measure their performances."
@@ -87,6 +86,18 @@ export default function iFood() {
             pathDeep="/cases/ifood-onboarding"
             deepLinkString="Go deep"
           />
+        </div>
+        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
+          <div>
+            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
+              Part 1
+            </p>
+            <p className="text-tiny uppercase tracking-wide font-medium text-draplin">
+              Company context
+            </p>
+          </div>
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
         </div>
         <h1 className="h1">Starting out</h1>
         <p className="paragraph-1">
@@ -169,6 +180,18 @@ export default function iFood() {
             alt="Screenshot of what Google Play looked like."
           />
         </Zoom>
+        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
+          <div>
+            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
+              Part 2
+            </p>
+            <p className="text-tiny uppercase tracking-wide font-medium text-draplin">
+              Product Development
+            </p>
+          </div>
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
+        </div>
         <h1 className="h1">Redesigning all the things</h1>
         <p className="paragraph-1">
           You must be tired of reading designers redesigning stuff. But
@@ -275,6 +298,29 @@ export default function iFood() {
           product that got metrics a lot up, drivers happier and the management
           of our system more in place.
         </p>
+        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
+          <div>
+            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
+              Part 3
+            </p>
+            <p className="text-tiny uppercase tracking-wide font-medium text-draplin">
+              Design work
+            </p>
+          </div>
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
+        </div>
+        <h1 className="h1">Some designs</h1>
+        <h2 className="h2">Driver's cockpit and navigation</h2>
+        <p className="paragraph-1">
+          We introduced a well-established UI pattern using the bottom
+          navigation, where we'd display the foundational environments of the
+          app when the driver wasn't on the route. The home, or the driver
+          cockpit, as we'd call it sometimes, was where drivers would land most
+          frequently, checking their performances, checking the map out for
+          surge pricing, setting themselves on or off of work, and changing
+          vehicles by which they'd be making deliveries.
+        </p>
       </div>
       <div className="large-container">
         <Zoom>
@@ -284,6 +330,18 @@ export default function iFood() {
             alt="Screenshots of some UIs of the app"
           />
         </Zoom>
+      </div>
+      <div className="default-container">
+        <h2 className="h2">Delivery journey</h2>
+        <p className="paragraph-1">
+          This undoubtedly was the core flow of the product, so we put lots of
+          effort into making a worthy offer UI, providing essential information
+          for whether accept or not a route offer. When onto some delivery, the
+          driver needed to provide check-ins and check-outs of the waypoints. We
+          designed a miss-click-free interaction for this structural action.
+        </p>
+      </div>
+      <div className="large-container">
         <Zoom>
           <img
             className="img"
@@ -291,6 +349,21 @@ export default function iFood() {
             alt="Screenshots of some UIs of the app"
           />
         </Zoom>
+      </div>
+      <div className="default-container">
+        <h2 className="h2">Much more</h2>
+        <p className="paragraph-1">
+          The driver app was filled with screens and communication. It was a
+          simple yet complex product. In the background, lots of stuff were
+          running to secure a safe delivery, free of fraud and at the same time,
+          easily explained to new-comers. We had a whole bunch of new drivers
+          popping in week over week. Our main goal was to make the most
+          auto-explanatory possible. Everything you needed to know as a driver
+          would be easily accessed within the app experience.
+        </p>
+      </div>
+
+      <div className="large-container">
         <Zoom>
           <img
             className="img"

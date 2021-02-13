@@ -1,5 +1,6 @@
 import React from 'react';
 import DarkModeButton from './DarkModeButton';
+import ProgressBar from 'react-progressbar-on-scroll';
 
 export default function AppBar(props) {
   return (
@@ -31,6 +32,13 @@ export default function AppBar(props) {
           <DarkModeButton />
         </div>
       </nav>
+      <ProgressBar
+        color="#e57928"
+        height={3}
+        direction="right"
+        position="bottom"
+        gradient={false}
+      />
     </div>
   );
 }
