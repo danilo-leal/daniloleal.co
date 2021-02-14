@@ -129,7 +129,7 @@ export default function GoodServices() {
         />
         <NumberedList
           order="6"
-          title="Require no prior kfalsewledge to use"
+          title="Require no prior knowledge to use"
           haveLink="false"
         />
         <NumberedList

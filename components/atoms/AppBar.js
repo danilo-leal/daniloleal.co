@@ -9,7 +9,7 @@ export default function AppBar(props) {
         <button
           aria-label="Back button"
           type="button"
-          className="p-2 rounded-lg transition-colors hover:bg-gray-100 dark:hover:bg-black "
+          className="p-2 rounded-full transition-colors hover:bg-gray-100 dark:hover:bg-black "
         >
           <a href={props.goBackTo}>
             <svg

@@ -47,7 +47,7 @@ export default function ComingSoon() {
           </svg>
           <h1 className="h1">Content coming soon!</h1>
           <p className="paragraph-1 text-center max-w-md">
-            Hey! Glad you've reached here. I'll understand as interest in the
+            Hey! Glad you've reached here. I'll understand it as interest in the
             mess that is my mind. I hope to see you return whenever I start
             writing my thoughts out.
           </p>

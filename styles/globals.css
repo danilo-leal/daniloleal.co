@@ -57,7 +57,7 @@ input[type='radio'] {
     @apply text-gray-900 dark:text-white;
   }
   .paragraph-1 {
-    @apply text-gray-500 text-sm dark:text-gray-400 leading-relaxed;
+    @apply text-gray-500 text-regular dark:text-gray-400 leading-relaxed;
   }
   .subtitle-text {
     @apply text-sm text-gray-400 dark:text-gray-500;
@@ -70,6 +70,9 @@ input[type='radio'] {
   }
   .img {
     @apply block w-full sm:rounded-md rounded-sm sm:mb-4 mb-2;
+  }
+  .img-subtitle {
+    @apply block w-full sm:rounded-md rounded-sm sm:mb-1 mb-2;
   }
   .spacer-default {
     @apply py-5;

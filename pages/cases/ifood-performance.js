@@ -39,38 +39,50 @@ export default function iFoodDriverPerformance() {
           title="Driver Performance"
           summary="In-depth view for a more detailed way of looking at delivery driver performance."
         />
+        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
+          <div>
+            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
+              Part 1
+            </p>
+            <p className="text-code uppercase tracking-wide font-medium text-draplin">
+              General context
+            </p>
+          </div>
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
+        </div>
         <h1 className="h1">What's about</h1>
         <p className="paragraph-1">
           Most people when performing anything would like to know how they're
-          doing it. This is special for operational processes that includes so
+          doing it. This is special for operational processes that include so
           many aspects of efficiency and quality. Drivers, in the iFood fleet,
           craved since the early days of the product for more in-depth
           visualizations of their performance. That included not only the
-          operational side but the financial too. And the latter is actually,
-          kinda, the main point here.
+          operational side but the financial too. And the latter is, kinda, the
+          main point here.
           <br />
           <br />
-          Gig economy is tough. It's far from easy. Despite getting to be a part
-          of several players, the individual has a hard task of compiling
+          The gig economy is tough. It's far from easy. Despite getting to be a
+          part of several players, the individual has a hard task of compiling
           results and checking what role in specific is serving them at best. My
-          main goal tackling visualizations of driver performance was helping
-          that task. I wanted to breakdown in a much broader detailed way how
+          main goal in tackling visualizations of driver performance was helping
+          that task. I wanted to a breakdown in a much broader detailed way how
           one driver was performing in our platform. That also went hand in hand
           with a product principle set of transparency. The lack of, therefore,
           caused a growing feeling of vulnerability, the sense of exploitation
           and confusion. We wanted to go away from all these by providing clear
-          information, presented in an organised way.
+          information, presented in an organized way.
         </p>
-        <h1 className="h1">Impact in the ecosystem</h1>
+        <h1 className="h1">Impact on the ecosystem</h1>
         <p className="paragraph-1">
-          Of course we entered most Facebook groups of drivers. Frequently, we'd
-          see posts arguing and complaining about iFood stealing money from
+          Of course, we entered most Facebook groups of drivers. Frequently,
+          we'd see posts arguing and complaining about iFood stealing money from
           them, questioning when we'd pay them their delivery fees and if it was
-          making sense riding for iFood at all, since it was confusing to know
+          making sense riding for iFood at all since it was confusing to know
           how much they've gained from it. All this unhappiness had a big toll
-          in our CX team, in multiple channels. By the time of the research, we
-          had about 4k tickets opened with perfomance related questions and
-          somewhere about 500 comments in Google Play raising the issue up.{' '}
+          on our CX team, in multiple channels. By the time of the research, we
+          had about 4k tickets opened with performance related questions and
+          somewhere about 500 comments in Google Play raising the issue.
           <br />
           <br />
           And that was very rightful so. Below, I'm attaching some UIs from what
@@ -89,27 +101,49 @@ export default function iFoodDriverPerformance() {
         </Zoom>
       </div>
       <div className="default-container">
+        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
+          <div>
+            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
+              Part 2
+            </p>
+            <p className="text-code uppercase tracking-wide font-medium text-draplin">
+              Feature development
+            </p>
+          </div>
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
+        </div>
+        <div className="rounded-lg p-8 border border-solid border-gray-200 dark:border-gray-800 ">
+          <p className="text-tiny text-center uppercase font-semibold tracking-wider text-gray-500 mb-2">
+            The problem
+          </p>
+          <p className="paragraph-1 text-center">
+            Drivers were frequently confused as to when would they receive their
+            money. Most of them liked to plan their weekly goals but didn't have
+            a proper tool to do that.
+          </p>
+        </div>
         <h1 className="h1">Getting context</h1>
         <p className="paragraph-1">
-          In order to have more buy-in of the initiative, I surveyed about 3,5k
-          drivers in our data base. The main goal here was to understand more
-          about their relationship with money and financial organisation. We
-          also wanted to learn more about how they related to features we
-          already had, even though they were still very raw. <br />
+          To have more buy-in of the initiative, I surveyed about 3,5k drivers
+          in our database. The main goal here was to understand more about their
+          relationship with money and financial organization. We also wanted to
+          learn more about how they related to features we already had, even
+          though they were still very raw. <br />
           <br />
           Drivers are usually very simple people with structural needs. We
           observed that clearly in the survey seeing how most of their spendings
-          were in basic stuff, like rent, food, children and, of course, their
+          were on basic stuff, like rent, food, children, and, of course, their
           work tools. This paints the picture of how important is money to them
-          and how proper tools for organising different streams of it would be
+          and how proper tools for organizing different streams of it would be
           very helpful. <br />
           <br />
           We also went for learning when the information is actually scanned
-          through. Do they analyse their performance between one order and the
+          through. Do they analyze their performance between one order and the
           other? Do they, before bed, go and check how were their days? Do they
-          compile a month worth of riding in some kind of tool like Google
-          Sheets or Excel? All this set us stage to how to place stuff in the UI
-          and the level of depth we should add to the navigation.
+          compile a month worth of riding in some kind of tools like Google
+          Sheets or Excel? All this set our stage for how to place stuff in the
+          UI and the level of depth we should add to the navigation.
         </p>
         <Zoom>
           <img
@@ -126,14 +160,14 @@ export default function iFoodDriverPerformance() {
         <p className="paragraph-1">
           Gathering information seems kinda tricky in most systems with complex
           architecture. This was no different. We had challenging tasks for
-          arranging all sets of performance data together in order to show them
-          to the user. I left iFood little before the rollout of the first
-          version of this epic. I'm happy that to this day, the team there
-          continues to evolve this goal and less because it's something I
-          started when I was in the team and more because drivers really need
-          and will benefit a whole lot from it. It's no easy job riding on all
-          day long. Not at all. And I'm proud to have had the opportunity to
-          provide some sort of tool for making it easier.
+          arranging all sets of performance data together to show them to the
+          user. I left iFood a little before the rollout of the first version of
+          this epic. I'm happy that to this day, the team there continues to
+          evolve this goal and less because it's something I started when I was
+          in the team and more. After all, drivers need and will benefit a whole
+          lot from it. It's no easy job riding on all day long. Not at all. And
+          I'm proud to have had the opportunity to provide some sort of tool for
+          making it easier.
         </p>
       </div>
       <div className="large-container">

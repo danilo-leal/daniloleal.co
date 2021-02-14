@@ -9,6 +9,7 @@ module.exports = {
       fontSize: {
         tiny: '10px',
         code: '12px',
+        regular: '14px',
       },
       colors: {
         black: '#131319',

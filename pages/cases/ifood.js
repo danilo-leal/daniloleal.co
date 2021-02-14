@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { NextSeo } from 'next-seo';
 import CaseInfo from '../../components/molecules/CaseInfo';
 import AppBar from '../../components/atoms/AppBar';
@@ -93,7 +93,7 @@ export default function iFood() {
             <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
               Part 1
             </p>
-            <p className="text-tiny uppercase tracking-wide font-medium text-draplin">
+            <p className="text-code uppercase tracking-wide font-medium text-draplin">
               Company context
             </p>
           </div>
@@ -118,7 +118,7 @@ export default function iFood() {
         </p>
         <Zoom>
           <img
-            className="img"
+            className="img-subtitle"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5f5ac50df80de5a1a5d478f2_IMG_2922-min-p-1080.jpeg"
             alt="iFood's early office."
           />
@@ -186,7 +186,7 @@ export default function iFood() {
             <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
               Part 2
             </p>
-            <p className="text-tiny uppercase tracking-wide font-medium text-draplin">
+            <p className="text-code uppercase tracking-wide font-medium text-draplin">
               Product Development
             </p>
           </div>
@@ -204,12 +204,23 @@ export default function iFood() {
           there to learn more about their work and needs. That, alongside the
           studies of the early days, gave me proper confidence to reach for a
           redesign as a main Tribe business goal at the last cycle of 2018.
-          <br />
-          <br />
-          And we got it. iFood had just got the biggest series of investments
-          yet and a good amount went for the Logistics Tribe. By then, we were
-          now a small lovely official team around the app, composed of myself as
-          a sole designer, a Product Manager, 2 Android developers and 2 Backend
+        </p>
+        <div className="rounded-lg p-8 border border-solid border-gray-200 dark:border-gray-800 ">
+          <p className="text-tiny text-center uppercase font-semibold tracking-wider text-gray-500 mb-2">
+            The problem
+          </p>
+          <p className="paragraph-1 text-center">
+            This was because the problem at hand was transforming the DriverApp
+            into something desirable, by the fleet. Not only something needed to
+            put together a Logistics operation. But something delightful and
+            useful in the drivers' lives.
+          </p>
+        </div>
+        <p className="paragraph-1">
+          iFood had just got the biggest series of investments yet and a good
+          amount went for the Logistics Tribe. By then, we were now a small
+          lovely official team around the app, composed of myself as a sole
+          designer, a Product Manager, 2 Android developers and 2 Backend
           developers. The goal we set up for ourselves was to launch a brand new
           driver experience in 2 months. Parallel to that, we had to support the
           ongoing and growing operation. So, as you'd imagine, it was a rough
@@ -222,9 +233,10 @@ export default function iFood() {
           My iterations by then needed to be transformed into actual product
           strategy.
         </p>
+
         <Zoom>
           <img
-            className="img"
+            className="img-subtitle"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd8165b8bedbbeab3bd49_ifood-4-p-1080.jpeg"
             alt="Bunch of Sketch artboards screenshot."
           />
@@ -252,7 +264,7 @@ export default function iFood() {
         </p>
         <Zoom>
           <img
-            className="img"
+            className="img-subtitle"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2dd81686f417702524af8e_ifood-3-p-1080.jpeg"
             alt="Post its on a table."
           />
@@ -262,7 +274,7 @@ export default function iFood() {
         </p>
         <Zoom>
           <img
-            className="img"
+            className="img-subtitle"
             src="https://uploads-ssl.webflow.com/5e2d8f512ca1f737770efb0e/5e2da0815b8bedd0ceb1108d_ifood-img-4.png"
             alt="Me talking to some drivers."
           />
@@ -304,13 +316,12 @@ export default function iFood() {
             <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
               Part 3
             </p>
-            <p className="text-tiny uppercase tracking-wide font-medium text-draplin">
-              Design work
+            <p className="text-code uppercase tracking-wide font-medium text-draplin">
+              Inside the designs
             </p>
           </div>
           <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
         </div>
-        <h1 className="h1">Some designs</h1>
         <h2 className="h2">Driver's cockpit and navigation</h2>
         <p className="paragraph-1">
           We introduced a well-established UI pattern using the bottom
@@ -349,6 +360,15 @@ export default function iFood() {
             alt="Screenshots of some UIs of the app"
           />
         </Zoom>
+        <div className="pb-6">
+          <video
+            src="/videos/route.mov"
+            className="img"
+            preload="auto"
+            playsinline
+            controls
+          ></video>
+        </div>
       </div>
       <div className="default-container">
         <h2 className="h2">Much more</h2>
@@ -371,6 +391,126 @@ export default function iFood() {
             alt="Screenshots of some UIs of the app"
           />
         </Zoom>
+        <div className="pb-6">
+          <video
+            src="/videos/suporte.mov"
+            className="img"
+            preload="auto"
+            playsinline
+            controls
+            autoplay
+          ></video>
+        </div>
+      </div>
+      <div className="default-container">
+        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
+          <div>
+            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
+              Part 4
+            </p>
+            <p className="text-code uppercase tracking-wide font-medium text-draplin">
+              Results
+            </p>
+          </div>
+          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
+        </div>
+
+        <p className="paragraph-1">
+          A needed warning is that it is hard to say these results were only the
+          product of my team's work-force. There were times that several teams
+          would run with different tactics towards the same goal. But I can
+          pinpoint some of the results I gathered in two main categories:
+          measurables and non-measurables.
+        </p>
+        <h1 className="h1">Measurable results</h1>
+        <h2 className="h2">
+          <span className="font-medium line-through text-gray-600 mr-1">
+            2.3
+          </span>
+          to
+          <span className="font-bold text-green-500 ml-1 mr-1">3.5</span>
+          rating score at Google Play
+        </h2>
+        <p className="paragraph-1">
+          This can seem too little but it is a huge improvement. Drivers heavily
+          use the Play Store as a channel for complaints. To get this score
+          increasing, complaints needed to be down, and praises needed to be
+          more frequent. And we did it in a very short time-frame. It was after
+          3 months of the new app launch that we saw these figures increase.
+        </p>
+        <h2 className="h2">
+          <span className="font-medium line-through text-gray-600 mr-1">
+            8k
+          </span>
+          to
+          <span className="font-bold text-green-500 ml-1 mr-1">90k</span>
+          active drivers
+        </h2>
+        <p className="paragraph-1">
+          The onboarding flow we designed cleared the way for this to happen.
+          The numbers are forever growing, and I'm sure it is way higher than
+          that by now. But again, we noticed this increase in little time.
+          Simple and effective onboarding flow, driver wise, operation wise,
+          made this possible.
+        </p>
+        <h2 className="h2">
+          <span className="font-medium line-through text-gray-600 mr-1">
+            15%
+          </span>
+          to
+          <span className="font-bold text-green-500 ml-1 mr-1">28%</span>
+          of Logistics share in the whole Market Place
+        </h2>
+        <p className="paragraph-1">
+          A main signal of the Logistics tribe success was how much share it had
+          in comparison to the main market place model. That bump was another
+          natural reflection of a growing fleet, amplified and more delightful
+          experience to drivers.
+        </p>
+        <h1 className="h1">Non-measurable results</h1>
+        <h2 className="h2">Depth</h2>
+        <p className="paragraph-1">
+          We became verified references company-wide when it came down to
+          drivers. We got to know them and the Logistics operation as a whole
+          down to each detail. That built a lot of trust and confidence in our
+          work. We also became more assertive when it came to launching product
+          features.
+        </p>
+        <h2 className="h2">Engagement</h2>
+        <p className="paragraph-1">
+          Frequently, we would mobilize a lot of teams to align and launch
+          stuff. I think we here successful in engaging different teams, with
+          different contexts and goals, to reach a certain outcome, focused on
+          the driver.
+        </p>
+      </div>
+      <div className="large-container">
+        <Zoom>
+          <img
+            className="img-subtitle"
+            src="/images/ifood-emicida.jpg"
+            alt="Bunch of drivers sitting together."
+          />
+        </Zoom>
+        <p className="subtitle-text">
+          Cool event iFood threw for Drivers back in October 2018. We had
+          <a
+            href="https://i.ibb.co/0MtnHb9/2021-02-13-083421273.jpg"
+            className="inline-link"
+          >
+            Emicida writing a custom song
+          </a>
+          for this PR. Memorable day. Took this tight pic :)
+        </p>
+        <Zoom>
+          <img
+            className="img-subtitle"
+            src="/images/ifood-crew.jpg"
+            alt="iFood Driver Team"
+          />
+        </Zoom>
+        <p className="subtitle-text">The crew in parking lot hangs :)</p>
       </div>
       <Footer />
     </div>
