@@ -76,8 +76,8 @@ export default function MyWorld() {
                 </p>
               </div>
               <MainLink
-                string="Hear it on Bandcamp"
-                path="https://sede.bandcamp.com/album/quietest-friend"
+                string="Hear it on Spotify"
+                path="https://open.spotify.com/album/6GPf7H9TUlJ5U7MneoLBub?si=cC1Z0iGlSkSi62j9RzO1Pw"
               />
             </div>
           </div>
