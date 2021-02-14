@@ -44,7 +44,7 @@ export default function DarkModeTailwindNext() {
       <div className="default-container">
         <p className="paragraph-1">
           This quick little piece is to teach you how to implement in a very
-          streamlined fashion dark mode on your website using TailwindCSS and
+          streamlined fashion dark mode in your website using TailwindCSS and
           Next.js. Before getting it down, I was battling my brain out at trying
           to set up this. Especially with Next.js and all this server-side
           rendering stuff. Because of that, I was having trouble using your
@@ -53,9 +53,9 @@ export default function DarkModeTailwindNext() {
           for saving the preferred theme on the browser's cache.
           <br />
           <br />I got a little overwhelmed because it seemed like a way much
-          harder task, implementing dark mode, than I could've ever hoped for.
+          harder task, implementing dark-mode than I could've ever hoped for.
           But after researching all articles around and asking for help late at
-          night to my dev friends, I got to a very, very, simple setup using
+          night from my dev friends, I got to a very, very, simple setup using
           these two frameworks.
         </p>
         <h2 className="h1">Next-themes setup</h2>
@@ -162,7 +162,7 @@ export default function DarkModeButton() {
           Then, we just have to create the button itself using the
           <code className="code-inline">{`<button>`}</code> HTML tag at the
           return of the function. You can style it however you want by changing
-          the utilities classes. With Tailwind, to set how you want a given
+          the utility classes. With Tailwind, to set how you want a given
           element to look like, when in the dark or light mode, just add the
           <code className="code-inline">dark</code>prefix at the utility class,
           like:
@@ -172,9 +172,9 @@ export default function DarkModeButton() {
           language="javascript"
         />
         <p className="paragraph-1">
-          When in light mode, the background color will be the gray-200 and when
-          in the dark mode it will be bg-black. Couldn't be easier :) This is
-          the styling I've chosen for my button. It also includes the hover
+          When in light mode, the background color will be the gray-200, and
+          when in the dark mode it will be bg-black. Couldn't be easier :) This
+          is the styling I've chosen for my button. It also includes the hover
           state.
         </p>
         <Code
@@ -259,21 +259,21 @@ export default function DarkModeButton() {
           This implementation also avoids a common issue with dark mode that is
           the flashy-ness. This is a simple but yet elegant way of doing it.
           Tailwind also makes it a lot easier for us to control how we want each
-          element to look like in a given theme. Instead of deciding to which
-          color, say your light gray color, goes to everytime when the theme is
-          dark, you can pinpoint in the exact component how it will render.
+          element to look like in a given theme. Instead of deciding which
+          color, say your light gray color, goes to whenever the theme is dark,
+          you can pinpoint in the exact component how it will render.
           <br />
           <br />
-          This is espeacially important since its dark mode isn't only getting
+          This is especially important since its dark mode isn't only getting
           colors to the opposite side of the light spectrum. Great dark mode
           implementations preserve the interface depth, still displaying how
-          components, elements and sections relate to each other in the desired
+          components, elements, and sections relate to each other in the desired
           hierarchy.
           <br />
           <br />
-          Hope you dig it! I wish I had found some articles like this one when I
-          was freaking out on how to do this. There you have it! For the night
-          owls eye health sake, dark mode.
+          Hope you dig it! I wish I had found some article like this one when I
+          was freaking out on how to this. There you have it! For the night
+          owl's eye health sake, dark mode.
         </p>
       </div>
       <Footer />

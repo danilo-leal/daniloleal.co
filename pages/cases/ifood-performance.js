@@ -6,6 +6,8 @@ import CaseHeader from '../../components/molecules/CaseHeader';
 import Footer from '../../components/molecules/Footer';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import SectionDivider from '../../components/molecules/SectionDivider';
+import Statement from '../../components/molecules/Statement';
 
 export default function iFoodDriverPerformance() {
   return (
@@ -39,18 +41,7 @@ export default function iFoodDriverPerformance() {
           title="Driver Performance"
           summary="In-depth view for a more detailed way of looking at delivery driver performance."
         />
-        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-          <div>
-            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
-              Part 1
-            </p>
-            <p className="text-code uppercase tracking-wide font-medium text-draplin">
-              General context
-            </p>
-          </div>
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-        </div>
+        <SectionDivider part="1" section="General context" />
         <h1 className="h1">What's about</h1>
         <p className="paragraph-1">
           Most people when performing anything would like to know how they're
@@ -81,7 +72,7 @@ export default function iFoodDriverPerformance() {
           making sense riding for iFood at all since it was confusing to know
           how much they've gained from it. All this unhappiness had a big toll
           on our CX team, in multiple channels. By the time of the research, we
-          had about 4k tickets opened with performance related questions and
+          had about 4k tickets opened with performance-related questions and
           somewhere about 500 comments in Google Play raising the issue.
           <br />
           <br />
@@ -90,6 +81,12 @@ export default function iFoodDriverPerformance() {
           It was too simple, little details. We needed to improve badly from
           that.
         </p>
+        <Statement
+          title="The problem"
+          description="Drivers were frequently confused as to when would they receive their
+            money. Most of them liked to plan their weekly goals but didn't have
+            a proper tool to do that."
+        />
       </div>
       <div className="large-container">
         <Zoom>
@@ -101,28 +98,8 @@ export default function iFoodDriverPerformance() {
         </Zoom>
       </div>
       <div className="default-container">
-        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-          <div>
-            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
-              Part 2
-            </p>
-            <p className="text-code uppercase tracking-wide font-medium text-draplin">
-              Feature development
-            </p>
-          </div>
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-        </div>
-        <div className="rounded-lg p-8 border border-solid border-gray-200 dark:border-gray-800 ">
-          <p className="text-tiny text-center uppercase font-semibold tracking-wider text-gray-500 mb-2">
-            The problem
-          </p>
-          <p className="paragraph-1 text-center">
-            Drivers were frequently confused as to when would they receive their
-            money. Most of them liked to plan their weekly goals but didn't have
-            a proper tool to do that.
-          </p>
-        </div>
+        <SectionDivider part="2" section="Feature development" />
+
         <h1 className="h1">Getting context</h1>
         <p className="paragraph-1">
           To have more buy-in of the initiative, I surveyed about 3,5k drivers
@@ -169,6 +146,14 @@ export default function iFoodDriverPerformance() {
           I'm proud to have had the opportunity to provide some sort of tool for
           making it easier.
         </p>
+        <SectionDivider part="3" section="Inside the designs" />
+        <h2 className="h2">The structure</h2>
+        <p className="paragraph-1">
+          Our design consisted of three main areas: financial gains, promotions,
+          and goals. When talking about the first one, the main feature was
+          displaying status. Drivers needed to know what's the current state of
+          their payment.
+        </p>
       </div>
       <div className="large-container">
         <Zoom>
@@ -178,6 +163,18 @@ export default function iFoodDriverPerformance() {
             alt="Screenshots of some of the UI"
           />
         </Zoom>
+      </div>
+      <div className="default-container">
+        <h2 className="h2">Date focused</h2>
+        <p className="paragraph-1">
+          They also needed to know when exactly was that payment going to be
+          made. This was the main entry point to CX channels. As in the
+          promotion side, we used to see frequently drivers confused if they
+          concluded or not the promotion, consequently then, whether they would
+          receive that value.
+        </p>
+      </div>
+      <div className="large-container">
         <Zoom>
           <img
             className="img"
@@ -185,6 +182,22 @@ export default function iFoodDriverPerformance() {
             alt="Screenshots of some of the UI"
           />
         </Zoom>
+      </div>
+      <div className="default-container">
+        <h2 className="h2">The goals feature</h2>
+        <p className="paragraph-1">
+          Lastly, the goals feature was an ambitious project. This was beneath a
+          bigger gamification strategy so drivers would be rewarded if they
+          completed their own set goals. We got evidence that most of them put
+          financial goals at the start of some period, be the week or month. It
+          was their ultimate cutting line as to whether they were doing fine or
+          not. It was also a trigger to when they could stop working. Say you
+          set a daily goal to make $50. If you get there, you'd probably be more
+          at peace to stop working, wouldn't you? The design here was to
+          facilitate and natively introduce this experience within the product.
+        </p>
+      </div>
+      <div className="large-container">
         <Zoom>
           <img
             className="img"
@@ -192,6 +205,32 @@ export default function iFoodDriverPerformance() {
             alt="Screenshots of some of the UI"
           />
         </Zoom>
+      </div>
+      <div className="default-container">
+        <p className="paragraph-1">
+          You can check
+          <a
+            href="https://cloud.protopie.io/p/1ZTwu1WoUa"
+            className="inline-link"
+          >
+            the full prototype here
+          </a>
+          if you want. I'm very proud of this one. A bit sad because couldn't be
+          at the company to see it through the light of the day but I know it
+          would make incredible impact at offering drivers a more delightful
+          experience. It's also filled with great interactions and I guess the
+          UI turned out great. Clean and organized stuff :)
+        </p>
+        <div className="pb-6">
+          <video
+            src="/videos/performance.mov"
+            className="img"
+            preload="auto"
+            playsinline
+            controls
+            autoplay
+          ></video>
+        </div>
       </div>
       <Footer />
     </div>

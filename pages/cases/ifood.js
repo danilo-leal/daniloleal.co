@@ -8,6 +8,8 @@ import DeepCards from '../../components/molecules/DeepCards';
 import Footer from '../../components/molecules/Footer';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import SectionDivider from '../../components/molecules/SectionDivider';
+import Statement from '../../components/molecules/Statement';
 
 export default function iFood() {
   return (
@@ -87,18 +89,7 @@ export default function iFood() {
             deepLinkString="Go deep"
           />
         </div>
-        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-          <div>
-            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
-              Part 1
-            </p>
-            <p className="text-code uppercase tracking-wide font-medium text-draplin">
-              Company context
-            </p>
-          </div>
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-        </div>
+        <SectionDivider part="1" section="Company context" />
         <h1 className="h1">Starting out</h1>
         <p className="paragraph-1">
           The experience I had working at iFood is one of those I can call
@@ -180,18 +171,7 @@ export default function iFood() {
             alt="Screenshot of what Google Play looked like."
           />
         </Zoom>
-        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-          <div>
-            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
-              Part 2
-            </p>
-            <p className="text-code uppercase tracking-wide font-medium text-draplin">
-              Product Development
-            </p>
-          </div>
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-        </div>
+        <SectionDivider part="2" section="Product development" />
         <h1 className="h1">Redesigning all the things</h1>
         <p className="paragraph-1">
           You must be tired of reading designers redesigning stuff. But
@@ -205,17 +185,13 @@ export default function iFood() {
           studies of the early days, gave me proper confidence to reach for a
           redesign as a main Tribe business goal at the last cycle of 2018.
         </p>
-        <div className="rounded-lg p-8 border border-solid border-gray-200 dark:border-gray-800 ">
-          <p className="text-tiny text-center uppercase font-semibold tracking-wider text-gray-500 mb-2">
-            The problem
-          </p>
-          <p className="paragraph-1 text-center">
-            This was because the problem at hand was transforming the DriverApp
+        <Statement
+          title="The problem"
+          description="This was because the problem at hand was transforming the DriverApp
             into something desirable, by the fleet. Not only something needed to
             put together a Logistics operation. But something delightful and
-            useful in the drivers' lives.
-          </p>
-        </div>
+            useful in the drivers' lives."
+        />
         <p className="paragraph-1">
           iFood had just got the biggest series of investments yet and a good
           amount went for the Logistics Tribe. By then, we were now a small
@@ -310,18 +286,7 @@ export default function iFood() {
           product that got metrics a lot up, drivers happier and the management
           of our system more in place.
         </p>
-        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-          <div>
-            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
-              Part 3
-            </p>
-            <p className="text-code uppercase tracking-wide font-medium text-draplin">
-              Inside the designs
-            </p>
-          </div>
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-        </div>
+        <SectionDivider part="3" section="Inside the designs" />
         <h2 className="h2">Driver's cockpit and navigation</h2>
         <p className="paragraph-1">
           We introduced a well-established UI pattern using the bottom
@@ -403,19 +368,7 @@ export default function iFood() {
         </div>
       </div>
       <div className="default-container">
-        <div className="text-center grid grid-cols-3 gap-2 items-center py-8">
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-          <div>
-            <p className="text-tiny uppercase font-semibold tracking-wider text-gray-500">
-              Part 4
-            </p>
-            <p className="text-code uppercase tracking-wide font-medium text-draplin">
-              Results
-            </p>
-          </div>
-          <div className="w-full h-0.5 bg-gray-100 dark:bg-black"></div>
-        </div>
-
+        <SectionDivider part="4" section="Results" />
         <p className="paragraph-1">
           A needed warning is that it is hard to say these results were only the
           product of my team's work-force. There were times that several teams

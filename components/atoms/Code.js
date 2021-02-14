@@ -12,6 +12,7 @@ export default function Code(props) {
         wrapLines
         codeBlock
         customStyle={{
+          fontFamily: 'Roboto Mono',
           overflowY: 'scroll',
           borderRadius: '5px',
           fontSize: '0.85rem',
