@@ -1,283 +1,150 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import AppBar from '../components/atoms/AppBar';
-import Footer from '../components/molecules/Footer';
-import BreadCrumb from '../components/atoms/BreadCrumb';
-import Code from '../components/atoms/Code';
-import CaseHeader from '../components/molecules/CaseHeader';
+import Image from "next/image";
+import Divider from "../components/atoms/Divider";
+import IconsSocial from "../components/atoms/IconsSocial";
+import NavBar from "../components/atoms/NavBar";
+import HomeHero from "../components/molecules/HomeHero";
+import HomeTags from "../components/molecules/HomeTags";
+import CallOut from "../components/molecules/CallOut";
 
 export default function Sketch() {
   return (
     <div className="global-wrapper">
-      <NextSeo
-        title="good services - danilo leal"
-        canonical="https://daniloleal.co/my-world/book-reviews/good-services"
-        openGraph={{
-          url: 'https://daniloleal.co/my-world/book-reviews/good-services',
-          title: 'good services - danilo leal',
-          images: [
-            {
-              url: 'https://i.ibb.co/brK5F1k/good-services.png',
-              alt: 'good services - danilo leal',
-              width: 1280,
-              height: 720,
-            },
-          ],
-        }}
-      />
-      <AppBar goBackTo="/my-world/album-reviews" />
-      <div className="default-container">
-        <BreadCrumb
-          pathNameOne="Home /"
-          goToOne="/"
-          pathNameTwo="My world /"
-          goToTwo="/my-world"
-          pathNameThree="Thinking /"
-          goToThree="/my-world/thinking"
-          pathNameFour="Dark Mode with TailwindCSS and Next.js"
-        />
-        <CaseHeader
-          title="Dark Mode with TailwindCSS and Next.js"
-          summary="Posted at 24/01/2021"
-        />
-      </div>
-      <div className="default-container">
-        <p className="paragraph-1">
-          This quick little piece is to teach you how to implement in a very
-          stream-lined fashion dark mode in your website using TailwindCSS and
-          Next.js. Before getting it down, I was battling my brain out at trying
-          to setup this. Specially with Next.js and all this server side
-          rendering stuff. Because of that, I was having trouble using your
-          usual
-          <code className="code-inline">local.storage</code>
-          for saving the preffered theme on the browsers cache.
-          <br />
-          <br />I got a little overwhelmed because it seemed like a way much
-          harder task, implementing dark mode, than I could've ever hoped for.
-          But after researching all artciles around and asking for help late at
-          night to my dev friends, I got to a very, very, simple setup using
-          these two frameworks.
-        </p>
-        <h2 className="h1">Next-themes setup</h2>
-        <p className="paragraph-1">
-          Basically, it all goes down to this library. It really does what it
-          says it does: perfect dark mode in 2 lines of code. Easy peasy. Just
-          install it at your project using any of these two:
-        </p>
-        <Code
-          code={`$ npm install next-themes
-# or
-$ yarn add next-themes`}
-        />
-        <p className="paragraph-1">
-          This usage setup is also available in the next-themes documentation
-          but I'll just copy in here for instructional's sake. The next step is
-          going to your <code className="code-inline">_app.js</code> file, which
-          is created when setting up Next. Just wrap all of the elements in the
-          return of your component function with the
-          <code className="code-inline">ThemeProvider</code> just like that:
-        </p>
-        <Code
-          code={`import { ThemeProvider } from 'next-themes'
-
-function MyApp({ Component, pageProps }) {
-  return (
-    <ThemeProvider>
-      <Component {...pageProps} />
-    </ThemeProvider>
-  )
-}
-
-export default`}
-          language="javascript"
-        />
-        <h2 className="h1">TailwindCSS setup</h2>
-        <p className="paragraph-1">
-          It's so quick that this won't last more than two paragraphs too. Go to
-          your <code className="code-inline">tailwind.config.js</code> file and
-          change the dark mode property to class, just like that:
-        </p>
-        <Code
-          code={`// tailwind.config.js
-module.exports = {
-  darkMode: 'class'
-}`}
-          language="javascript"
-        />
-        <p className="paragraph-1">
-          You're done! Now, go back to the
-          <code className="code-inline">_app.js</code> file and just add as an
-          attribute to the ThemeProvider a class value:
-        </p>
-        <Code
-          code={`// pages/_app.js
-<ThemeProvider attribute="class">`}
-          language="javascript"
-        />
-        <h2 className="h2">Setting up the toggle button</h2>
-        <p className="paragraph-1">
-          The last step is just setting a button up for toggling the themes
-          whenever you want. We'll be using some of React's built-in features.
-          It's simple, I promise you! Start by creating a
-          <code className="code-inline">DarkModeButton.js</code> at you
-          components folder. It may look like this by now:
-        </p>
-        <Code
-          code={`import React from 'react'
-
-export default function DarkModeButton() {
-    return (
-        <div>
-            
+      <NavBar />
+      <div className="max-w-2xl m-auto pt-12 px-5">
+        <HomeHero />
+        <HomeTags />
+        <Divider />
+        <h1 className="h1">Selected works</h1>
+        <div className="pt-4 grid grid-cols-2 gap-6">
+          <div className="hover:bg-gray-50 dark:hover:bg-black transition-all rounded-lg p-8 border border-solid border-gray-200 dark:border-gray-800 flex space-y-3 justify-between">
+            <div className="flex items-center space-x-6 ">
+              <svg
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                className="h-5 w-5 fill-current text-gray-400"
+              >
+                <title>iFood icon</title>
+                <path d="M8.428 1.67c-4.65 0-7.184 4.149-7.184 6.998 0 2.294 2.2 3.299 4.25 3.299l-.006-.006c4.244 0 7.184-3.854 7.184-6.998 0-2.29-2.175-3.293-4.244-3.293zm11.328 0c-4.65 0-7.184 4.149-7.184 6.998 0 2.294 2.2 3.299 4.25 3.299l-.006-.006C21.061 11.96 24 8.107 24 4.963c0-2.29-2.18-3.293-4.244-3.293zM14.172 14.52l2.435 1.834c-2.17 2.07-6.124 3.525-9.353 3.17A8.913 8.913 0 01.23 14.541H0a9.598 9.598 0 008.828 7.758c3.814.24 7.323-.905 9.947-3.13l-.004.007 1.08 2.988 1.555-7.623-7.234-.02Z" />
+              </svg>
+              <div>
+                <p className="dark:text-white font-medium">iFood</p>
+                <p className="text-sm text-gray-600">Currently</p>
+              </div>
+            </div>
+            <svg
+              className="w-4 h-4 stroke-current text-draplin"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </div>
+          <div className="hover:bg-gray-50 dark:hover:bg-black transition-all rounded-lg p-8 border border-solid border-gray-200 dark:border-gray-800 flex space-y-3 justify-between">
+            <div className="flex items-center space-x-6 ">
+              <svg
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                className="h-5 w-5 fill-current text-gray-400"
+              >
+                <title>iFood icon</title>
+                <path d="M8.428 1.67c-4.65 0-7.184 4.149-7.184 6.998 0 2.294 2.2 3.299 4.25 3.299l-.006-.006c4.244 0 7.184-3.854 7.184-6.998 0-2.29-2.175-3.293-4.244-3.293zm11.328 0c-4.65 0-7.184 4.149-7.184 6.998 0 2.294 2.2 3.299 4.25 3.299l-.006-.006C21.061 11.96 24 8.107 24 4.963c0-2.29-2.18-3.293-4.244-3.293zM14.172 14.52l2.435 1.834c-2.17 2.07-6.124 3.525-9.353 3.17A8.913 8.913 0 01.23 14.541H0a9.598 9.598 0 008.828 7.758c3.814.24 7.323-.905 9.947-3.13l-.004.007 1.08 2.988 1.555-7.623-7.234-.02Z" />
+              </svg>
+              <div>
+                <p className="dark:text-white font-medium">iFood</p>
+                <p className="text-sm text-gray-600">Currently</p>
+              </div>
+            </div>
+            <svg
+              className="w-4 h-4 stroke-current text-draplin"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </div>
+          <div className="hover:bg-gray-50 dark:hover:bg-black transition-all rounded-lg p-8 border border-solid border-gray-200 dark:border-gray-800 flex space-y-3 justify-between">
+            <div className="flex items-center space-x-6 ">
+              <svg
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                className="h-5 w-5 fill-current text-gray-400"
+              >
+                <title>iFood icon</title>
+                <path d="M8.428 1.67c-4.65 0-7.184 4.149-7.184 6.998 0 2.294 2.2 3.299 4.25 3.299l-.006-.006c4.244 0 7.184-3.854 7.184-6.998 0-2.29-2.175-3.293-4.244-3.293zm11.328 0c-4.65 0-7.184 4.149-7.184 6.998 0 2.294 2.2 3.299 4.25 3.299l-.006-.006C21.061 11.96 24 8.107 24 4.963c0-2.29-2.18-3.293-4.244-3.293zM14.172 14.52l2.435 1.834c-2.17 2.07-6.124 3.525-9.353 3.17A8.913 8.913 0 01.23 14.541H0a9.598 9.598 0 008.828 7.758c3.814.24 7.323-.905 9.947-3.13l-.004.007 1.08 2.988 1.555-7.623-7.234-.02Z" />
+              </svg>
+              <div>
+                <p className="dark:text-white font-medium">iFood</p>
+                <p className="text-sm text-gray-600">Currently</p>
+              </div>
+            </div>
+            <svg
+              className="w-4 h-4 stroke-current text-draplin"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </div>
+          <div className="hover:bg-gray-50 dark:hover:bg-black transition-all rounded-lg p-8 border border-solid border-gray-200 dark:border-gray-800 flex space-y-3 justify-between">
+            <div className="flex items-center space-x-6 ">
+              <svg
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                className="h-5 w-5 fill-current text-gray-400"
+              >
+                <title>iFood icon</title>
+                <path d="M8.428 1.67c-4.65 0-7.184 4.149-7.184 6.998 0 2.294 2.2 3.299 4.25 3.299l-.006-.006c4.244 0 7.184-3.854 7.184-6.998 0-2.29-2.175-3.293-4.244-3.293zm11.328 0c-4.65 0-7.184 4.149-7.184 6.998 0 2.294 2.2 3.299 4.25 3.299l-.006-.006C21.061 11.96 24 8.107 24 4.963c0-2.29-2.18-3.293-4.244-3.293zM14.172 14.52l2.435 1.834c-2.17 2.07-6.124 3.525-9.353 3.17A8.913 8.913 0 01.23 14.541H0a9.598 9.598 0 008.828 7.758c3.814.24 7.323-.905 9.947-3.13l-.004.007 1.08 2.988 1.555-7.623-7.234-.02Z" />
+              </svg>
+              <div>
+                <p className="dark:text-white font-medium">iFood</p>
+                <p className="text-sm text-gray-600">Currently</p>
+              </div>
+            </div>
+            <svg
+              className="w-4 h-4 stroke-current text-draplin"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </div>
         </div>
-    )
-}`}
-          language="javascript"
-        />
-        Now we're going to add two React Hooks. One for changing the theme
-        <p className="paragraph-1">
-          itself, in charge for toggling between classes, and another for
-          changing the icon displayed at the button whenever the light or dark
-          theme is on. We're also going to use a Hook provided by the next-theme
-          library. Don't forget to import these!
-        </p>
-        <Code
-          code={`import React, { useEffect, useState } from 'react';
-import { useTheme } from 'next-themes';
-
-export default function DarkModeButton() {
-	const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
-  useEffect(() => setMounted(true), []);
-
-    return (
-        <div>
-            
+        <div className="pt-10 grid justify-center">
+          <IconsSocial />
         </div>
-    )
-}`}
-          language="javascript"
-        />
-        <p className="paragraph-1">
-          Then, we just have to create the button itself using the
-          <code className="code-inline">{`<button>`}</code> HTML tag at the
-          return of the function. You can style it however you want by changing
-          the utilities classes. With Tailwind, to set how you want a given
-          element to look like, when in the dark or light mode, just add the
-          <code className="code-inline">dark</code>prefix at the utility class,
-          like:
-        </p>
-        <Code
-          code={`className="bg-gray-200 dark:bg-black"`}
-          language="javascript"
-        />
-        <p className="paragraph-1">
-          When in light mode, the background color will be the gray-200 and when
-          in the dark mode it will be bg-black. Couldn't be easier :) This is
-          the styling I've chosen for my button. It also includes the hover
-          state.
-        </p>
-        <Code
-          code={`import React, { useEffect, useState } from 'react';
-import { useTheme } from 'next-themes';
-
-export default function DarkModeButton() {
-  const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
-  useEffect(() => setMounted(true), []);
-
-  return (
-    <button
-      aria-label="Toggle Dark Mode"
-      type="button"
-      className="bg-gray-200 hover:bg-gray-300 dark:bg-gray-800  dark:hover:bg-gray-700 transition-all rounded flex items-center justify-center h-7 w-7">
-		</button>
-  );
-}`}
-          language="javascript"
-        />
-        <p className="paragraph-1">
-          Getting at the final steps, we just have to add an
-          <code className="code-inline">onClick</code> event to the button,
-          passing to it the <code className="code-inline">setTheme</code> hook
-          we've previously declared in the function. And then, we can also use
-          the mounted hook for changing the icons.
-        </p>
-        <Code
-          code={`import React, { useEffect, useState } from 'react';
-import { useTheme } from 'next-themes';
-
-export default function DarkModeButton() {
-  const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
-  useEffect(() => setMounted(true), []);
-
-  return (
-    <button
-      aria-label="Toggle Dark Mode"
-      type="button"
-      className="bg-gray-200 hover:bg-gray-300 dark:bg-gray-800  dark:hover:bg-gray-700 transition-all rounded flex items-center justify-center h-7 w-7"
-      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-    >
-      {mounted && (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          className="h-4 w-4 text-gray-800 dark:text-gray-200"
-        >
-          {theme === 'dark' ? (
-            <path
-              fillRule="evenodd"
-              d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-              clipRule="evenodd"
-            />
-          ) : (
-            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-          )}
-        </svg>
-      )}
-    </button>
-  );
-}`}
-          language="javascript"
-        />
-        <p className="paragraph-1">
-          I'm using a sun and moon icon for representing light and dark themes.
-          When in the dark theme, the sun icon is displayed indicating that,
-          when clicking at it, the theme will change to the light one. <br />
-          <br />
-          The `mounted` hook is set at false by default, so your website will,
-          at first load, be at the light mode. If you want to change that, just
-          swap it to true instead. You can also change the
-          <code className="code-inline">{`<path>`}</code> element to display
-          different icons if you want it. The first
-          <code className="code-inline">{`<path>`}</code> rendered is the icon
-          displayed when in the dark mode. <br />
-          <br />
-          This implementation also avoids a common issue with dark mode that is
-          the falshy-ness. This is a simple but yet elegant way of doing it.
-          Tailwind also makes a lot easier for us to control how we want each
-          element to look like in a given theme. Instead of deciding to which
-          color, say your light gray color, goes to everytime when the theme is
-          dark, you can pin point in the exact component how it will render.
-          <br />
-          <br />
-          This is speacially important since it dark mode isn't only getting
-          colors to the opposite side of the light spectrum. Great dark mode
-          implementations preserve the interface depth, still displaying how
-          components, elements and sections relate to each other in the desired
-          hierarchy.
-          <br />
-          <br />
-          Hope you dig it! I wish I had found some article like this one when I
-          was freaking out on how to this. There you have it! For the night owls
-          eye health sake, dark mode.
-        </p>
       </div>
-      <Footer />
     </div>
   );
 }
-
-// className="grid sm:grid-cols-2 gap-6 sm:px-2 p-4"
