@@ -12,7 +12,7 @@ export default function MaterialUI() {
       <div className="max-w-2xl m-auto pt-12 px-5">
         <div className="pb-8">
           <Selfie />
-          <h1 className="h1">Hi Olivier and team! 👋</h1>
+          <h1 className="h1">Hello Olivier and team! 👋</h1>
           <h2 className="paragraph-1 mb-3">
             My name is
             <span className="font-medium text-gray-900 dark:text-gray-100 mx-1">
