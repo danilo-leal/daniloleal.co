@@ -21,9 +21,9 @@ export default function MaterialUI() {
             and I'm an explorer and designer, in that particular order. I'm a
             long-time fan of
             <span className="mx-1 text-blue-500 font-medium">MaterialUI</span>
-            and it's a huge pleasure speaking to you. I've prepared this special
-            spin-off home page for you featuring some work I have not yet made
-            public but really wanted to share.
+            and it's a huge pleasure speaking with you. I've prepared this
+            special spin-off home page for you featuring some work I have not
+            yet made public but really wanted to share.
             <br />
             <br />
             Hope this gets you a glance at myself and my work.
