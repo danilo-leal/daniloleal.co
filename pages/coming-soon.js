@@ -1,7 +1,7 @@
-import React from 'react';
-import AppBar from '../components/atoms/AppBar';
-import Footer from '../components/molecules/Footer';
-import { NextSeo } from 'next-seo';
+import React from "react";
+import AppBar from "../components/atoms/AppBar";
+import Footer from "../components/molecules/Footer";
+import { NextSeo } from "next-seo";
 
 export default function ComingSoon() {
   return (
@@ -10,19 +10,19 @@ export default function ComingSoon() {
         title="coming soon - danilo leal"
         canonical="https://daniloleal.co/coming-soon"
         openGraph={{
-          url: 'https://daniloleal.co/coming-soon',
-          title: 'coming soon - danilo leal',
+          url: "https://daniloleal.co/coming-soon",
+          title: "coming soon - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/BVY8pLr/coming-soon.png',
-              alt: 'coming soon - danilo leal',
+              url: "https://i.ibb.co/BVY8pLr/coming-soon.png",
+              alt: "coming soon - danilo leal",
               width: 1280,
               height: 720,
             },
           ],
         }}
       />
-      <AppBar goBackTo="/my-world" />
+      <AppBar goBackTo="/" />
       <div className="default-container">
         <div className="h-screen flex flex-col items-center justify-center pb-24">
           <svg

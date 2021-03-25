@@ -89,7 +89,7 @@ export default function MyWorld() {
         <CallOut
           subjectLogo="/svgs/icon-image.svg"
           subjectName="Graphic Design"
-          subjectSummary="I grew up in design by doing graphic stuff. Ranging it from logos, to whole branding packages to album cover designs. Seeing stuff being physical is very satisfying."
+          subjectSummary="Grew up in design by doing graphic. Logos, to whole branding packages to album cover designs. Seeing stuff being physical is feeling it for real."
           casePath="/my-world/graphic-design"
           linkString="See stuff"
         />
@@ -110,14 +110,14 @@ export default function MyWorld() {
         <CallOut
           subjectLogo="/svgs/icon-disc.svg"
           subjectName="Album reviews"
-          subjectSummary="The albums that end up stucking with me are those with which I've developed a relationship. We've a history together. Here I cover some of these pieces trying to express what they mean to me."
+          subjectSummary="Music is my second nature. I'll be going through some of these pieces trying to express what they mean to me."
           casePath="/my-world/album-reviews"
           linkString="Check em out"
         />
         <CallOut
           subjectLogo="/svgs/icon-book.svg"
           subjectName="Book reviews"
-          subjectSummary="I'm a slow reader. Books are hard to read for me. But I also tend to develop some sort of relationship with the ones that got to me. These really shaped my thinking and my understanding of my place in this world."
+          subjectSummary="Books are hard to read for me. These really shaped my thinking and my understanding of my place in this world."
           casePath="/my-world/book-reviews"
           linkString="Check em out"
         />
@@ -125,14 +125,14 @@ export default function MyWorld() {
         <CallOut
           subjectLogo="/svgs/icon-volume.svg"
           subjectName="Sede"
-          subjectSummary="This is my main music project. One man band type of stuff. I write, record and produce most songs in a minimal/simple gear set up. I've released by now two albums. Take a listen!"
+          subjectSummary="One man band type of stuff."
           casePath="https://sede.bandcamp.com/album/quietest-friend"
           linkString="Hear the album"
         />
         <CallOut
           subjectLogo="/svgs/icon-volume.svg"
           subjectName="Flora Park"
-          subjectSummary="Dream band. This one is with some of my most special friends, where we dream together of being a hardcore/pop-punk band. We self produced and recorded our first album in 2017, called Chutando Nuvens. Or in english: Cloud Kicking."
+          subjectSummary="This one is with some of my most special friends, where we dream together of being a hardcore/pop-punk band. We self produced and recorded our first album in 2017."
           casePath="http://bandaflorapark.bandcamp.com/album/chutando-nuvens"
           linkString="Hear the album"
         />

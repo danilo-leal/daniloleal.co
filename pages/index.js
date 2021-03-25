@@ -1,10 +1,11 @@
-import Image from 'next/image';
-import Divider from '../components/atoms/Divider';
-import IconsSocial from '../components/atoms/IconsSocial';
-import NavBar from '../components/atoms/NavBar';
-import HomeHero from '../components/molecules/HomeHero';
-import HomeTags from '../components/molecules/HomeTags';
-import CallOut from '../components/molecules/CallOut';
+import Image from "next/image";
+import Divider from "../components/atoms/Divider";
+import IconsSocial from "../components/atoms/IconsSocial";
+import NavBar from "../components/atoms/NavBar";
+import HomeHero from "../components/molecules/HomeHero";
+import HomeTags from "../components/molecules/HomeTags";
+import CallOut from "../components/molecules/CallOut";
+import MainLink from "../components/atoms/MainLink";
 
 export default function Home() {
   return (
@@ -14,12 +15,15 @@ export default function Home() {
         <HomeHero />
         <HomeTags />
         <Divider />
-        <h1 className="h1">Selected works</h1>
+        <div className="mb-2 mt-8 flex items-center justify-between">
+          <h1 className="dark:text-white text-lg">Featured works</h1>
+          <MainLink string="See all" path="/work" />
+        </div>
         <CallOut
           subjectLogo="/svgs/logo-ifood.svg"
           imgAlt="iFood Logo"
           subjectName="iFood"
-          subjectSummary="Designed the new driver app from the ground up. Small team, challenging goals and huge impact. A product that is very close to my heart. What a ride!"
+          subjectSummary="Designed the new driver app from the ground up. Small team, challenging goals and huge impact. What a ride!"
           casePath="/cases/ifood"
           linkString="Read the story"
         />
@@ -35,7 +39,7 @@ export default function Home() {
           subjectLogo="/svgs/logo-rapiddo.svg"
           imgAlt="Rappido Entregas Logo"
           subjectName="Rapiddo Entregas"
-          subjectSummary="One designer for the whole company. You know the drill. I did it all at Rapiddo. Great times. Apps, motion graphics, branding. I told you!"
+          subjectSummary="One designer for the whole company. You know the drill. I did it all at Rapiddo. Great times. Apps, motion graphics, branding. Told ya!"
           casePath="/cases/rapiddo"
           linkString="Read the story"
         />
