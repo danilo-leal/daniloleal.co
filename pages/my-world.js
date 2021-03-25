@@ -1,14 +1,14 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import AppBar from '../components/atoms/AppBar';
-import BreadCrumb from '../components/atoms/BreadCrumb';
-import CaseHeader from '../components/molecules/CaseHeader';
-import CallOut from '../components/molecules/CallOut';
-import Footer from '../components/molecules/Footer';
-import Image from 'next/image';
-import MainLink from '../components/atoms/MainLink';
-import Zoom from 'react-medium-image-zoom';
-import 'react-medium-image-zoom/dist/styles.css';
+import React from "react";
+import { NextSeo } from "next-seo";
+import AppBar from "../components/atoms/AppBar";
+import BreadCrumb from "../components/atoms/BreadCrumb";
+import CaseHeader from "../components/molecules/CaseHeader";
+import CallOut from "../components/molecules/CallOut";
+import Footer from "../components/molecules/Footer";
+import Image from "next/image";
+import MainLink from "../components/atoms/MainLink";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 export default function MyWorld() {
   return (
@@ -17,12 +17,12 @@ export default function MyWorld() {
         title="my world - danilo leal"
         canonical="https://daniloleal.co/my-world"
         openGraph={{
-          url: 'https://daniloleal.co/my-world',
-          title: 'my world - danilo leal',
+          url: "https://daniloleal.co/my-world",
+          title: "my world - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/dBRKpfv/my-world.png',
-              alt: 'my world - danilo leal',
+              url: "https://i.ibb.co/dBRKpfv/my-world.png",
+              alt: "my world - danilo leal",
               width: 1280,
               height: 720,
             },
@@ -111,7 +111,7 @@ export default function MyWorld() {
           subjectLogo="/svgs/icon-disc.svg"
           subjectName="Album reviews"
           subjectSummary="The albums that end up stucking with me are those with which I've developed a relationship. We've a history together. Here I cover some of these pieces trying to express what they mean to me."
-          casePath="/coming-soon"
+          casePath="/my-world/album-reviews"
           linkString="Check em out"
         />
         <CallOut

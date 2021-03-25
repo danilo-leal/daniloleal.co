@@ -1,11 +1,11 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import AppBar from '../../../components/atoms/AppBar';
-import BreadCrumb from '../../../components/atoms/BreadCrumb';
-import CaseHeader from '../../../components/molecules/CaseHeader';
-import Footer from '../../../components/molecules/Footer';
-import NumberedList from '../../../components/molecules/NumberedList';
-import Star from '../../../components/atoms/Star';
+import React from "react";
+import { NextSeo } from "next-seo";
+import AppBar from "../../../components/atoms/AppBar";
+import BreadCrumb from "../../../components/atoms/BreadCrumb";
+import CaseHeader from "../../../components/molecules/CaseHeader";
+import Footer from "../../../components/molecules/Footer";
+import NumberedList from "../../../components/molecules/NumberedList";
+import Star from "../../../components/atoms/Star";
 
 export default function GoodServices() {
   return (
@@ -14,12 +14,12 @@ export default function GoodServices() {
         title="good services - danilo leal"
         canonical="https://daniloleal.co/my-world/book-reviews/good-services"
         openGraph={{
-          url: 'https://daniloleal.co/my-world/book-reviews/good-services',
-          title: 'good services - danilo leal',
+          url: "https://daniloleal.co/my-world/book-reviews/good-services",
+          title: "good services - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/brK5F1k/good-services.png',
-              alt: 'good services - danilo leal',
+              url: "https://i.ibb.co/qJhjh9G/good-services.png",
+              alt: "good services - danilo leal",
               width: 1280,
               height: 720,
             },

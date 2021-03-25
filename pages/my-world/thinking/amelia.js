@@ -1,12 +1,12 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import AppBar from '../../../components/atoms/AppBar';
-import BreadCrumb from '../../../components/atoms/BreadCrumb';
-import CaseHeader from '../../../components/molecules/CaseHeader';
-import Footer from '../../../components/molecules/Footer';
-import Zoom from 'react-medium-image-zoom';
-import 'react-medium-image-zoom/dist/styles.css';
-import Quote from '../../../components/atoms/Quote';
+import React from "react";
+import { NextSeo } from "next-seo";
+import AppBar from "../../../components/atoms/AppBar";
+import BreadCrumb from "../../../components/atoms/BreadCrumb";
+import CaseHeader from "../../../components/molecules/CaseHeader";
+import Footer from "../../../components/molecules/Footer";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+import Quote from "../../../components/atoms/Quote";
 
 export default function Amelia() {
   return (
@@ -15,12 +15,12 @@ export default function Amelia() {
         title="amélia - danilo leal"
         canonical="https://daniloleal.co/my-world/thinking/amelia"
         openGraph={{
-          url: 'https://daniloleal.co/my-world/thinking/amelia',
-          title: 'amélia - danilo leal',
+          url: "https://daniloleal.co/my-world/thinking/amelia",
+          title: "amélia - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/wLvSjsx/amelia.png',
-              alt: 'amélia - danilo leal',
+              url: "https://i.ibb.co/LYLCjdP/amelia.png",
+              alt: "amélia - danilo leal",
               width: 1280,
               height: 720,
             },
@@ -96,7 +96,7 @@ export default function Amelia() {
           desenvolveu um receio e preocupação latente com medo de uma nova e
           mais severa queda. E eu, minha irmã e meu pai nos tornamos,
           naturalmente, pequenos vigias, sempre vendo o que minha avó ia fazer,
-          para ela não tropeçar, cair e sofrer um novo acidente complicado.{' '}
+          para ela não tropeçar, cair e sofrer um novo acidente complicado.{" "}
           <br />
           <br />
           Toda vez que íamos sair com ela, era comum, devido sua audição ruim,
@@ -202,7 +202,7 @@ export default function Amelia() {
           histórias repetidamente. Ela costumava falar de como conheceu meu avô,
           de como foi a vida pós o falecimento dele e ter que lidar com 5 filhos
           pequenos, mãe-solo. Costumava falar dos vários lugares no qual era
-          morou, Santos, onde nasceu, Campinas, Águas de Lindóia e São Paulo.{' '}
+          morou, Santos, onde nasceu, Campinas, Águas de Lindóia e São Paulo.{" "}
           <br />
           <br />
           Uma das histórias que eu escutei muito era a do "sombra". Minha avó,
@@ -211,7 +211,7 @@ export default function Amelia() {
           um rapaz com quem ela tinha tido um relacionamento breve mas que após
           o término não parou segui-la. Mesmo após ela ter conhecido meu avô,
           esse tal do "sombra" continuava na sombra dela. Até que ela pediu para
-          meu avô dar um apavoro nele. Uma história esquisita mas marcante.{' '}
+          meu avô dar um apavoro nele. Uma história esquisita mas marcante.{" "}
           <br />
           <br />
           Minha avô era uma mulher extremamente fiel. Poderia atribuir isso a
@@ -293,11 +293,11 @@ export default function Amelia() {
         </p>
         <Quote
           quote={[
-            'I’m going away',
+            "I’m going away",
             <br></br>,
-            'Where the wind beats heavy on the sand',
+            "Where the wind beats heavy on the sand",
             <br></br>,
-            'Do you want to come with?',
+            "Do you want to come with?",
           ]}
           link="https://www.youtube.com/watch?v=dxEgpPxIL14&ab_channel=StephenFretwell-Topic"
           linkString="Do You Want To Come With,"

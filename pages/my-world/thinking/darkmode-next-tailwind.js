@@ -1,10 +1,10 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import AppBar from '../../../components/atoms/AppBar';
-import Footer from '../../../components/molecules/Footer';
-import BreadCrumb from '../../../components/atoms/BreadCrumb';
-import Code from '../../../components/atoms/Code';
-import CaseHeader from '../../../components/molecules/CaseHeader';
+import React from "react";
+import { NextSeo } from "next-seo";
+import AppBar from "../../../components/atoms/AppBar";
+import Footer from "../../../components/molecules/Footer";
+import BreadCrumb from "../../../components/atoms/BreadCrumb";
+import Code from "../../../components/atoms/Code";
+import CaseHeader from "../../../components/molecules/CaseHeader";
 
 export default function DarkModeTailwindNext() {
   return (
@@ -13,12 +13,12 @@ export default function DarkModeTailwindNext() {
         title="Dark Mode with TailwindCSS and Next.js - danilo leal"
         canonical="https://daniloleal.co/my-world/thinking/darkmode-next-tailwind"
         openGraph={{
-          url: 'https://daniloleal.co/my-world/thinking/darkmode-next-tailwind',
-          title: 'Dark Mode with TailwindCSS and Next.js - danilo leal',
+          url: "https://daniloleal.co/my-world/thinking/darkmode-next-tailwind",
+          title: "Dark Mode with TailwindCSS and Next.js - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/1zFkP1R/darkmode.png"',
-              alt: 'Dark Mode with TailwindCSS and Next.js - danilo leal',
+              url: "https://i.ibb.co/71gphs3/darkmode.png",
+              alt: "Dark Mode with TailwindCSS and Next.js - danilo leal",
               width: 1280,
               height: 720,
             },
