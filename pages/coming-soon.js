@@ -14,7 +14,7 @@ export default function ComingSoon() {
           title: "coming soon - danilo leal",
           images: [
             {
-              url: "https://i.ibb.co/BVY8pLr/coming-soon.png",
+              url: "https://i.ibb.co/D8W5C7c/coming-soon.png",
               alt: "coming soon - danilo leal",
               width: 1280,
               height: 720,

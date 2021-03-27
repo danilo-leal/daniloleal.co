@@ -1,12 +1,12 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import CaseInfo from '../../components/molecules/CaseInfo';
-import AppBar from '../../components/atoms/AppBar';
-import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/molecules/CaseHeader';
-import Footer from '../../components/molecules/Footer';
-import Zoom from 'react-medium-image-zoom';
-import 'react-medium-image-zoom/dist/styles.css';
+import React from "react";
+import { NextSeo } from "next-seo";
+import CaseInfo from "../../components/molecules/CaseInfo";
+import AppBar from "../../components/atoms/AppBar";
+import BreadCrumb from "../../components/atoms/BreadCrumb";
+import CaseHeader from "../../components/molecules/CaseHeader";
+import Footer from "../../components/molecules/Footer";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 export default function Rapiddo() {
   return (
@@ -15,12 +15,12 @@ export default function Rapiddo() {
         title="rapiddo entregas - danilo leal"
         canonical="https://daniloleal.co/cases/rapiddo"
         openGraph={{
-          url: 'https://daniloleal.co/cases/rapiddo',
-          title: 'rapiddo entregas - danilo leal',
+          url: "https://daniloleal.co/cases/rapiddo",
+          title: "rapiddo entregas - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/frhFQDg/rapiddo.png',
-              alt: 'rapiddo entregas - danilo leal',
+              url: "https://i.ibb.co/KzgvC0Q/rapiddo.png",
+              alt: "rapiddo entregas - danilo leal",
               width: 1280,
               height: 720,
             },

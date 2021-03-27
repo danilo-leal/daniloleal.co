@@ -1,11 +1,11 @@
-import '../styles/globals.css';
-import 'tailwindcss/tailwind.css';
-import Head from 'next/head';
-import { ThemeProvider } from 'next-themes';
-import { DefaultSeo } from 'next-seo';
-import SEO from '../next-seo.config';
-import firebase from 'firebase/app';
-import firebaseConfig from '../firebase-config';
+import "../styles/globals.css";
+import "tailwindcss/tailwind.css";
+import Head from "next/head";
+import { ThemeProvider } from "next-themes";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
+import firebase from "firebase/app";
+import firebaseConfig from "../firebase-config";
 
 function MyApp({ Component, pageProps }) {
   // Initialize Firebase

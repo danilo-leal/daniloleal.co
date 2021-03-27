@@ -1,9 +1,9 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import AppBar from '../../components/atoms/AppBar';
-import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/molecules/CaseHeader';
-import BlogCallOut from '../../components/molecules/BlogCallOut';
+import React from "react";
+import { NextSeo } from "next-seo";
+import AppBar from "../../components/atoms/AppBar";
+import BreadCrumb from "../../components/atoms/BreadCrumb";
+import CaseHeader from "../../components/molecules/CaseHeader";
+import BlogCallOut from "../../components/molecules/BlogCallOut";
 
 export default function Thinking() {
   return (
@@ -12,12 +12,12 @@ export default function Thinking() {
         title="thinking - danilo leal"
         canonical="https://daniloleal.co/my-world/thinking"
         openGraph={{
-          url: 'https://daniloleal.co/my-world/thinking',
-          title: 'thinking - danilo leal',
+          url: "https://daniloleal.co/my-world/thinking",
+          title: "thinking - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/zR5zQ3X/thinking.png',
-              alt: 'thinking - danilo leal',
+              url: "https://i.ibb.co/xJqtXC0/thinking.png",
+              alt: "thinking - danilo leal",
               width: 1280,
               height: 720,
             },

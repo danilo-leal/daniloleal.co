@@ -21,7 +21,7 @@ export default function MyWorld() {
           title: "my world - danilo leal",
           images: [
             {
-              url: "https://i.ibb.co/dBRKpfv/my-world.png",
+              url: "https://i.ibb.co/kX3CTf9/my-world.png",
               alt: "my world - danilo leal",
               width: 1280,
               height: 720,

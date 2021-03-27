@@ -1,19 +1,19 @@
-const title = 'danilo leal | designer';
-const description = 'explorer and designer';
+const title = "danilo leal | designer";
+const description = "explorer and designer";
 
 const SEO = {
   title,
   description,
-  canonical: 'https://daniloleal.co',
+  canonical: "https://daniloleal.co",
   openGraph: {
-    type: 'website',
-    locale: 'en_IE',
-    url: 'https://daniloleal.co',
+    type: "website",
+    locale: "en_IE",
+    url: "https://daniloleal.co",
     title,
     description,
     images: [
       {
-        url: 'https://i.ibb.co/ygg4vWm/banner.png',
+        url: "https://i.ibb.co/nLVjP1F/index.png",
         alt: title,
         width: 1280,
         height: 720,
@@ -21,9 +21,9 @@ const SEO = {
     ],
   },
   twitter: {
-    handle: '@danilobontempo',
-    site: '@danilobontempo',
-    cardType: 'summary_large_image',
+    handle: "@danilobleal",
+    site: "@danilobleal",
+    cardType: "summary_large_image",
   },
 };
 

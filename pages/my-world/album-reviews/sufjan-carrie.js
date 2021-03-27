@@ -21,7 +21,7 @@ export default function SufjanCarrieLowell() {
           title: "sufjan stevens: carrie & lowell, a review by danilo leal",
           images: [
             {
-              url: "https://i.ibb.co/f1MnJxt/darkmode-1.png",
+              url: "https://i.ibb.co/M8wDttw/sufjan.png",
               alt: "sufjan stevens: carrie & lowell, a review by danilo leal",
               width: 1280,
               height: 720,

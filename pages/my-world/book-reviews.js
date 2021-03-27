@@ -1,9 +1,9 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import AppBar from '../../components/atoms/AppBar';
-import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/molecules/CaseHeader';
-import ContentCard from '../../components/molecules/ContentCard';
+import React from "react";
+import { NextSeo } from "next-seo";
+import AppBar from "../../components/atoms/AppBar";
+import BreadCrumb from "../../components/atoms/BreadCrumb";
+import CaseHeader from "../../components/molecules/CaseHeader";
+import ContentCard from "../../components/molecules/ContentCard";
 
 export default function BookReviews() {
   return (
@@ -12,12 +12,12 @@ export default function BookReviews() {
         title="book reviews - danilo leal"
         canonical="https://daniloleal.co/my-world/book-reviews"
         openGraph={{
-          url: 'https://daniloleal.co/my-world/book-reviews',
-          title: 'book reviews - danilo leal',
+          url: "https://daniloleal.co/my-world/book-reviews",
+          title: "book reviews - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/cDK44vj/book-reviews.png',
-              alt: 'book reviews - danilo leal',
+              url: "https://i.ibb.co/qmB0BNj/book-rev.png",
+              alt: "book reviews - danilo leal",
               width: 1280,
               height: 720,
             },

@@ -17,7 +17,7 @@ export default function DarkModeTailwindNext() {
           title: "Dark Mode with TailwindCSS and Next.js - danilo leal",
           images: [
             {
-              url: "https://i.ibb.co/71gphs3/darkmode.png",
+              url: "https://i.ibb.co/gzBcSTc/dark-mode.png",
               alt: "Dark Mode with TailwindCSS and Next.js - danilo leal",
               width: 1280,
               height: 720,

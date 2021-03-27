@@ -18,7 +18,7 @@ export default function GoodServices() {
           title: "good services - danilo leal",
           images: [
             {
-              url: "https://i.ibb.co/qJhjh9G/good-services.png",
+              url: "https://i.ibb.co/ZhGfjtF/good-serv.png",
               alt: "good services - danilo leal",
               width: 1280,
               height: 720,

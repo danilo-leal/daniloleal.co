@@ -1,13 +1,13 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import AppBar from '../../components/atoms/AppBar';
-import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/molecules/CaseHeader';
-import Footer from '../../components/molecules/Footer';
-import Zoom from 'react-medium-image-zoom';
-import 'react-medium-image-zoom/dist/styles.css';
-import SectionDivider from '../../components/molecules/SectionDivider';
-import Statement from '../../components/molecules/Statement';
+import React from "react";
+import { NextSeo } from "next-seo";
+import AppBar from "../../components/atoms/AppBar";
+import BreadCrumb from "../../components/atoms/BreadCrumb";
+import CaseHeader from "../../components/molecules/CaseHeader";
+import Footer from "../../components/molecules/Footer";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+import SectionDivider from "../../components/molecules/SectionDivider";
+import Statement from "../../components/molecules/Statement";
 
 export default function iFoodDriverPerformance() {
   return (
@@ -16,12 +16,12 @@ export default function iFoodDriverPerformance() {
         title="driver performance - danilo leal"
         canonical="https://daniloleal.co/cases/ifood-performance"
         openGraph={{
-          url: 'https://daniloleal.co/cases/ifood-performance',
-          title: 'driver performance - danilo leal',
+          url: "https://daniloleal.co/cases/ifood-performance",
+          title: "driver performance - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/VS8jpt0/Group-28.png',
-              alt: 'driver performance - danilo leal',
+              url: "https://i.ibb.co/6BQc9H8/driver-perf.png",
+              alt: "driver performance - danilo leal",
               width: 1280,
               height: 720,
             },

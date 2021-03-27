@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Divider from "../components/atoms/Divider";
 import IconsSocial from "../components/atoms/IconsSocial";
 import NavBar from "../components/atoms/NavBar";

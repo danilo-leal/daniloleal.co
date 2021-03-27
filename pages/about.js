@@ -1,14 +1,14 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import AppBar from '../components/atoms/AppBar';
-import BreadCrumb from '../components/atoms/BreadCrumb';
-import Footer from '../components/molecules/Footer';
-import CaseHeader from '../components/molecules/CaseHeader';
-import JobTimeline from '../components/molecules/JobTimeline';
-import AboutCardInfo from '../components/molecules/AboutCardInfo';
-import Zoom from 'react-medium-image-zoom';
-import 'react-medium-image-zoom/dist/styles.css';
-import Image from 'next/image';
+import React from "react";
+import { NextSeo } from "next-seo";
+import AppBar from "../components/atoms/AppBar";
+import BreadCrumb from "../components/atoms/BreadCrumb";
+import Footer from "../components/molecules/Footer";
+import CaseHeader from "../components/molecules/CaseHeader";
+import JobTimeline from "../components/molecules/JobTimeline";
+import AboutCardInfo from "../components/molecules/AboutCardInfo";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -17,12 +17,12 @@ export default function About() {
         title="about me - danilo leal"
         canonical="https://daniloleal.co/about"
         openGraph={{
-          url: 'https://daniloleal.co/about',
-          title: 'about me - danilo leal',
+          url: "https://daniloleal.co/about",
+          title: "about me - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/zVyDd5Q/about-me.png',
-              alt: 'about me - danilo leal',
+              url: "https://i.ibb.co/hfd4txY/about.png",
+              alt: "about me - danilo leal",
               width: 1280,
               height: 720,
             },
@@ -41,7 +41,7 @@ export default function About() {
           title="About me"
           summary={[
             <i>"I am the master of my fate, I am the captain of my soul"</i>,
-            '― Invictus by William Ernest Henley',
+            "― Invictus by William Ernest Henley",
           ]}
         />
       </div>

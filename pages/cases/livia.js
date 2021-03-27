@@ -21,7 +21,7 @@ export default function LiviaPro() {
           title: "livia pro - danilo leal",
           images: [
             {
-              url: "https://i.ibb.co/pWz5jvt/livia-pro.png",
+              url: "https://i.ibb.co/yXb5rGP/livia.png",
               alt: "livia pro - danilo leal",
               width: 1280,
               height: 720,

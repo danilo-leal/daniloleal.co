@@ -1,11 +1,11 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import AppBar from '../../components/atoms/AppBar';
-import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/molecules/CaseHeader';
-import Footer from '../../components/molecules/Footer';
-import Zoom from 'react-medium-image-zoom';
-import 'react-medium-image-zoom/dist/styles.css';
+import React from "react";
+import { NextSeo } from "next-seo";
+import AppBar from "../../components/atoms/AppBar";
+import BreadCrumb from "../../components/atoms/BreadCrumb";
+import CaseHeader from "../../components/molecules/CaseHeader";
+import Footer from "../../components/molecules/Footer";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 export default function iFoodDriverOnboarding() {
   return (
@@ -14,12 +14,12 @@ export default function iFoodDriverOnboarding() {
         title="driver onboarding - danilo leal"
         canonical="https://daniloleal.co/cases/ifood-onboarding"
         openGraph={{
-          url: 'https://daniloleal.co/cases/ifood-onboarding',
-          title: 'driver onboarding - danilo leal',
+          url: "https://daniloleal.co/cases/ifood-onboarding",
+          title: "driver onboarding - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/bvvKQwM/driver-onboarding.png',
-              alt: 'driver onboarding - danilo leal',
+              url: "https://i.ibb.co/9HXCNdM/driver-onb.png",
+              alt: "driver onboarding - danilo leal",
               width: 1280,
               height: 720,
             },

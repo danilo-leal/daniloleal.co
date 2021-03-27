@@ -1,15 +1,15 @@
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import CaseInfo from '../../components/molecules/CaseInfo';
-import AppBar from '../../components/atoms/AppBar';
-import BreadCrumb from '../../components/atoms/BreadCrumb';
-import CaseHeader from '../../components/molecules/CaseHeader';
-import DeepCards from '../../components/molecules/DeepCards';
-import Footer from '../../components/molecules/Footer';
-import Zoom from 'react-medium-image-zoom';
-import 'react-medium-image-zoom/dist/styles.css';
-import SectionDivider from '../../components/molecules/SectionDivider';
-import Statement from '../../components/molecules/Statement';
+import React from "react";
+import { NextSeo } from "next-seo";
+import CaseInfo from "../../components/molecules/CaseInfo";
+import AppBar from "../../components/atoms/AppBar";
+import BreadCrumb from "../../components/atoms/BreadCrumb";
+import CaseHeader from "../../components/molecules/CaseHeader";
+import DeepCards from "../../components/molecules/DeepCards";
+import Footer from "../../components/molecules/Footer";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+import SectionDivider from "../../components/molecules/SectionDivider";
+import Statement from "../../components/molecules/Statement";
 
 export default function iFood() {
   return (
@@ -18,12 +18,12 @@ export default function iFood() {
         title="iFood - danilo leal"
         canonical="https://daniloleal.co/cases/ifood"
         openGraph={{
-          url: 'https://daniloleal.co/cases/ifood',
-          title: 'iFood - danilo leal',
+          url: "https://daniloleal.co/cases/ifood",
+          title: "iFood - danilo leal",
           images: [
             {
-              url: 'https://i.ibb.co/wCfKY9z/ifood.png',
-              alt: 'iFood - danilo leal',
+              url: "https://i.ibb.co/6w59HV2/ifood.png",
+              alt: "iFood - danilo leal",
               width: 1280,
               height: 720,
             },
@@ -53,14 +53,14 @@ export default function iFood() {
             >
               Google Play
             </a>,
-            ', ',
+            ", ",
             <a
               href="https://www.youtube.com/watch?v=J8TWkdUS1Fc"
               className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
             >
               promo video
             </a>,
-            ' and ',
+            " and ",
             <a
               href="https://dribbble.com/shots/6566232-iFood-Driver-Performance"
               className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
