@@ -1,0 +1,26 @@
+<svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="16" y="10" width="16" height="20">
+<path d="M16 16.6627C16 15.6284 16.5329 14.667 17.41 14.1187L22.41 10.9937C23.3828 10.3857 24.6172 10.3857 25.59 10.9937L30.59 14.1187C31.4671 14.667 32 15.6284 32 16.6627L32 23.3373C32 24.3716 31.4671 25.333 30.59 25.8813L25.59 29.0063C24.6172 29.6143 23.3828 29.6143 22.41 29.0063L17.41 25.8813C16.5329 25.3331 16 24.3717 16 23.3373V16.6627Z" fill="#ED64A6"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 15L24 20L32 15L24 10L16 15Z" fill="#63B3ED"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 20V30L32 25V15L24 20Z" fill="#3182CE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 25L24 30V20L16 15V25Z" fill="#4299E1"/>
+</g>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="10" width="16" height="20">
+<path d="M0 16.6627C0 15.6284 0.532858 14.667 1.41 14.1187L6.41 10.9937C7.38281 10.3857 8.61718 10.3857 9.58999 10.9937L14.59 14.1187C15.4671 14.667 16 15.6284 16 16.6627L16 23.3373C16 24.3716 15.4671 25.333 14.59 25.8813L9.58999 29.0063C8.61718 29.6143 7.38281 29.6143 6.41 29.0063L1.41001 25.8813C0.532862 25.3331 0 24.3717 0 23.3373V16.6627Z" fill="#ED64A6"/>
+</mask>
+<g mask="url(#mask1)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 15L8 20L16 15L8 10L0 15Z" fill="#63B3ED"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 20V30L16 25V15L8 20Z" fill="#3182CE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 25L8 30V20L0 15V25Z" fill="#4299E1"/>
+</g>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="0" width="16" height="20">
+<path d="M8 6.66274C8 5.62837 8.53286 4.66696 9.41 4.11875L14.41 0.993748C15.3828 0.385741 16.6172 0.385741 17.59 0.993747L22.59 4.11875C23.4671 4.66696 24 5.62837 24 6.66274L24 13.3373C24 14.3716 23.4671 15.333 22.59 15.8813L17.59 19.0063C16.6172 19.6143 15.3828 19.6143 14.41 19.0063L9.41001 15.8813C8.53286 15.3331 8 14.3717 8 13.3373V6.66274Z" fill="#ED64A6"/>
+</mask>
+<g mask="url(#mask2)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 5L16 10L24 5L16 0L8 5Z" fill="#63B3ED"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 10V20L24 15V5L16 10Z" fill="#3182CE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 15L16 20V10L8 5V15Z" fill="#4299E1"/>
+</g>
+</svg>
