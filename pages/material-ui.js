@@ -6,6 +6,7 @@ import MainLink from "../components/atoms/MainLink";
 import ShowOffTemp from "../components/molecules/ShowOffTemp";
 import CallOut from "../components/molecules/CallOut";
 import MaterialBlocks from "../components/atoms/MaterialBlocks";
+import Quote from "../components/atoms/Quote";
 
 export default function MaterialUI() {
   return (
@@ -24,25 +25,39 @@ export default function MaterialUI() {
             My train of thought for this exercise was trying to come up with the
             ultimate problem MaterialUI as a company is trying to solve. From my
             day-to-day experience with the library in a huge company context,
-            I'm inclined to believe that MaterialUI is the ultimate UI solution
-            for anyone. If you think about the product kit as a whole, it's
+            I'm inclined to believe that MaterialUI is the definite UI solution,
+            for any context. If you think about the product kit as a whole, it's
             ultimately letting developers not worry anymore with UI building.
             <br />
             <br />
-            The only product I left out is the Builder. My understanding,
-            especially after talking to Olivier, is that this product is still
-            not making much sense in the company portfolio. I really like the
-            idea and believe that it has huge potential, though.
+            MaterialUI is covering a broad range of UI development problems:
+            complex systems to upcoming MVPs. All the building blocks and
+            structures have been thought through, enabling product teams to
+            think about their problems in depth while also providing a huge set
+            of component solutions for the iterative design process.
             <br />
             <br />
-            I've built on top of the "building blocks" concept. The Material-UI
-            product set solves problems for a broad range of needs: from
-            experienced developers trying to build complex systems UIs to
-            iterative designers and product people trying to get MVPs off of the
-            ground.
+            Developing UIs is no easy task and takes a lot of time. There's so
+            much to worry about: styling, accessibility, scalability,
+            responsiveness. I see MaterialUI taking this load of concerns of the
+            developers' shoulders. Being constrained into a pre-built design
+            system but also enabling extensive customization, teams can work
+            through the UI seamlessly.
+            <br />
+            <br />
+            I've built on top of the building blocks concept. Each product is a
+            step into building mature UI systems. There's a solution for
+            everyone: those who want more out-of-the-box pre-built and designed
+            components, those who feel more secure by following Material
+            Design's guidelines, those who want complete styling control, and
+            more. Material-UI is the ultimate solution for UIs.
             <br />
             <br />
           </h2>
+          <Quote
+            quote="Material-UI is the ultimate solution for UIs."
+            link=""
+          />
           <MaterialBlocks />
           <div className="pt-8">
             <div className="pb-8">
