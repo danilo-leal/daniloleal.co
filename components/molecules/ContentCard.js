@@ -1,5 +1,5 @@
-import React from 'react';
-import MainLink from '../atoms/MainLink';
+import React from "react";
+import MainLink from "../atoms/MainLink";
 
 export default function ContentCard(props) {
   return (

@@ -38,7 +38,7 @@ export default function BookReviews() {
           summary="An exercise for self-remembering a bunch of words I've red."
         />
       </div>
-      <div className="large-container">
+      <div className="default-container">
         <div>
           <ContentCard
             cardCover="https://images-na.ssl-images-amazon.com/images/I/51RM71lAzKL.jpg"

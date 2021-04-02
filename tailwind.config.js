@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   purge: ["./pages/**/*.js", "./components/**/*.js"],
   darkMode: "class", // or 'media' or 'class'
@@ -15,6 +17,7 @@ module.exports = {
         black: "#131319",
         blackish: "#18181b",
         draplin: "#e57928",
+        orange: colors.orange,
       },
     },
   },
