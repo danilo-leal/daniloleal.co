@@ -95,7 +95,7 @@ export default function Work() {
                   Designed the new driver app from the ground up. Small team,
                   challenging goals and huge impact. What a ride!
                 </h2>
-                <MainLink string="Read the story" path="/" />
+                <MainLink string="Read the story" path="/cases/ifood" />
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function Work() {
                   With Livia, we were tackling one of the most fundamental
                   health care problem out there: communication.
                 </h2>
-                <MainLink string="Read the story" path="/" />
+                <MainLink string="Read the story" path="/cases/livia" />
               </div>
             </div>
           </div>
@@ -158,7 +158,7 @@ export default function Work() {
                   it all at Rapiddo. Great times. Apps, motion graphics,
                   branding. Told ya!
                 </h2>
-                <MainLink string="Read the story" path="/" />
+                <MainLink string="Read the story" path="/cases/rapiddo" />
               </div>
             </div>
           </div>
@@ -195,7 +195,10 @@ export default function Work() {
                   A streamlined financial organizer for you to follow how much
                   you've spent in comparison to what you've expected to spend.
                 </h2>
-                <MainLink string="See work in progress" path="/" />
+                <MainLink
+                  string="See work in progress"
+                  path="http://coop-two.vercel.app/"
+                />
               </div>
             </div>
           </div>
@@ -228,7 +231,10 @@ export default function Work() {
                   try to lay down the fundamentals about TailwindCSS in a very
                   easy way.
                 </h2>
-                <MainLink string="See work in progress" path="/" />
+                <MainLink
+                  string="See work in progress"
+                  path="https://tailwind-para-designers.vercel.app/"
+                />
               </div>
             </div>
           </div>
