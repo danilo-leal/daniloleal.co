@@ -1,5 +1,5 @@
-import React from 'react';
-import Selfie from '../atoms/Selfie';
+import React from "react";
+import Selfie from "../atoms/Selfie";
 
 export default function HomeHero() {
   return (
@@ -11,11 +11,10 @@ export default function HomeHero() {
         <span className="font-medium text-gray-900 dark:text-gray-100 mx-1">
           Danilo Leal
         </span>
-        and I'm an explorer and designer, in that particular order. I really put
-        myself out there to understand things, how they are interrelated and
-        connected - as is everything - to only then figure out how to give it
-        some form, so we can experience it. I design to find the right
-        direction.
+        and I'm an explorer and designer, in that particular order. I seek depth
+        at everything I do, always searching for clear understanding. My
+        ultimate goal is to make a real impact following the principles that got
+        me here: respect and honesty. Designing to find the right direction.
       </h2>
       <p className="paragraph-1">
         👉 Currently designing products
