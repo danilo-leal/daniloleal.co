@@ -34,15 +34,15 @@ export default function Home() {
           casePath="/cases/livia"
           linkString="Read the story"
         />
-        <CallOut
+        {/* <CallOut
           subjectLogo="/svgs/logo-rapiddo.svg"
           imgAlt="Rappido Entregas Logo"
           subjectName="Rapiddo Entregas"
           subjectSummary="One designer for the whole company. You know the drill. I did it all at Rapiddo. Great times. Apps, motion graphics, branding. Told ya!"
           casePath="/cases/rapiddo"
           linkString="Read the story"
-        />
-        <div className="pt-10 grid justify-center">
+        /> */}
+        <div className="pt-20 grid justify-center">
           <IconsSocial />
         </div>
       </div>
