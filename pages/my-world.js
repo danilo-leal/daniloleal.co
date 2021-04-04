@@ -89,7 +89,7 @@ export default function MyWorld() {
         <CallOut
           subjectLogo="/svgs/icon-image.svg"
           subjectName="Graphic Design"
-          subjectSummary="Grew up in design by doing graphic. Logos, to whole branding packages to album cover designs. Seeing stuff being physical is feeling it for real."
+          subjectSummary="I grew up in design by doing graphic. Logos, to whole branding packages to album cover designs. Seeing stuff being physical is feeling it for real."
           casePath="/my-world/graphic-design"
           linkString="See stuff"
         />

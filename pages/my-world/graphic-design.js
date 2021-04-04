@@ -33,18 +33,18 @@ export default function GraphicDesign() {
           goToOne="/"
           pathNameTwo="My world /"
           goToTwo="/my-world"
-          pathNameThree="Graphic design"
+          pathNameThree="Graphic Design"
         />
         <CaseHeader
-          title="Graphic design"
-          summary="Design outside of screens. Even though you're seeing in a screen now."
+          title="Graphic Design"
+          summary="Design outside of screens. Even though you're seeing it in a screen now."
         />
         <h1 className="h1">Okay, for starters!</h1>
         <p className="paragraph-1">
-          I love designing for graphic. From album covers to logo identities.
+          I love designing for graphics. From album covers to logo identities.
           This goes all way back to when and how I started designing. Much
           inspired by the likes of Aaron Draplin, the way you design stuff
-          express yourself to the world. There isn't that weight of value
+          expresses yourself to the world. There isn't that weight of value
           proposition or any of this stuff. It's just expression. It's how you
           connect visually to the world, what clicks to you. So I've gathered
           pieces of work that I did over the years.
@@ -60,12 +60,12 @@ export default function GraphicDesign() {
           <h1 className="h1">Rancore • Ao Vivo • 2017</h1>
           <p className="paragraph-1">
             This band is one very dear to me. One of my most loved bands in the
-            brazilian underground hardcore scene. All things they spread out
-            rings with me. I love their sound, aesthetic and purpose. It was a
-            huge pleasure being called by Teco, band's singer, to help them at
-            this live album cover. The main concept were already there, I just
-            gave a little push, but well enough so I feel like I participated! A
-            honor to be involved in.
+            Brazilian underground hardcore scene. All things they spread out
+            rings with me. I love their sound, aesthetic, and purpose. It was a
+            huge pleasure being called by Teco, the band's singer, to help them
+            with this live album cover. The main concept was already there, I
+            just gave a little push, but well enough so I feel like I
+            participated! An honor to be involved in.
           </p>
           <iframe
             src="https://open.spotify.com/embed/album/50mtPeTXbDuTrDM2Mho6LH"
@@ -96,10 +96,10 @@ export default function GraphicDesign() {
           I was incredibly privileged to work again with Teco in both of his
           solo albums. Besides making an awesome friend, it was specifically
           special because Teco's been on a journey with his solo project for
-          about 10 years and only after all this time that the time came to
+          about 10 years, and only after all this time that the time came to
           immortalize his work. Solar and Logos Solar are one story and message
-          only told through two full length albums. These songs compile a lot of
-          brazilian music making and spread beautiful gems of wisdom.
+          only told through two full-length albums. These songs compile a lot of
+          Brazilian music-making and spread beautiful gems of wisdom.
         </p>
         <iframe
           src="https://open.spotify.com/embed/album/7sueXJcfgHuWB36k1MchEi"
@@ -118,13 +118,13 @@ export default function GraphicDesign() {
           </Zoom>
           <h1 className="h1">Flora Park • Chutando nuvens • 2017</h1>
           <p className="paragraph-1">
-            This is a bit of a dream come true. Me and my buddies self recorded
+            This is a bit of a dream come true. Me and my buddies self-recorded
             and produced this album. We did it all very DIY style but with all
-            hearts in it. We were all neighbours at some point and Flora Park
+            hearts in it. We were all neighbors at some point and Flora Park
             goes by the name of where we used to live. It's not only a place I
             feel at home, but where I became most of what I am today. Many
             things happened over there and these songs express a moment in those
-            times. Very proud of it. Dreaming in getting a gig up to it.
+            times. Very proud of it. Dreaming of getting a gig up to it.
           </p>
           <iframe
             className="w-full h-20 mt-6 opacity-75 hover:opacity-100 transition-opacity"
@@ -147,12 +147,12 @@ export default function GraphicDesign() {
           <h1 className="h1">Sede • Antes que a natureza morra • 2016</h1>
           <p className="paragraph-1">
             This one is a very special project of mine. Since 2014, I've been
-            recording and producing a bunch of songs here and there. Song
-            writing is like therapy to me. I could stay hours and hours closed
-            in a room making music. And at some point in 2016, I decided to
-            write a whole album. This demanded narrative and thoughtfulness. But
-            I did it. Sede is a 16 tracks album, 100% me, produced, mixed and
-            mastered. Take a listen one of my favorites tracks below.
+            recording and producing a bunch of songs here and there. Songwriting
+            is like therapy to me. I could stay hours and hours closed in a room
+            making music. And at some point in 2016, I decided to write a whole
+            album. This demanded narrative and thoughtfulness. But I did it.
+            Sede is a 16 tracks album, 100% me, produced, mixed, and mastered.
+            Take a listen to one of my favorites tracks below.
           </p>
           <iframe
             className="w-full h-20 mt-6 opacity-75 hover:opacity-100 transition-opacity"

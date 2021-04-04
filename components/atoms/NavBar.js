@@ -1,7 +1,7 @@
-import React from 'react';
-import DarkModeButton from './DarkModeButton';
-import SecondaryLink from './SecondaryLink';
-import Logo from './Logo';
+import React from "react";
+import DarkModeButton from "./DarkModeButton";
+import SecondaryLink from "./SecondaryLink";
+import Logo from "./Logo";
 
 export default function NavBar() {
   return (
@@ -10,7 +10,6 @@ export default function NavBar() {
       <div className="flex items-center space-x-6">
         <SecondaryLink path="/my-world" string="My world" />
         <SecondaryLink path="/about" string="About me" />
-
         <DarkModeButton />
       </div>
     </nav>

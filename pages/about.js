@@ -64,7 +64,7 @@ export default function About() {
         <p className="paragraph-1">
           I guess it all started with mom and dad naming me after some popular
           Brazilian MPB dude. Somehow, from day one, music, art and expression
-          was there. My folks always cherished and worked with arts, media and
+          were there. My folks always cherished and worked with arts, media, and
           technology. Because of that, new tech gadgets were commonly around
           when I was only a kiddo. Giving form to things became a living need.
           <br />
@@ -76,7 +76,7 @@ export default function About() {
           Technology naturally boosted the capacity of creating and I followed
           that boat very early on.
         </p>
-        <h1 className="h1">Choosign Design</h1>
+        <h1 className="h1">Choosing Design</h1>
         <p className="paragraph-1">
           Looking back, it's hard to even say I chose design. I'm more inclined
           to think that design chose me. There are so many things I can relate

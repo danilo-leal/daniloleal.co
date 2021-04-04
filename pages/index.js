@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="global-wrapper">
       <NavBar />
-      <div className="max-w-2xl m-auto pt-12 px-5">
+      <div className="max-w-2xl m-auto pt-16 px-4">
         <HomeHero />
         <HomeTags />
         <Divider />
