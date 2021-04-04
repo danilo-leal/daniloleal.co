@@ -56,6 +56,9 @@ input[type="radio"] {
   .h2 {
     @apply text-gray-900 dark:text-white;
   }
+  .h2-medium {
+    @apply font-medium dark:text-white;
+  }
   .paragraph-1 {
     @apply text-gray-500 text-regular dark:text-gray-400 leading-relaxed;
   }
@@ -82,5 +85,8 @@ input[type="radio"] {
   }
   .code-inline {
     @apply inline text-code bg-gray-200 dark:bg-gray-700 rounded-md px-1 py-0.5 mx-1;
+  }
+  .work-grid {
+    @apply grid sm:grid-cols-2 grid-cols-1 gap-8 px-2 sm:px-0;
   }
 }
