@@ -39,7 +39,7 @@ export default function MyWorld() {
         />
         <CaseHeader
           title="My world"
-          summary="This is what cool tech kids call digital garden. It's a place for my creations to live, a safe outlet for expressing myself. Here's home in the internet."
+          summary="This is what cool tech kids call a digital garden. It's a place for my creations to live, a safe outlet for expressing myself. Here's home on the internet."
         />
       </div>
       <div className="large-container">

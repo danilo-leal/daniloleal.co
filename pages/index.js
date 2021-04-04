@@ -22,7 +22,7 @@ export default function Home() {
           subjectLogo="/svgs/logo-ifood.svg"
           imgAlt="iFood Logo"
           subjectName="iFood"
-          subjectSummary="Designed the new driver app from the ground up. Small team, challenging goals and huge impact. What a ride!"
+          subjectSummary="Designed the new driver app from the ground up. Small team, challenging goals, and huge impact. What a ride!"
           casePath="/cases/ifood"
           linkString="Read the story"
         />
@@ -30,7 +30,7 @@ export default function Home() {
           subjectLogo="/svgs/logo-livia.svg"
           imgAlt="Nexa Digital Logo"
           subjectName="Livia Pro"
-          subjectSummary="Being healthy is communicating rightfully. With Livia, we were tackling one of the most fundamental health care problem out there: communication."
+          subjectSummary="Health is doing the little things every day. With Livia, we were tackling one of the most fundamental health care problems out there: communication."
           casePath="/cases/livia"
           linkString="Read the story"
         />
