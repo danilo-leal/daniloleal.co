@@ -2,11 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
 export default function DarkModeButton() {
-  //old constant defined for the old dark mode toggle function
-  //const [colorTheme, setTheme] = DarkModeToggle();
-  //{theme === 'light' ? (
-
-  //using next-theme-provider
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
   useEffect(() => setMounted(true), []);
@@ -15,7 +10,8 @@ export default function DarkModeButton() {
     <button
       aria-label="Toggle Dark Mode"
       type="button"
-      className="bg-gray-200 hover:bg-gray-300 dark:bg-gray-800  dark:hover:bg-gray-700 transition-all rounded-full flex items-center justify-center h-8 w-8"
+      className="bg-gray-50 border border-gray-300 dark:border-gray-700
+      hover:bg-gray-100 dark:bg-black  dark:hover:bg-gray-900 transition-all rounded-full flex items-center justify-center h-8 w-8"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
       {mounted && (
@@ -23,7 +19,7 @@ export default function DarkModeButton() {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
           fill="currentColor"
-          className="h-4 w-4 text-gray-800 dark:text-gray-200"
+          className="h-4 w-4 text-gray-600 dark:text-gray-300"
         >
           {theme === "dark" ? (
             <path

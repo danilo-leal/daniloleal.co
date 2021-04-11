@@ -39,6 +39,11 @@ export default function Thinking() {
           summary="Food for thought at most. Rambiling for sure!"
         />
         <BlogCallOut
+          date="Apr 11, 2021"
+          title="Good vs Great PMs"
+          path="/my-world/thinking/good-great-pm"
+        />
+        <BlogCallOut
           date="Jan 24, 2021"
           title="Dark Mode with TailwindCSS and Next.js"
           path="/my-world/thinking/darkmode-next-tailwind"

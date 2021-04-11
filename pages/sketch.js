@@ -1,113 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import AppBar from "../components/atoms/AppBar";
-import Footer from "../components/molecules/Footer";
-import BreadCrumb from "../components/atoms/BreadCrumb";
-import CaseHeader from "../components/molecules/CaseHeader";
-import WorkCard from "../components/molecules/WorkCard";
-import SideGigCard from "../components/molecules/SideGigCard";
-import DisabledLink from "../components/atoms/DisabledLink";
-import data from "../data/work/data";
-import side from "../data/work/side";
-import { NextSeo } from "next-seo";
+import SecondaryLink from "../components/atoms/SecondaryLink";
 
-export default function Work() {
+export default function Sketch() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleIsOpen = () => setIsOpen((prevIsOpen) => !prevIsOpen);
+
   return (
     <div className="global-wrapper">
-      <NextSeo
-        title="work - danilo leal"
-        canonical="https://daniloleal.co/work"
-        openGraph={{
-          url: "https://daniloleal.co/work",
-          title: "work - danilo leal",
-          images: [
-            {
-              url: "https://i.ibb.co/DQwN7QV/work.png",
-              alt: "work - danilo leal",
-              width: 1280,
-              height: 720,
-            },
-          ],
-        }}
-      />
-      <AppBar goBackTo="/" />
+      <AppBar goBackTo="/my-world" />
       <div className="default-container">
-        <BreadCrumb
-          pathNameOne="Home /"
-          goToOne="/"
-          pathNameTwo="Work"
-          goToTwo="/work"
-        />
-        <CaseHeader
-          title="Work"
-          summary="The tiny sprinkles of myself I've left out in some projects. Here's my take on each one of them."
-        />
-      </div>
-      <div className="default-container">
-        <h1 className="h1">Headliners</h1>
-      </div>
-      <div className="large-container">
-        <div className="work-grid">
-          <div className="border border-gray-200 rounded-lg transition-all hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-black opacity-80 hover:opacity-100 relative">
-            <div className="h-8 w-8 rounded-full bg-blue-500 flex flex-col items-center justify-center shadow-md absolute inset-y-4 right-0 mr-4">
-              <img src="/svgs/white/wlogo-loggi.svg" alt="Loggi's logo" />
+        <div className="p-16">
+          <button
+            className="p-2 border border-gray-300 dark:border-gray-800 rounded-full hover:bg-gray-100 dark:hover:bg-black transition-all"
+            onClick={toggleIsOpen}
+          >
+            <svg
+              className="w-5 h-5 stroke-current dark:text-gray-300 text-gray-600"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+              ></path>
+            </svg>
+          </button>
+          <div
+            className={
+              isOpen
+                ? "m-2 border border-gray-300 dark:border-gray-700 shadow-md rounded w-1/3 hover:shadow-lg transition-all flex flex-col space-y-1"
+                : "hidden"
+            }
+          >
+            <div className="p-4 hover:bg-gray-100 dark:hover:bg-black transition-all">
+              <SecondaryLink string="My world" />
             </div>
-            <div className="h-56 w-full object-cover object-center rounded-t-lg transition-opacity overflow-hidden flex flex-col items-center border-b border-gray-200 dark:border-gray-700">
-              <img
-                className="w-40 mt-6 opacity-20 shadow-2xl rounded-md border border-gray-200 dark:border-gray-800"
-                src="/work/loggi.png"
-                alt="Screenshot of the Loggi Driver product"
-              />
+            <div className="p-4 hover:bg-gray-100 dark:hover:bg-black transition-all">
+              <SecondaryLink string="About me" />
             </div>
-            <div className="p-4 flex items-end justify-between">
-              <div className="flex flex-col space-y-3">
-                <h2 className="h2-medium">Loggi</h2>
-                <p className="text-sm text-gray-500">
-                  Structuring the courier product, making it optimized for any
-                  type of fleet in any step of the chain. Still living it.
-                  Sometime soon!
-                </p>
-                <DisabledLink string="Read the story" />
-              </div>
-            </div>
-          </div>
-          {data.map((work) => (
-            <WorkCard
-              key={work.company}
-              company={work.company}
-              description={work.description}
-              logo={work.logo}
-              logoAlt={work.logoAlt}
-              darkImg={work.darkImg}
-              lightImg={work.lightImg}
-              imgAlt={work.imgAlt}
-              linkString={work.linkString}
-              path={work.path}
-            />
-          ))}
-        </div>
-        <div className="default-container">
-          <h1 className="h1">Side-gigs</h1>
-        </div>
-        <div className="large-container">
-          <div className="work-grid">
-            {side.map((sidegig) => (
-              <SideGigCard
-                key={sidegig.sidegig}
-                sidegig={sidegig.sidegig}
-                description={sidegig.description}
-                logo={sidegig.logo}
-                logoAlt={sidegig.logoAlt}
-                darkImg={sidegig.darkImg}
-                lightImg={sidegig.lightImg}
-                imgAlt={sidegig.imgAlt}
-                linkString={sidegig.linkString}
-                path={sidegig.path}
-              />
-            ))}
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
