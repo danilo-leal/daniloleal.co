@@ -16,7 +16,7 @@ export default [
     logo: "/svgs/white/wlogo-tailwind.svg",
     logoAlt: "TailwindCSS logo",
     description:
-      "Dedicated to the portuguese speaking design comunnity. I'll try to lay down the fundamentals about TailwindCSS in a very easy way.",
+      "Dedicated to the Portuguese-speaking design community. I'll try to lay down the fundamentals about TailwindCSS in a very easy way.",
     darkImg: "/work/tailwind-dark.png",
     lightImg: "/work/tailwind-light.png",
     imgAlt: "Screenshot of the project's home UI",
