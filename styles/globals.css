@@ -48,10 +48,10 @@ input[type="radio"] {
     @apply max-w-3xl m-auto px-2 space-y-4;
   }
   .billboard {
-    @apply font-medium text-5xl mb-4 text-blackish dark:text-white;
+    @apply font-medium sm:text-5xl text-3xl mb-4 text-blackish dark:text-white;
   }
   .h1 {
-    @apply mb-2 mt-8 dark:text-white text-lg;
+    @apply mb-2 mt-8 dark:text-white text-xl;
   }
   .h2 {
     @apply text-gray-900 dark:text-white;

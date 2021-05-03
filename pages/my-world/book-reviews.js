@@ -35,11 +35,19 @@ export default function BookReviews() {
         />
         <CaseHeader
           title="Book reviews"
-          summary="An exercise for self-remembering a bunch of words I've red."
+          summary="An exercise for self-remembering a bunch of words I've read."
         />
       </div>
       <div className="default-container">
-        <div>
+        <div className="grid sm:grid-cols-2 gap-6">
+          <ContentCard
+            cardCover="https://images-na.ssl-images-amazon.com/images/I/71lTvDTij-L.jpg"
+            altImg="Picture of the Understanding, Michael Porter book cover"
+            cardTitle="Understanding, Michael Porter"
+            cardSubtitle="Joan Magretta"
+            cardInfo="2011"
+            cardPage="/my-world/book-reviews/understanding-mp"
+          />
           <ContentCard
             cardCover="https://images-na.ssl-images-amazon.com/images/I/51RM71lAzKL.jpg"
             altImg="Picture of the Good Services book cover"
