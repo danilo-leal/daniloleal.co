@@ -96,8 +96,7 @@ export default function MyWorld() {
         <h1 className="h1">That's me inside your head</h1>
         <a
           href="https://www.youtube.com/watch?v=0IxYbx4nRCw&ab_channel=ResurrectionFest"
-          className="text-tiny text-gray-500 hover:font-medium hover:text-draplin hover:ml-2"
-        >
+          className="text-tiny text-gray-500 hover:font-medium hover:text-draplin hover:ml-2">
           That's a NOFX reference!
         </a>
         <CallOut
@@ -108,17 +107,17 @@ export default function MyWorld() {
           linkString="Explore my brain"
         />
         <CallOut
-          subjectLogo="/svgs/icon-disc.svg"
-          subjectName="Album reviews"
-          subjectSummary="Music is my second nature. I'll be going through some of these pieces trying to express what they mean to me."
-          casePath="/my-world/album-reviews"
-          linkString="Check em out"
-        />
-        <CallOut
           subjectLogo="/svgs/icon-book.svg"
           subjectName="Book reviews"
           subjectSummary="Books are hard to read for me. These really shaped my thinking and my understanding of my place in this world."
           casePath="/my-world/book-reviews"
+          linkString="Check em out"
+        />
+        <CallOut
+          subjectLogo="/svgs/icon-disc.svg"
+          subjectName="Album reviews"
+          subjectSummary="Music is my second nature. I'll be going through some of these pieces trying to express what they mean to me."
+          casePath="/my-world/album-reviews"
           linkString="Check em out"
         />
         <h1 className="h1">Music making</h1>
