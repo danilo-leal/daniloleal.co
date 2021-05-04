@@ -55,12 +55,12 @@ export default function UnderstandingMP() {
           <br />
           The book is written by Joan Magretta and it is essentially a
           thoughtful summary of Michael Porter’s main ideas when it comes to
-          developing a business that thrives competition-wise by using sharp
-          strategy. If I had to boil it down into a simple pitch what this book
-          teaches is that: your company must provide unique value. And the
-          ultimate indicator of competitiveness strength is profit. If your
-          company is running on positive numbers, then you have a competitive
-          business.
+          developing a business that thrives competition-wise by using
+          sharp-angled strategy. If I had to boil it down into a simple pitch
+          what this book teaches is that: your company must provide unique
+          value. And, the ultimate indicator of competitiveness strength, is
+          profit. If your company is running on positive numbers, then you have
+          a competitive business.
           <br />
           <br />
           The structure of the book is composed of two simple questions:
@@ -85,45 +85,45 @@ export default function UnderstandingMP() {
         </div>
         <h2 className="h1">What is competition?</h2>
         <p className="paragraph-1">
-          Well, the usual thing people think when reflecting on competition is
-          that it is a race with clear winners and losers. But it is just not
-          like that when it comes to successfull businesses. There isn’t such a
-          thing as getting success only when your competitor loses. The
-          mentality that exposes this type of view into business making is the
-          “trying to be the best” one.
+          Well, the usual thing people think when picturing competition is that
+          it is a race with clear winners and losers. But it is just not like
+          that when it comes to businesses. There isn’t such a thing as getting
+          success only when your competitor loses. The mentality that exposes
+          this type of point of view into business making is the
+          <i>“trying to be the best”</i> one.
         </p>
         <h2 className="h2">The right mentality</h2>
         <p className="paragraph-1">
           Porter enforces that a company is deemed to fail if it is trying to be
           the best. He argues that this is, ultimately, a zero-sum game. The
-          best in what? For who? When, exactly? There’s so much more to it
-          compared to a battle/war that the best is who survives. Products in
-          that space end up being more of the same, and no real innovation is
-          brought by. Companies start battling their brains out for market
-          share, which is mostly a vanity metric, and competition is exercised
-          through imitation. Everyone’s been through this no ending catch-up
-          game: “what does company B have that we don’t still? We should
-          prioritize doing that ASAP!”. Ultimately, the customer gets into a
-          position where frequently the decision to use A or B is guided by
-          price. Which one is cheaper? There’s no real differentiation factor
+          best in what? For who? When, exactly? There’s so much more to it than
+          compared to a battle/war that the best is who survives. Products
+          operating like that end up being more of the same, and no real
+          innovation is brought by. Companies start battling their brains out
+          for market share — which is mostly a vanity metric — and competition
+          is exercised through imitation. Everyone’s been through this no ending
+          catch-up game: “what does company B have that we don’t still? We
+          should prioritize doing that ASAP!”. Ultimately, the customer gets
+          into a position where frequently the decision to use A or B is guided
+          by price. Which one is cheaper? There’s no real differentiation factor
           between products in a similar given market. <br />
           <br />
-          In order to be competitive, companies should strive to be unique. This
-          is a central argument of Porters. By being unique, you are creating
-          real value. And by doing that, you end up competing in a
+          Instead, in order to be really competitive, companies should strive to
+          be unique. This is a central argument of Porters. By being unique, you
+          are creating real value. And by doing that, you end up competing in a
           multi-dimensional space rather than one-dimensional, like the pricing
           example I wrote above. The strategy will then be shaped by multiple
           factors moving around your product and the value you want to create.
-          This is will, by definition, make you more competitive. Because unique
-          things are hard to copy.
+          This will, by definition, make you more competitive. Unique things are
+          hard to copy.
           <br />
           <br />
           And then, ultimately, to be competitive is to be profitable. That’s
-          another main Porters argument. It isn’t about winning over your
+          another main Porter's argument. It isn’t about winning over your
           rivals, it’s about capturing the largest amount of profit possible.
           Porter provides a thinking model for illustrating the dynamics of a
           given sector, trying to figure out how much profit is there available
-          to capture. He calls it the five forces:
+          to capture. He calls it <b>the five forces</b>:
         </p>
         <Zoom>
           <img
@@ -147,12 +147,12 @@ export default function UnderstandingMP() {
         <p className="paragraph-1">
           We learned how to think about competitiveness and what we should study
           and strive for. Porter then takes us to think, what seems to be key in
-          all his work, about competitive advantage. He argues that you have a
+          all his work, about competitive advantage. He argues that you have
           competitive advantage when, in comparison to the competition, you
-          operate with lower cust, charge bigger prices, or both. Without profit
-          being a thing or being on the lookout, you’re not competing. We must
-          not forget that. It is about, fundamentally, creating superior value,
-          by using the resources the most effective way.
+          operate with lower costs and/or charge bigger prices. Without profit
+          being a thing or being on the lookout, you’re not actually competing.
+          We must not forget that. It is about, fundamentally, creating superior
+          value, by using the resources the most effective way.
         </p>
         <Zoom>
           <img
@@ -175,7 +175,7 @@ export default function UnderstandingMP() {
           It comes down to the value chain you’ve created. In other words, it’s
           the sequence of activities realized to design, make, sell, deliver and
           give maintenance to your product. They are the relevant strategic
-          activities your company works on to expand your competitive advantage.
+          activities your company works on to expand the competitive advantage.
         </p>
         <Zoom>
           <img
@@ -185,12 +185,13 @@ export default function UnderstandingMP() {
           />
         </Zoom>
         <p className="paragraph-1">
-          Each activity shouldn’t be looked at as costs but rather as steps to
+          Each activity shouldn’t be looked at as costs, but rather as steps to
           aggregate some value increase to your product or service. As Porter
           argues, it’s the moment of truth. What are the activities that,
-          despite creating costs, also create value for customers? A given
-          company can be more performative at executing the same set of
-          activities than another or chose to execute a different set of
+          despite creating costs, also create value for customers? Take care
+          looking into it. There are mainly two pathways: a given company can be
+          more performative at executing the same set of activities than
+          another. Or, chose to execute a completely different set of
           activities. We learned, though, that the first approach is striving to
           be the best. So, think about what should be done.
         </p>
@@ -249,13 +250,13 @@ export default function UnderstandingMP() {
           the best here.
           <br />
           <br />
-          Aiming for a given, specific, customer need isn’t enough. A
+          Aiming for a given, specific, customer need isn’t enough, though. A
           distinctive value proposition only will be converted into a
           significative strategy if the focus is on the activities. By that, I
           mean: executing given activities differently or executing different
           activities than the competition. The choices that limit what the
           company will ultimately do are the ones essential to strategy. They
-          will create headroom for personalizing activities to deliver those in
+          will create headroom for personalizing activities, to deliver those in
           the best way possible. This creates a unique value chain. Porter
           offers the example of three different car-renting companies:
         </p>
@@ -281,13 +282,14 @@ export default function UnderstandingMP() {
           trade-off. He tells that it seemed a real imposed problem when,
           apparently, the market in the ’90s, showed that is, actually, fake. Is
           it possible to be high quality and lower cost at the same time? Is
-          quality free? <br />
+          quality free?
+          <br />
           <br />
           Quality ends up being free by removing defects and waste. He argues
           that this a false trade-off. Companies that are faced with them are
           the ones that fail at operational effectiveness. When they lack esteem
-          at executing basic activities, the generic type isgeneric type is not
-          unique to the strategy.
+          at executing basic activities, it isn't even possible considering
+          quality. The generic needs won't be met.
           <br />
           <br />
           But when companies work through that, they face real trade-offs.
@@ -330,11 +332,12 @@ export default function UnderstandingMP() {
           And finally, to wrap it all up, continuity is about making sure that
           the competitive advantage can be developed over time. And it’s also
           persisting on a given designed strategy. You might wonder if the
-          strategy itself should be changed. And yes, it should. And it will.
-          But the value proposition must be stable enough. Then, you have space
-          to change the ways it is delivered. By frequently changing stuff,
-          innovating the methods, continuously upgrading what you do, you won’t
-          have to make bigger and painful changes.
+          strategy itself should be changed along the way. And yes, it should.
+          And it will. But the value proposition must be stable enough. Then,
+          you'd want to have space to change the ways it is delivered. By
+          frequently changing stuff, innovating the methods, continuously
+          upgrading what you do, you won’t have to make bigger and painful
+          changes.
           <br />
           <br />
           This doesn’t mean a good strategy and value proposition is about
@@ -343,7 +346,10 @@ export default function UnderstandingMP() {
           a broad perception about what types of customers and necessities might
           be relevant in five, ten, or more years beyond. Implicitly, a strategy
           is about betting — as well as the trade-offs to satisfy it — that
-          these (customers and necessities) will last long enough.
+          these (customers and necessities) will last long enough. But we should
+          not forget that all the exercises said above, the five forces and
+          stuff, are meant to give you this broader perspective, which will then
+          lead you to more secure bets.
           <br />
           <br />
           Continuity shouldn’t sound like persisting on something pre-defined.
@@ -353,7 +359,7 @@ export default function UnderstandingMP() {
           companies usually let go of their strategies sooner than later. But it
           is necessary to understand the conditions that demand new strategies:
         </p>
-        <p className="paragraph-1 font-semibold dark:text-gray-200">
+        <p className="paragraph-1 font-semibold text-gray-700 dark:text-gray-200">
           When the customer’s needs change.
         </p>
         <p className="paragraph-1 ml-3">
@@ -368,7 +374,7 @@ export default function UnderstandingMP() {
           considerably gone. From 1991 to 1994, their revenue decreased from US$
           223M to US$83M.
         </p>
-        <p className="paragraph-1 font-semibold dark:text-gray-200">
+        <p className="paragraph-1 font-semibold text-gray-700 dark:text-gray-200">
           When innovations end up invalidating essential trade-offs from which
           the strategy lives on
         </p>
@@ -380,7 +386,7 @@ export default function UnderstandingMP() {
           personal-micro-computers. All of this shook the Dell strategy down,
           making them rethink their products as a whole.
         </p>
-        <p className="paragraph-1 font-semibold dark:text-gray-200">
+        <p className="paragraph-1 font-semibold text-gray-700 dark:text-gray-200">
           When an innovation, as a whole, overcome the value proposition
         </p>
         <p className="paragraph-1 ml-3">
@@ -395,24 +401,24 @@ export default function UnderstandingMP() {
           needed and absolutely crucial to maintain competitive advantage.
           <br />
           <br />
-          First, you need to be safe at operational effective. If you’re not,
-          the strategy will be irrelevant. Which innovation helps the strategy
-          and which will compromise the singularity? Second, change must happen
-          when new ways to extend the value proposition appear or new
-          opportunities to deliver the value you’re trying to provide. Netflix
-          is a good example of this.
+          First, you need to be safe at operational effectiveness. If you’re
+          not, the strategy will be irrelevant. Which innovation helps the
+          strategy and which will compromise the singularity? Second, change
+          must happen when new ways to extend the value proposition appear or
+          when new opportunities to deliver the value you’re trying to provide
+          happen. Netflix is a good example of this.
         </p>
         <h2 className="h1">Summing it all up</h2>
         <p className="paragraph-1">
           This book and all of Porter’s work is definitely a bible for product
-          strategy and value creation. It isn’t easy but few people actually
-          give this amount of thought into their products and companies. There
-          countless trying to be the best and they will ultimately fail. Talk
-          about scooter-ride-sharing, huh?
+          strategy. It isn’t easy but few people actually give this amount of
+          thought into their products and companies. There are countless trying
+          to be the best and they will ultimately fail. Talk about
+          scooter-ride-sharing, huh?
           <br />
           <br />
-          The final key argument Porter makes is that is impossible to know it
-          all on day 1. You will figure out what matters by driving down the
+          The final reminder Porter gives is that it is impossible to know it
+          all on day one. You will figure out what matters by driving down the
           road. Therefore, the capacity and flexibility to change are needed.
           But continuity and a properly designed strategy are also needed
           because it makes change more effective and viable. Luck definitely is
@@ -423,7 +429,7 @@ export default function UnderstandingMP() {
           When you don’t have a strategy, anything can affect your business.
           Strategy grounds you into deciding what is important because it
           identifies who a given organization is trying to satisfy, which needs
-          they’re looking for designing for, and how its value chain is
+          they’re looking to designing for, and how its value chain is
           distinctively set up to do that at the right price. Strategy makes
           priorities evident. And if an organization has an objective which
           people understand, their disposition and sense of urgency about
