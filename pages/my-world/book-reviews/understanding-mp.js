@@ -362,38 +362,45 @@ export default function UnderstandingMP() {
         <p className="paragraph-1 font-semibold text-gray-700 dark:text-gray-200">
           When the customer’s needs change.
         </p>
-        <p className="paragraph-1 ml-3">
-          There’s an example about Liz Claiborne, a 1976 funded company that
-          worked for satisfying an emerging need for women joining the
-          workforce. The company provided safety that women were properly
-          dressed for success. And in their first years, they saw enormous
-          growth and profit. But by the early ’90s, the insecurity of what to
-          wear to work wasn’t a thing anymore for women. Women became more
-          confident about what to wear. At the same time, the workplace clothing
-          paradigm also relaxed. The necessity that Liz Claiborne worked on was
-          considerably gone. From 1991 to 1994, their revenue decreased from US$
-          223M to US$83M.
-        </p>
+        <ul className="paragraph-1 list-disc ml-6">
+          <li>
+            There’s an example about Liz Claiborne, a 1976 funded company that
+            worked for satisfying an emerging need for women joining the
+            workforce. The company provided safety that women were properly
+            dressed for success. And in their first years, they saw enormous
+            growth and profit. But by the early ’90s, the insecurity of what to
+            wear to work wasn’t a thing anymore for women. Women became more
+            confident about what to wear. At the same time, the workplace
+            clothing paradigm also relaxed. The necessity that Liz Claiborne
+            worked on was considerably gone. From 1991 to 1994, their revenue
+            decreased from US$ 223M to US$83M.
+          </li>
+        </ul>
+
         <p className="paragraph-1 font-semibold text-gray-700 dark:text-gray-200">
           When innovations end up invalidating essential trade-offs from which
           the strategy lives on
         </p>
-        <p className="paragraph-1 ml-3">
-          The example here is Dell and HP back in the day. Dell used to
-          fabricate their hardware bits all by themselves and that was a huge
-          thing for their price and product value. But HP started to outsource
-          their components fabrication and also started to focus more on
-          personal-micro-computers. All of this shook the Dell strategy down,
-          making them rethink their products as a whole.
-        </p>
+        <ul className="paragraph-1 list-disc ml-6">
+          <li>
+            The example here is Dell and HP back in the day. Dell used to
+            fabricate their hardware bits all by themselves and that was a huge
+            thing for their price and product value. But HP started to outsource
+            their components fabrication and also started to focus more on
+            personal-micro-computers. All of this shook the Dell strategy down,
+            making them rethink their products as a whole.
+          </li>
+        </ul>
         <p className="paragraph-1 font-semibold text-gray-700 dark:text-gray-200">
           When an innovation, as a whole, overcome the value proposition
         </p>
-        <p className="paragraph-1 ml-3">
-          Lastly, well, the common example here is Kodak which was completely
-          devasted by digital cameras. And even then, digital cameras were
-          mostly surpassed by smartphones.
-        </p>
+        <ul className="paragraph-1 list-disc ml-6">
+          <li>
+            Lastly, well, the common example here is Kodak which was completely
+            devasted by digital cameras. And even then, digital cameras were
+            mostly surpassed by smartphones.
+          </li>
+        </ul>
         <p className="paragraph-1">
           Strategy is a path, not a fixed point. When effective, is dynamic.
           Defines a wanted market result, not all the means to achieve it,
