@@ -7,10 +7,10 @@ export default function HomeHero() {
       <Selfie />
       <h1 className="h1">Pleasure to have you!</h1>
       <h2 className="paragraph-1 mb-3">
-        My name is
-        <span className="font-medium text-gray-900 dark:text-gray-100 mx-1">
+        My name is{" "}
+        <span className="font-medium text-gray-900 dark:text-gray-100">
           Danilo Leal
-        </span>
+        </span>{" "}
         and I'm an explorer and designer, in that particular order. I seek depth
         at everything I do, always searching for clear understanding. My
         ultimate goal is to make a real impact following the principles that got
@@ -20,8 +20,7 @@ export default function HomeHero() {
         👉 Currently designing products
         <a
           href="https://www.loggi.com"
-          className="inline font-medium text-draplin hover:text-gray-900 dark:hover:text-white transition-all ml-1"
-        >
+          className="inline font-medium text-draplin hover:text-gray-900 dark:hover:text-white transition-all ml-1">
           @Loggi
         </a>
         <br />

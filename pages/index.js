@@ -16,7 +16,7 @@ export default function Home() {
         <Divider />
         <div className="mb-2 mt-8 flex items-center justify-between">
           <h1 className="dark:text-white text-lg">Featured works</h1>
-          <MainLink string="See all" path="/work" />
+          {/* <MainLink string="See all" path="/work" /> */}
         </div>
         <CallOut
           subjectLogo="/svgs/logo-ifood.svg"
@@ -42,7 +42,10 @@ export default function Home() {
           casePath="/cases/rapiddo"
           linkString="Read the story"
         /> */}
-        <div className="pt-20 grid justify-center">
+        <div className="mt-8 p-4 bg-gray-100 dark:bg-black rounded-md flex justify-center">
+          <MainLink string="See all works" path="/work" />
+        </div>
+        <div className="pt-16 grid justify-center">
           <IconsSocial />
         </div>
       </div>
