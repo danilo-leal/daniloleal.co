@@ -8,12 +8,12 @@ import firebase from "firebase/app";
 import firebaseConfig from "../firebase-config";
 
 function MyApp({ Component, pageProps }) {
-  // Initialize Firebase
-  if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
-  } else {
-    firebase.app(); // if already initialized, use that one
-  }
+  // // Initialize Firebase
+  // if (!firebase.apps.length) {
+  //   firebase.initializeApp(firebaseConfig);
+  // } else {
+  //   firebase.app(); // if already initialized, use that one
+  // }
 
   return (
     <ThemeProvider attribute="class">
@@ -30,8 +30,7 @@ function MyApp({ Component, pageProps }) {
           async
           defer
           data-domain="daniloleal.co"
-          src="https://plausible.io/js/plausible.js"
-        ></script>
+          src="https://plausible.io/js/plausible.js"></script>
       </Head>
       <DefaultSeo {...SEO} />
       <body className="bg-white dark:bg-blackish">

@@ -63,9 +63,9 @@ export default function MyWorld() {
             <div className="flex flex-col space-y-3">
               <div className="flex flex-col space-y-1">
                 <h1 className="text-gray-700 dark:text-gray-500">
-                  <span className="font-medium mr-1 text-gray-900 dark:text-white">
+                  <span className="font-medium text-gray-900 dark:text-white">
                     Quietest Friend
-                  </span>
+                  </span>{" "}
                   by sede
                 </h1>
                 <p className="paragraph-1">

@@ -42,7 +42,7 @@ export default function Home() {
           casePath="/cases/rapiddo"
           linkString="Read the story"
         /> */}
-        <div className="mt-8 p-4 bg-gray-100 dark:bg-black rounded-md flex justify-center">
+        <div className="mt-8 p-4 bg-gray-50 dark:bg-black rounded-md flex justify-center">
           <MainLink string="See all works" path="/work" />
         </div>
         <div className="pt-16 grid justify-center">
