@@ -4,7 +4,7 @@ import NavBar from "../components/atoms/NavBar";
 import HomeHero from "../components/molecules/HomeHero";
 import HomeTags from "../components/molecules/HomeTags";
 import CallOut from "../components/molecules/CallOut";
-import MainLink from "../components/atoms/MainLink";
+import ButtonLink from "../components/atoms/ButtonLink";
 
 export default function Home() {
   return (
@@ -42,9 +42,7 @@ export default function Home() {
           casePath="/cases/rapiddo"
           linkString="Read the story"
         /> */}
-        <div className="mt-8 p-4 bg-gray-50 dark:bg-black rounded-md flex justify-center">
-          <MainLink string="See all works" path="/work" />
-        </div>
+        <ButtonLink path="/work" string="See all works" />
         <div className="pt-16 grid justify-center">
           <IconsSocial />
         </div>
