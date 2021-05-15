@@ -84,7 +84,7 @@ input[type="radio"] {
     @apply stroke-current fill-current text-gray-200 dark:text-gray-700 hover:text-draplin dark:hover:text-draplin transition-all cursor-pointer;
   }
   .code-inline {
-    @apply inline text-code bg-gray-200 dark:bg-gray-700 rounded-md px-1 py-0.5 mx-1;
+    @apply inline text-code bg-gray-200 dark:bg-gray-700 dark:text-gray-200 rounded-md px-1 py-0.5;
   }
   .work-grid {
     @apply grid sm:grid-cols-2 grid-cols-1 gap-8 px-2 sm:px-0;

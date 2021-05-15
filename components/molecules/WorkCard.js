@@ -26,7 +26,7 @@ export default function WorkCard(props) {
       bg: "bg-indigo-50 dark:bg-black",
       lg: "bg-indigo-500",
     },
-    "Rapiddo Entregas": {
+    Rapiddo: {
       bg: "bg-orange-50 dark:bg-black",
       lg: "bg-orange-500",
     },
@@ -35,14 +35,12 @@ export default function WorkCard(props) {
   return (
     <div className="border border-gray-200 rounded-lg transition-all hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-black opacity-80 hover:opacity-100 relative">
       <div
-        className={`h-8 w-8 rounded-full flex flex-col items-center justify-center shadow-md absolute inset-y-4 right-0 mr-4 ${branding[company].lg}`}
-      >
+        className={`h-8 w-8 rounded-full flex flex-col items-center justify-center shadow-md absolute inset-y-4 right-0 mr-4 ${branding[company].lg}`}>
         <img src={logo} alt={logoAlt} />
       </div>
       <div
         className={`h-56 w-full object-cover object-center rounded-t-lg transition-opacity overflow-hidden flex flex-col items-center border-b border-gray-200 dark:border-gray-700 
-        ${branding[company].bg}`}
-      >
+        ${branding[company].bg}`}>
         {theme === "dark" ? (
           <img
             className="w-40 mt-6 shadow-2xl rounded-md border border-gray-800"

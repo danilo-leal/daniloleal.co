@@ -8,7 +8,7 @@ import CaseHeader from "../../../components/molecules/CaseHeader";
 
 export default function DarkModeTailwindNext() {
   return (
-    <div className="global-wrapper">
+    <article className="global-wrapper">
       <NextSeo
         title="Dark Mode with TailwindCSS and Next.js - danilo leal"
         canonical="https://daniloleal.co/my-world/thinking/darkmode-next-tailwind"
@@ -48,9 +48,8 @@ export default function DarkModeTailwindNext() {
           Next.js. Before getting it down, I was battling my brain out at trying
           to set up this. Especially with Next.js and all this server-side
           rendering stuff. Because of that, I was having trouble using your
-          usual
-          <code className="code-inline">local.storage</code>
-          for saving the preferred theme on the browser's cache.
+          usual <code className="code-inline">local.storage</code> for saving
+          the preferred theme on the browser's cache.
           <br />
           <br />I got a little overwhelmed because it seemed like a way much
           harder task, implementing dark-mode than I could've ever hoped for.
@@ -74,7 +73,7 @@ $ yarn add next-themes`}
           but I'll just copy in here for instructional's sake. The next step is
           going to your <code className="code-inline">_app.js</code> file, which
           is created when setting up Next. Just wrap all of the elements in the
-          return of your component function with the
+          return of your component function with the{" "}
           <code className="code-inline">ThemeProvider</code> just like that:
         </p>
         <Code
@@ -105,7 +104,7 @@ module.exports = {
           language="javascript"
         />
         <p className="paragraph-1">
-          You're done! Now, go back to the
+          You're done! Now, go back to the{" "}
           <code className="code-inline">_app.js</code> file and just add as an
           attribute to the ThemeProvider a class value:
         </p>
@@ -118,7 +117,7 @@ module.exports = {
         <p className="paragraph-1">
           The last step is just setting a button up for toggling the themes
           whenever you want. We'll be using some of React's built-in features.
-          It's simple, I promise you! Start by creating a
+          It's simple, I promise you! Start by creating a{" "}
           <code className="code-inline">DarkModeButton.js</code> at you
           components folder. It may look like this by now:
         </p>
@@ -159,12 +158,12 @@ export default function DarkModeButton() {
           language="javascript"
         />
         <p className="paragraph-1">
-          Then, we just have to create the button itself using the
+          Then, we just have to create the button itself using the{" "}
           <code className="code-inline">{`<button>`}</code> HTML tag at the
           return of the function. You can style it however you want by changing
           the utility classes. With Tailwind, to set how you want a given
-          element to look like, when in the dark or light mode, just add the
-          <code className="code-inline">dark</code>prefix at the utility class,
+          element to look like, when in the dark or light mode, just add the{" "}
+          <code className="code-inline">dark</code> prefix at the utility class,
           like:
         </p>
         <Code
@@ -197,7 +196,7 @@ export default function DarkModeButton() {
           language="javascript"
         />
         <p className="paragraph-1">
-          Getting at the final steps, we just have to add an
+          Getting at the final steps, we just have to add an{" "}
           <code className="code-inline">onClick</code> event to the button,
           passing to it the <code className="code-inline">setTheme</code> hook
           we've previously declared in the function. And then, we can also use
@@ -250,9 +249,8 @@ export default function DarkModeButton() {
           The <code className="code-inline">mounted</code> hook is set at false
           by default, so your website will, at first load, be at the light mode.
           If you want to change that, just swap it to true instead. You can also
-          change the
-          <code className="code-inline">{`<path>`}</code> element to display
-          different icons if you want it. The first
+          change the <code className="code-inline">{`<path>`}</code> element to
+          display different icons if you want it. The first{" "}
           <code className="code-inline">{`<path>`}</code> rendered is the icon
           displayed when in the dark mode. <br />
           <br />
@@ -277,6 +275,6 @@ export default function DarkModeButton() {
         </p>
       </div>
       <Footer />
-    </div>
+    </article>
   );
 }

@@ -45,6 +45,19 @@ export default function Sketch() {
             Alert aqui.
           </div>
         </div>
+        <div className="">
+          <details>
+            <summary className="p-4 bg-gray-100 rounded-lg font-medium cursor-pointer hover:bg-gray-200 transition-all">
+              Click me to see more details
+            </summary>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum
+              perferendis eius. Adipisci velit et similique earum quas illo odio
+              rerum optio, quis, expedita assumenda enim dicta aliquam porro
+              maxime minima sed a ullam, aspernatur corporis.
+            </p>
+          </details>
+        </div>
       </div>
     </div>
   );

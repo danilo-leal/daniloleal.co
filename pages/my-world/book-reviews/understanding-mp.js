@@ -11,7 +11,7 @@ import "react-medium-image-zoom/dist/styles.css";
 
 export default function UnderstandingMP() {
   return (
-    <div className="global-wrapper">
+    <article className="global-wrapper">
       <NextSeo
         title="understanding, michael porter - danilo leal"
         canonical="https://daniloleal.co/my-world/book-reviews/understanding-mp"
@@ -444,6 +444,6 @@ export default function UnderstandingMP() {
         </p>
       </div>
       <Footer />
-    </div>
+    </article>
   );
 }

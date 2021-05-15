@@ -1,5 +1,5 @@
-import React from 'react';
-import { CopyBlock, dracula } from 'react-code-blocks';
+import React from "react";
+import { CopyBlock, dracula } from "react-code-blocks";
 
 export default function Code(props) {
   return (
@@ -12,11 +12,11 @@ export default function Code(props) {
         wrapLines
         codeBlock
         customStyle={{
-          fontFamily: 'Roboto Mono',
-          overflowY: 'scroll',
-          borderRadius: '5px',
-          fontSize: '0.85rem',
-          padding: '4px',
+          fontFamily: "Roboto Mono, monospace, monospace",
+          overflowY: "scroll",
+          borderRadius: "5px",
+          fontSize: "0.85rem",
+          padding: "4px",
         }}
       />
     </div>

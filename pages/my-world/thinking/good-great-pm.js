@@ -9,7 +9,7 @@ import GoodVSGreat from "../../../components/molecules/GoodGreatPMs";
 
 export default function GoodGreatPM() {
   return (
-    <div className="global-wrapper">
+    <article className="global-wrapper">
       <NextSeo
         title="Good vs Great PMs - danilo leal"
         canonical="https://daniloleal.co/my-world/thinking/good-great-pm"
@@ -75,6 +75,6 @@ export default function GoodGreatPM() {
         ))}
       </div>
       <Footer />
-    </div>
+    </article>
   );
 }

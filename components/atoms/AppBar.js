@@ -8,7 +8,7 @@ export default function AppBar(props) {
       <nav className="max-w-5xl m-auto flex justify-between items-center">
         <a
           href={props.goBackTo}
-          className="p-2 rounded-full transition-colors hover:bg-gray-100 dark:hover:bg-black ">
+          className="p-2 rounded-full transition-colors hover:bg-gray-100 dark:hover:bg-black">
           <svg
             className="w-4 h-4 fill-current text-draplin"
             fill="none"

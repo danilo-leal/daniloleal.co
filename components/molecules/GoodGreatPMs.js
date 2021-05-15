@@ -10,17 +10,17 @@ export default function GoodVSGreat(props) {
       <div className="grid sm:grid-cols-2 border border-gray-200 rounded-lg transition-all hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-black divide-y sm:divide-y-0 sm:divide-x dark:divide-gray-700 ">
         <div className="p-8">
           <p className="paragraph-1">
-            <span className="px-1 bg-orange-100 dark:bg-orange-300 rounded text-blackish mr-1 font-medium">
+            <mark className="px-1 bg-orange-100 dark:bg-orange-300 rounded text-blackish font-medium">
               Good PMs
-            </span>
+            </mark>{" "}
             {good}
           </p>
         </div>
         <div className="p-8">
           <p className="paragraph-1">
-            <span className="px-1 bg-green-100 dark:bg-green-300 rounded text-blackish mr-1 font-medium">
+            <mark className="px-1 bg-green-100 dark:bg-green-300 rounded text-blackish font-medium">
               Great PMs
-            </span>
+            </mark>{" "}
             {great}
           </p>
         </div>

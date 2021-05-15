@@ -12,7 +12,7 @@ import "react-medium-image-zoom/dist/styles.css";
 
 export default function SufjanCarrieLowell() {
   return (
-    <div className="global-wrapper">
+    <article className="global-wrapper">
       <NextSeo
         title="sufjan stevens: carrie & lowell, a review by danilo leal"
         canonical="https://daniloleal.co/my-world/album-reviews/sufjan-carrie"
@@ -65,8 +65,7 @@ export default function SufjanCarrieLowell() {
           live with showed me out of the blue
           <a
             href="https://www.youtube.com/watch?v=qx1s_3CF07k&list=PL67VKSNJdY_XBvoFECHFKyesxnDhTVM8N&index=10&ab_channel=AsthmaticKittyRecords"
-            className="inline-link"
-          >
+            className="inline-link">
             the track No Shade in the Shadow of the Cross,
           </a>
           and the calming almost sleep song melody type along with a peaceful
@@ -121,8 +120,7 @@ export default function SufjanCarrieLowell() {
           And this is a real process indeed. It's painful. Recently I red
           <a
             href="https://www.nytimes.com/2020/12/18/opinion/sunday/coronavirus-death.html?action=click&module=Opinion&pgtype=Homepage"
-            className="inline-link"
-          >
+            className="inline-link">
             an article from the New York Times
           </a>
           that reflects beautifully about death, especially in the wake of 2020.
@@ -245,6 +243,6 @@ export default function SufjanCarrieLowell() {
         />
       </div>
       <Footer />
-    </div>
+    </article>
   );
 }

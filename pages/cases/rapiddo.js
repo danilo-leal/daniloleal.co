@@ -12,15 +12,15 @@ export default function Rapiddo() {
   return (
     <div className="global-wrapper">
       <NextSeo
-        title="rapiddo entregas - danilo leal"
+        title="rapiddo - danilo leal"
         canonical="https://daniloleal.co/cases/rapiddo"
         openGraph={{
           url: "https://daniloleal.co/cases/rapiddo",
-          title: "rapiddo entregas - danilo leal",
+          title: "rapiddo - danilo leal",
           images: [
             {
               url: "https://i.ibb.co/KzgvC0Q/rapiddo.png",
-              alt: "rapiddo entregas - danilo leal",
+              alt: "rapiddo - danilo leal",
               width: 1280,
               height: 720,
             },
@@ -32,11 +32,11 @@ export default function Rapiddo() {
         <BreadCrumb
           pathNameOne="Home /"
           goToOne="/"
-          pathNameTwo="Rapiddo Entregas"
+          pathNameTwo="Rapiddo"
           goToTwo="/cases/rapiddo"
         />
         <CaseHeader
-          title="Rapiddo Entregas"
+          title="Rapiddo"
           summary="One designer for the whole company. You know the drill. I did it all at Rapiddo. Great times. Apps, motion graphics, branding. I told you!"
         />
         <CaseInfo
@@ -46,8 +46,7 @@ export default function Rapiddo() {
           links={[
             <a
               href="https://vimeo.com/321077344"
-              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
-            >
+              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all">
               Motion onboarding
             </a>,
           ]}
@@ -146,8 +145,7 @@ export default function Rapiddo() {
             frameborder="0"
             className="sm:h-96 h-full sm:py-0 py-4 w-full"
             allow="autoplay; fullscreen"
-            allowfullscreen
-          ></iframe>
+            allowfullscreen></iframe>
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
         <p className="subtitle-text">

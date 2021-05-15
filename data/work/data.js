@@ -24,7 +24,7 @@ export default [
     path: "/cases/livia",
   },
   {
-    company: "Rapiddo Entregas",
+    company: "Rapiddo",
     logo: "/svgs/white/wlogo-rapiddo.svg",
     logoAlt: "Rapiddo's logo",
     description:

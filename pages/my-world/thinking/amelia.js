@@ -10,7 +10,7 @@ import Quote from "../../../components/atoms/Quote";
 
 export default function Amelia() {
   return (
-    <div className="global-wrapper">
+    <article className="global-wrapper">
       <NextSeo
         title="amélia - danilo leal"
         canonical="https://daniloleal.co/my-world/thinking/amelia"
@@ -316,6 +316,6 @@ export default function Amelia() {
         </div>
       </div>
       <Footer />
-    </div>
+    </article>
   );
 }

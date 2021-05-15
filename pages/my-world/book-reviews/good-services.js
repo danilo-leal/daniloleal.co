@@ -9,7 +9,7 @@ import Star from "../../../components/atoms/Star";
 
 export default function GoodServices() {
   return (
-    <div className="global-wrapper">
+    <article className="global-wrapper">
       <NextSeo
         title="good services - danilo leal"
         canonical="https://daniloleal.co/my-world/book-reviews/good-services"
@@ -99,8 +99,7 @@ export default function GoodServices() {
           You can
           <a
             href="https://good.services/15-principles-of-good-service-design"
-            className="inline-link"
-          >
+            className="inline-link">
             check more about the book here.
           </a>
           But, I'll be rewriting the principles down just for learnings and
@@ -175,6 +174,6 @@ export default function GoodServices() {
         />
       </div>
       <Footer />
-    </div>
+    </article>
   );
 }
