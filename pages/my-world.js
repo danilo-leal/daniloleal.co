@@ -69,7 +69,7 @@ export default function MyWorld() {
                   by sede
                 </h1>
                 <p className="paragraph-1">
-                  It's been 4 years since I started sede, my instrumental
+                  It's been 4 years since I started <b>sede</b>, my instrumental
                   one-man-band project. Just finished recording the second and
                   latest album, called Quietest Friend. My best work so far for
                   sure. Take it for a spin!

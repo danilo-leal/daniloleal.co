@@ -56,7 +56,7 @@ export default function IconsSocial() {
         className="p-3 rounded-full hover:bg-gray-100 dark:hover:bg-black group transition-all">
         <svg
           role="img"
-          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white hover:text-draplin dark:hover:text-draplin transition-all rounded-sm"
+          className="cursor-pointer w-4 h-4 fill-current text-blackish dark:text-white group-hover:text-draplin dark:hover:text-draplin transition-all"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg">
           <title>Bad writing</title>
