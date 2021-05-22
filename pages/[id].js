@@ -5,6 +5,7 @@ import AppBar from "../components/atoms/AppBar";
 import BreadCrumb from "../components/atoms/BreadCrumb";
 import MainLink from "../components/atoms/MainLink";
 import NotionBlock from "../components/atoms/NotionBlock";
+import Footer from "../components/molecules/Footer";
 
 const renderBlock = (block) => {
   const { type, id } = block;
@@ -61,7 +62,7 @@ const renderBlock = (block) => {
               type="checkbox"
               id={id}
               defaultChecked={value.checked}
-              className="appearance-none h-4 w-4 border border-gray-300 dark:border-gray-700 rounded hover:bg-gray-100 dark:hover:bg-black checked:hover:bg-orange-600 dark:checked:hover:bg-orange-600 checked:bg-draplin checked:border-transparent dark:checked:border-transparent transition-all"
+              className="appearance-none h-4 w-4 border border-gray-300 dark:border-gray-700 rounded hover:bg-gray-100 dark:hover:bg-black hover:checked:bg-orange-600 dark:hover:checked:bg-orange-600 checked:bg-draplin checked:border-transparent dark:checked:border-transparent transition-all form-tick"
             />{" "}
             <NotionBlock text={value.text} />
           </label>
@@ -69,11 +70,15 @@ const renderBlock = (block) => {
       );
     case "toggle":
       return (
-        <details>
-          <summary>
+        <details className="hover:bg-gray-50 dark:hover:bg-black transition-all rounded-lg p-4 border border-solid border-gray-200 dark:border-gray-800 cursor-pointer">
+          <summary className="paragraph-1 font-medium">
             <NotionBlock text={value.text} />
           </summary>
-          It's a toggle!
+          <div className="px-4 pt-4">
+            <p className="paragraph-1">
+              <NotionBlock text={value.children} />
+            </p>
+          </div>
         </details>
       );
     case "child_page":
@@ -99,8 +104,11 @@ export default function Post({ page, blocks }) {
         <BreadCrumb
           pathNameOne="Home /"
           goToOne="/"
-          pathNameTwo={blocks.title}
-          goToTwo="/about"
+          pathNameTwo="My world /"
+          goToTwo="/my-world"
+          pathNameThree="Thinking /"
+          goToThree="/notion-ex"
+          pathNameFour={[<NotionBlock text={page.properties.Name.title} />]}
         />
         <h1 className="billboard">
           <NotionBlock text={page.properties.Name.title} />
@@ -109,6 +117,7 @@ export default function Post({ page, blocks }) {
           <Fragment key={block.id}>{renderBlock(block)}</Fragment>
         ))}
       </article>
+      <Footer />
     </div>
   );
 }
@@ -134,3 +143,5 @@ export const getStaticProps = async (context) => {
     revalidate: 1,
   };
 };
+
+// pathNameFour={[<NotionBlock text={page.properties.Name.title} />]}
