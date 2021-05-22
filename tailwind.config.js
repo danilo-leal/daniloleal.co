@@ -21,9 +21,6 @@ module.exports = {
         draplin: "#e57928",
         orange: colors.orange,
       },
-      backgroundImage: (theme) => ({
-        check: "url('/public/svgs/check.svg')",
-      }),
     },
   },
   variants: {
