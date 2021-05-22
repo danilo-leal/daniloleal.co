@@ -21,6 +21,13 @@ a {
 input[type="radio"] {
   display: none;
 }
+input [type="checkbox"]:checked {
+  background-image: url("/public/svgs/check.svg");
+}
+
+.form-tick:checked {
+  background-image: url("/public/svgs/check.svg");
+}
 
 ::selection {
   background-color: #e57928;
@@ -32,6 +39,7 @@ input[type="radio"] {
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap");
 
 @font-face {
   font-display: optional;
@@ -54,10 +62,13 @@ input[type="radio"] {
     @apply mb-2 mt-8 dark:text-white text-xl;
   }
   .h2 {
-    @apply text-gray-900 dark:text-white;
+    @apply text-gray-900 dark:text-white text-lg;
   }
   .h2-medium {
     @apply font-medium dark:text-white;
+  }
+  .h3 {
+    @apply text-gray-900 dark:text-white;
   }
   .paragraph-1 {
     @apply text-gray-500 text-regular dark:text-gray-400 leading-relaxed;
@@ -69,7 +80,13 @@ input[type="radio"] {
     @apply italic text-gray-500 dark:text-gray-300;
   }
   .inline-link {
-    @apply text-draplin px-1 hover:text-gray-900 dark:hover:text-white transition-all;
+    @apply text-draplin hover:text-gray-900 dark:hover:text-white transition-all;
+  }
+  .ul {
+    @apply paragraph-1 list-disc list-inside pl-3;
+  }
+  .nl {
+    @apply paragraph-1 list-decimal list-inside pl-3;
   }
   .img {
     @apply block w-full sm:rounded-md rounded-sm sm:mb-4 mb-2;
@@ -84,7 +101,7 @@ input[type="radio"] {
     @apply stroke-current fill-current text-gray-200 dark:text-gray-700 hover:text-draplin dark:hover:text-draplin transition-all cursor-pointer;
   }
   .code-inline {
-    @apply inline text-code bg-gray-200 dark:bg-gray-700 dark:text-gray-200 rounded-md px-1 py-0.5;
+    @apply inline text-code font-medium font-mono bg-gray-200 dark:bg-gray-700 dark:text-gray-200 rounded-md px-1 py-0.5;
   }
   .work-grid {
     @apply grid sm:grid-cols-2 grid-cols-1 gap-8 px-2 sm:px-0;

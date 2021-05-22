@@ -1,11 +1,13 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
+  mode: "jit",
   purge: ["./pages/**/*.js", "./components/**/*.js"],
   darkMode: "class", // or 'media' or 'class'
   theme: {
     fontFamily: {
       sans: ["Rubik"],
+      mono: ["IBM Plex Mono", "ui-monospace", "SFMono-Regular", "monospace"],
     },
     extend: {
       fontSize: {
@@ -19,6 +21,9 @@ module.exports = {
         draplin: "#e57928",
         orange: colors.orange,
       },
+      backgroundImage: (theme) => ({
+        check: "url('/public/svgs/check.svg')",
+      }),
     },
   },
   variants: {

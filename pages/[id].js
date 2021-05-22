@@ -1,32 +1,10 @@
 import { Fragment } from "react";
 import { getDatabase, getPage, getBlocks } from "../libs/notion";
 import { databaseId } from "./notion-ex";
-import styles from "../styles/text.module.css";
-
-export const NotionBlocks = ({ text }) => {
-  if (!text) {
-    return null;
-  }
-  return text.map((value) => {
-    const {
-      annotations: { bold, code, color, italic, strikethrough, underline },
-      text,
-    } = value;
-    return (
-      <span
-        className={[
-          bold ? styles.bold : "",
-          code ? styles.code : "",
-          italic ? styles.italic : "",
-          strikethrough ? styles.strikethrough : "",
-          underline ? styles.underline : "",
-        ].join(" ")}
-        style={color !== "default" ? { color } : {}}>
-        {text.link ? <a href={text.link.url}>{text.content}</a> : text.content}
-      </span>
-    );
-  });
-};
+import AppBar from "../components/atoms/AppBar";
+import BreadCrumb from "../components/atoms/BreadCrumb";
+import MainLink from "../components/atoms/MainLink";
+import NotionBlock from "../components/atoms/NotionBlock";
 
 const renderBlock = (block) => {
   const { type, id } = block;
@@ -35,41 +13,57 @@ const renderBlock = (block) => {
   switch (type) {
     case "paragraph":
       return (
-        <p>
-          <NotionBlocks text={value.text} />
+        <p className="paragraph-1">
+          <NotionBlock text={value.text} />
         </p>
       );
     case "heading_1":
       return (
-        <h1>
-          <NotionBlocks text={value.text} />
+        <h1 className="h1">
+          <NotionBlock text={value.text} />
         </h1>
       );
     case "heading_2":
       return (
-        <h2>
-          <NotionBlocks text={value.text} />
+        <h2 className="h2">
+          <NotionBlock text={value.text} />
         </h2>
       );
     case "heading_3":
       return (
-        <h3>
-          <NotionBlocks text={value.text} />
+        <h3 className="h3">
+          <NotionBlock text={value.text} />
         </h3>
       );
     case "bulleted_list_item":
+      return (
+        <ul className="ul">
+          <li>
+            <NotionBlock text={value.text} />
+          </li>
+        </ul>
+      );
     case "numbered_list_item":
       return (
-        <li>
-          <NotionBlocks text={value.text} />
-        </li>
+        <ol className="nl">
+          <li>
+            <NotionBlock text={value.text} />
+          </li>
+        </ol>
       );
     case "to_do":
       return (
         <div>
-          <label htmlFor={id}>
-            <input type="checkbox" id={id} defaultChecked={value.checked} />{" "}
-            <NotionBlocks text={value.text} />
+          <label
+            htmlFor={id}
+            className="paragraph-1 cursor-pointer flex items-center space-x-3">
+            <input
+              type="checkbox"
+              id={id}
+              defaultChecked={value.checked}
+              className="appearance-none h-4 w-4 border border-gray-300 dark:border-gray-700 rounded hover:bg-gray-100 dark:hover:bg-black checked:hover:bg-orange-600 dark:checked:hover:bg-orange-600 checked:bg-draplin checked:border-transparent dark:checked:border-transparent transition-all"
+            />{" "}
+            <NotionBlock text={value.text} />
           </label>
         </div>
       );
@@ -77,17 +71,20 @@ const renderBlock = (block) => {
       return (
         <details>
           <summary>
-            <NotionBlocks text={value.text} />
+            <NotionBlock text={value.text} />
           </summary>
           It's a toggle!
         </details>
       );
     case "child_page":
-      return <p>{value.title}</p>;
+      return <MainLink string={value.title} />;
     default:
-      return `❌ Unsupported block (${
-        type === "unsupported" ? "unsupported by Notion API" : type
-      })`;
+      return (
+        <p className="paragraph-1">
+          ❌ Unsupported block ($
+          {type === "unsupported" ? "unsupported by Notion API" : type})
+        </p>
+      );
   }
 };
 
@@ -96,17 +93,23 @@ export default function Post({ page, blocks }) {
     return <div />;
   }
   return (
-    <article>
-      <h1>
-        <NotionBlocks text={page.properties.Name.title} />
-        {/* <NotionBlocks text={page.properties.Type.title} /> */}
-      </h1>
-      <section>
+    <div className="global-wrapper">
+      <AppBar goBackTo="/my-world" />
+      <article className="default-container">
+        <BreadCrumb
+          pathNameOne="Home /"
+          goToOne="/"
+          pathNameTwo={blocks.title}
+          goToTwo="/about"
+        />
+        <h1 className="billboard">
+          <NotionBlock text={page.properties.Name.title} />
+        </h1>
         {blocks.map((block) => (
           <Fragment key={block.id}>{renderBlock(block)}</Fragment>
         ))}
-      </section>
-    </article>
+      </article>
+    </div>
   );
 }
 
