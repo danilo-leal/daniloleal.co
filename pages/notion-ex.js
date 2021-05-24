@@ -33,9 +33,6 @@ export default function NotionEx({ posts }) {
             });
             return (
               <li key={post.id} className="pt-6">
-                {/* <p className="text-draplin">
-                  <NotionBlock text={post.properties.Option} />
-                </p> */}
                 <a href={`/${post.id}`} className="group">
                   <h1 className="cursor-pointer mb-2 text-xl font-medium dark:text-white hover:text-draplin dark:hover:text-draplin flex items-center ">
                     <NotionBlock text={post.properties.Name.title} />

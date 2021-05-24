@@ -76,7 +76,9 @@ const renderBlock = (block) => {
           </summary>
           <div className="px-4 pt-4">
             <p className="paragraph-1">
-              <NotionBlock text={value.children} />
+              {value.children?.map((block) => (
+                <Fragment key={block.id}>{renderBlock(block)}</Fragment>
+              ))}
             </p>
           </div>
         </details>
@@ -134,14 +136,31 @@ export const getStaticProps = async (context) => {
   const { id } = context.params;
   const page = await getPage(id);
   const blocks = await getBlocks(id);
+  const childBlocks = await Promise.all(
+    blocks
+      .filter((block) => block.has_children)
+      .map(async (block) => {
+        return {
+          id: block.id,
+          children: await getBlocks(block.id),
+        };
+      })
+  );
+  const blocksWithChildren = blocks.map((block) => {
+    // Add child blocks if the block should contain children but none exists
+    if (block.has_children && !block[block.type].children) {
+      block[block.type]["children"] = childBlocks.find(
+        (x) => x.id === block.id
+      )?.children;
+    }
+    return block;
+  });
 
   return {
     props: {
       page,
-      blocks,
+      blocks: blocksWithChildren,
     },
     revalidate: 1,
   };
 };
-
-// pathNameFour={[<NotionBlock text={page.properties.Name.title} />]}
