@@ -49,22 +49,19 @@ export default function iFood() {
           links={[
             <a
               href="https://play.google.com/store/apps/details?id=br.com.ifood.driver.app&hl=pt_BR"
-              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
-            >
+              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all">
               Google Play
             </a>,
             ", ",
             <a
               href="https://www.youtube.com/watch?v=J8TWkdUS1Fc"
-              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
-            >
+              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all">
               promo video
             </a>,
             " and ",
             <a
               href="https://dribbble.com/shots/6566232-iFood-Driver-Performance"
-              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all"
-            >
+              className="cursor-pointer font-medium text-draplin text-sm hover:text-gray-900 dark:hover:text-white transition-all">
               shots.
             </a>,
           ]}
@@ -331,8 +328,7 @@ export default function iFood() {
             className="img"
             preload="auto"
             playsinline
-            controls
-          ></video>
+            controls></video>
         </div>
       </div>
       <div className="default-container">
@@ -363,8 +359,7 @@ export default function iFood() {
             preload="auto"
             playsinline
             controls
-            autoplay
-          ></video>
+            autoplay></video>
         </div>
       </div>
       <div className="default-container">
@@ -447,13 +442,12 @@ export default function iFood() {
           />
         </Zoom>
         <p className="subtitle-text">
-          Cool event iFood threw for Drivers back in October 2018. We had
+          Cool event iFood threw for Drivers back in October 2018. We had{" "}
           <a
-            href="https://i.ibb.co/0MtnHb9/2021-02-13-083421273.jpg"
-            className="inline-link"
-          >
+            href="https://www.youtube.com/watch?v=z92X8i3yOrM"
+            className="inline-link">
             Emicida writing a custom song
-          </a>
+          </a>{" "}
           for this PR. Memorable day. Took this tight pic :)
         </p>
         <Zoom>
