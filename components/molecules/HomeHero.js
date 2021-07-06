@@ -19,9 +19,9 @@ export default function HomeHero() {
       <p className="paragraph-1">
         👉 Currently designing products
         <a
-          href="https://www.loggi.com"
+          href="https://material-ui.com/"
           className="inline font-medium text-draplin hover:text-gray-900 dark:hover:text-white transition-all ml-1">
-          @Loggi
+          @Material-UI
         </a>
         <br />
         🇧🇷 Based in São Paulo, Brazil.

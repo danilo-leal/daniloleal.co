@@ -6,8 +6,14 @@ export default function JobTimeline() {
     <div className="relative">
       <div className="z-10 relative">
         <CompanyStrip
+          company="Material-UI"
+          period="Design Lead • Since 07/2021."
+          companySite="https://material-ui.com/"
+        />
+        <CompanyStrip
           company="Loggi"
-          period="Senior Product Designer • Since 09/2019."
+          period="Senior Product Designer • 09/2019 to 07/2021."
+          currentCompany="false"
           companySite="https://www.loggi.com/"
         />
         <CompanyStrip
@@ -30,7 +36,7 @@ export default function JobTimeline() {
         />
       </div>
       <div className="z-0">
-        <div className="absolute top-8 bg-gray-100 h-48 w-1 ml-0.5 dark:bg-black"></div>
+        <div className="absolute top-8 bg-gray-100 h-64 w-1 ml-0.5 dark:bg-black"></div>
       </div>
     </div>
   );
